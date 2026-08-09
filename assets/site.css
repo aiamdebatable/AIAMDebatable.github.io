@@ -620,6 +620,18 @@ body.home .record .plate{background:radial-gradient(130% 130% at 30% 20%,#a2701a
    The ledger inside it is drawn to slice rather than fit, so a shorter plate crops the field instead
    of letterboxing it back into the bare gradient rounds 4-7 spent themselves deleting. */
 body.home .record .plate{aspect-ratio:auto;flex:1 1 0;min-height:120px}
+/* --- The ledger's words (package PKG-038). They used to be <text> inside the mark, which is drawn
+   to SLICE on a plate whose width is 2-3x an episode tile at every episode count except 2 and 5 —
+   so the centred vertical crop cut them off mid-glyph on the very first published page. Out here
+   the crop cannot reach them at any span. left:29px clears the spine rail; the sizes are clamped
+   so they hold from a phone up to a span-12 plate without tracking the picture's scale.
+   (No backticks in this comment: the stylesheet is a JS template literal.) */
+body.home .record .ltype{position:absolute;left:29px;right:0;bottom:clamp(8px,4.5%,22px);z-index:2;
+  margin:0;padding:0 14px;text-align:center;pointer-events:none;color:var(--mute)}
+body.home .record .ltype b{display:block;font-family:"Space Grotesk",system-ui,sans-serif;
+  font-weight:700;font-size:clamp(11px,1.15vw,21px);letter-spacing:.19em}
+body.home .record .ltype span{display:block;margin-top:.4em;font-family:"Space Grotesk",system-ui,sans-serif;
+  font-weight:500;font-size:clamp(9px,.82vw,14px);letter-spacing:.2em;opacity:.62}
 body.home .record .body{flex:0 0 auto}
 body.home .record .plate::after{background:var(--gold-l);opacity:.75}
 body.home .record .tab{color:#2b1d05;background:var(--gold-l)}
