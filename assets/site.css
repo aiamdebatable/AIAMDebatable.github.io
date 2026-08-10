@@ -457,7 +457,7 @@ body.home .tile{grid-column:span 4;display:flex;flex-direction:column;position:r
    corner, so anything they have to say has to be knocked back OUT of the picture — a caption strip,
    a figure standing inside its own column — rather than set in a gap left for it. */
 body.home .plate{display:block;position:relative;overflow:hidden;aspect-ratio:4/3;
-  --mk:var(--fl); --mute:rgba(255,255,255,.62); --pl:var(--fb);
+  --mk:var(--fl); --mute:rgba(255,255,255,0.62); --pl:var(--fb);
   --sg:#7fd3af; --sd:#eccb76; --acc:var(--accent);
   /* --sgm / --sdm are the SAME two side colours, chosen for type drawn ON THE MARK rather than on
      the plate. Once a mark paints a solid mass, anything set inside it is standing on --mk, not on
@@ -469,7 +469,7 @@ body.home .plate{display:block;position:relative;overflow:hidden;aspect-ratio:4/
   transition:transform .2s,box-shadow .2s}
 body.home .tile:hover .plate{transform:translateY(-3px);box-shadow:0 18px 34px -18px rgba(0,0,0,.9)}
 body.home [data-mode="ink"] .plate{
-  --mk:var(--fik); --mute:rgba(0,0,0,.56); --pl:var(--fi);
+  --mk:var(--fik); --mute:rgba(0,0,0,0.58); --pl:var(--fi);
   --sg:#0a4a31; --sd:#5c3f06;
   --sgm:#7fd3af; --sdm:#eccb76;
   background:radial-gradient(125% 125% at 28% 22%,var(--fi),var(--fib) 82%)}
@@ -620,28 +620,40 @@ body.home .record .plate{background:radial-gradient(130% 130% at 30% 20%,#a2701a
    The ledger inside it is drawn to slice rather than fit, so a shorter plate crops the field instead
    of letterboxing it back into the bare gradient rounds 4-7 spent themselves deleting. */
 body.home .record .plate{aspect-ratio:auto;flex:1 1 0;min-height:120px}
-/* --- The ledger's words (package PKG-038). They used to be <text> inside the mark, which is drawn
-   to SLICE on a plate whose width is 2-3x an episode tile at every episode count except 2 and 5 —
-   so the centred vertical crop cut them off mid-glyph on the very first published page. Out here
-   the crop cannot reach them at any span. left:29px clears the spine rail; the sizes are clamped
-   so they hold from a phone up to a span-12 plate without tracking the picture's scale.
-   (No backticks in this comment: the stylesheet is a JS template literal.) */
-body.home .record .ltype{position:absolute;left:29px;right:0;bottom:clamp(8px,4.5%,22px);z-index:2;
-  margin:0;padding:0 14px;text-align:center;pointer-events:none;color:var(--mute)}
-body.home .record .ltype b{display:block;font-family:"Space Grotesk",system-ui,sans-serif;
-  font-weight:700;font-size:clamp(11px,1.15vw,21px);letter-spacing:.19em}
-body.home .record .ltype span{display:block;margin-top:.4em;font-family:"Space Grotesk",system-ui,sans-serif;
-  font-weight:500;font-size:clamp(9px,.82vw,14px);letter-spacing:.2em;opacity:.62}
+/* --- ALONE IN THE ROW (LEDGER, ISS-037 option d). recordSpan is 12 at 3, 6, 9… episodes — exactly
+   when the record starts a fresh row by itself, so flex:1 1 0 has no neighbour to take height from
+   and the plate fell to its 120px floor: 1357x120 at 1440px, and the slice crop showed a 56-unit
+   strip of bar middles with no baseline rule. Same principle the one-column breakpoint below already
+   states; that case was covered and this one was not.
+   4/1 rather than a pixel floor because aspect-ratio makes the crop WIDTH-INDEPENDENT — the band is
+   640/4 = 160 viewBox units on any monitor, holding y 160..320, so the bars' feet (294) and the rule
+   (308) are always in. A px floor would show a different picture at every width.
+   ⚠ THE RULE ITSELF LIVES IN THE min-width:1141px BREAKPOINT, not here. data-span comes from the
+   episode COUNT and knows nothing about widths, and [data-span="12"] outranks the plain
+   .record .plate rule the one-column breakpoint uses — left unscoped it would silently have taken
+   the phone layout's 4/3 away. */
+/* --- The ledger's words (PKG-038, then LEDGER for ISS-037). PKG-038 took them out of the SVG and
+   parked them ON the plate, so they were resolved against the plate and painted on the bars: 1.45:1.
+   Out here in the tile's flow nothing is behind them at any span, so the contrast is a property of
+   the LAYOUT and cannot vary with the episode count. Measured on the page ground #0d1a20: figure
+   11.3:1, sub-line 5.5:1. ⚠ opacity:.62 is GONE from the sub-line — it would take --ink-3 to 2.9:1
+   here; subordinate is done with size, weight and hue, never by fading toward the background.
+   Left-aligned because it now belongs to the tile's text column. The full account is in the markup,
+   which does not ship. (No backticks: this stylesheet is a JS template literal.) */
+body.home .record .ltype{margin:0;padding:10px 0 0;display:flex;flex-wrap:wrap;align-items:baseline;
+  gap:2px 12px}
+body.home .record .ltype b{font-family:"Space Grotesk",system-ui,sans-serif;color:var(--fl,var(--gold-l));
+  font-weight:700;font-size:clamp(11px,1.15vw,19px);letter-spacing:.19em}
+body.home .record .ltype span{font-family:"Space Grotesk",system-ui,sans-serif;color:var(--ink-3);
+  font-weight:500;font-size:clamp(9px,.82vw,13px);letter-spacing:.2em}
 body.home .record .body{flex:0 0 auto}
 body.home .record .plate::after{background:var(--gold-l);opacity:.75}
 body.home .record .tab{color:#2b1d05;background:var(--gold-l)}
-/* An empty spacer, not a fake meter: it keeps this cell's rhythm — plate, rule of ticks, headline —
-   without drawing a measurement that does not exist. It used to hold the headline on the same
-   baseline as the episodes beside it; since ROUND 9 the plate above it absorbs the row's slack
-   instead, so this cell's headline starts higher than theirs. That is the trade, stated: their
-   plates all begin on one line and every card in the row is the same height, and the one cell that
-   is not an episode is the one that looks different. */
-body.home .record .meter{height:23px}
+/* ⛔ THE EMPTY .meter SPACER IS GONE (LEDGER). It was a 23px blank holding this cell's rhythm —
+   plate, rule of ticks, headline — without drawing a measurement that does not exist. The ledger
+   caption now holds that slot with real copy, so nothing has to exist purely to reserve space. The
+   trade recorded there is unchanged: since ROUND 9 the plate absorbs the row's slack, so this cell's
+   headline starts higher than the episodes' beside it. */
 body.home .record .q em{color:var(--accent)}
 body.home .rlist{list-style:none;margin:auto 0 0;padding:8px 0 0;display:flex;flex-wrap:wrap;gap:5px;counter-reset:doc}
 body.home .rlist li{font-family:var(--head);font-size:9.5px;letter-spacing:.09em;text-transform:uppercase;
@@ -773,6 +785,9 @@ body.home .foot-site a{color:var(--cyan)}
   body.home .grid[data-n="1"] .q,body.home .grid[data-n="1"] .ctx{grid-column:1}
   body.home .grid[data-n="1"] .hits{grid-column:2;grid-row:1/span 5;margin:0;padding:0 0 0 20px;
     border-top:0;border-left:1px solid var(--line);gap:7px;align-self:stretch}
+  /* ALONE IN THE ROW — the record spans all 12 only where the grid HAS 12, so the rule is scoped
+     here rather than reset in the two narrower blocks below. See .record .plate above. */
+  body.home .record[data-span="12"] .plate{aspect-ratio:4/1;flex:0 0 auto;min-height:0}
 }
 @media (max-width:1140px){
   body.home .grid{grid-template-columns:repeat(6,1fr)}
