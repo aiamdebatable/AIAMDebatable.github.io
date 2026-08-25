@@ -1,6 +1,6 @@
 # Fact-check log — Episode 2 · Nuclear
 
-_REWRITTEN 2026-07-30 from the episode's actual verification record in `poc-episode/run-1/`._
+_REWRITTEN 2026-07-30 from the episode's actual verification record, rather than from its on-screen citations._
 
 > **Correction to this log itself.** The previous version of this file (backfilled 2026-07-16) stated
 > *"Verification status: self-review only… no separate adversarial verification pass was run"* and
@@ -8,14 +8,14 @@ _REWRITTEN 2026-07-30 from the episode's actual verification record in `poc-epis
 > pipeline, which ran two independent passes the backfill missed — because it worked from the on-screen
 > citations rather than the run folder:
 >
-> - **`poc-episode/run-1/research/verification-report.md`** — 12 claims re-verified **fresh against
->   fetched primaries, explicitly not trusting the team drafts**. 11 CONFIRMED, 1 CORRECTED.
-> - **`poc-episode/run-1/05-fact-fairness-audit.md`** — an adversarial fact + fairness audit run with
->   equal hostility to both sides. 2 blocking findings, 6 minor, across the four debate briefs.
+> - **An independent verification pass** — 12 claims re-verified **fresh against fetched primaries,
+>   explicitly not trusting the team drafts**. 11 CONFIRMED, 1 CORRECTED. Every one is listed below.
+> - **An adversarial fact + fairness audit**, run with equal hostility to both sides. 2 blocking
+>   findings, 6 minor, across the four debate briefs.
 >
-> Ep-2 is therefore the **best**-verified of the POC episodes, not the least. `episodes/README.md`
-> already cites that verification report as the reference implementation of this gate. `metadata.yaml`
-> `fact_check.status` is corrected from `self-review` to `adversarial-pass` to match.
+> Ep-2 is therefore the **best**-verified of the POC episodes, not the least — it is the run this
+> show's verification gate was written from. This episode's recorded fact-check status is
+> corrected from *self-review* to *adversarial-pass* to match.
 
 ## Verification pass — 12 claims, independently re-checked
 

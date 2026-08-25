@@ -1,8 +1,8 @@
 # Fact-check log — Does Building More Housing Actually Lower Rents?
 
 _Independent verification pass, run 2026-08-19 (web-sourced, not trusting the draft). Each claim gets a
-verdict: **CONFIRMED**, **CORRECTED**, **UNRESOLVED** or **APPROXIMATE**. This is a REQUIRED gate — see
-`episodes/README.md` § Verification gate. The show's differentiator is that this file is real._
+verdict: **CONFIRMED**, **CORRECTED**, **UNRESOLVED** or **APPROXIMATE**. This is a REQUIRED gate in
+this show's production process. The show's differentiator is that this file is real._
 
 - **CONFIRMED** — the source says what the episode says.
 - **CORRECTED** — the source says otherwise; the script was changed, and the change is listed under

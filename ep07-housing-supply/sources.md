@@ -78,8 +78,10 @@ _Grouped by claim. Every on-screen number and named case traces here. Verdicts i
   35(1):96–113, 2024: https://www.tandfonline.com/doi/full/10.1080/10511482.2024.2418044
 
 ## Full verification record
-- Storm Research briefing, five lenses + seven verification agents, 2026-08-19:
-  `storm-reports/housing-supply-and-rent-control-briefing.html`
+- **Five independent research lenses, then seven verification agents**, 2026-08-19. The lenses
+  produced the claim set; the verifiers re-checked every numeric and named claim against its primary
+  source, with no access to the lenses' reasoning. What that pass threw out is listed immediately
+  below, and every correction it forced is in the fact-check log — both are published here.
 
 ## Checked and NOT used (see factcheck-log)
 - "40,000+ units delivered in Austin 2023–2025" — fabricated; absent from the source.

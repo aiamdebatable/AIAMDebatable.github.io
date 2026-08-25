@@ -64,8 +64,8 @@ roughly the same as a Google search, not 10×.** The estimate is genuinely unset
   built from the corrected source, so the fix has now landed: the "ten times" line is gone from the
   captions entirely, and the on-screen panel reads *"Per-query energy estimates are disputed and
   falling — the buildout is the real driver."* Between 2026-07-16 and 2026-07-30 the fix existed in
-  source but not in the shipped mp4 — that gap is closed. (The stale `episode.clean.mp4` still holds
-  the old line; see `episode.clean.STALE.md`.)
+  source but not in the shipped mp4 — that gap is closed. An older pre-fix cut of this episode did
+  still carry the retired line; it was never published, and it has since been deleted.
 - https://epoch.ai/gradient-updates/how-much-energy-does-chatgpt-use
 - https://www.zmescience.com/science/news-science/how-much-energy-chatgpt-query-uses/
 
@@ -80,12 +80,12 @@ roughly the same as a Google search, not 10×.** The estimate is genuinely unset
 ## Method note
 This pass was run manually (targeted web verification of each numeric/name claim). For production
 episodes the intended gate is a `storm-research` / `deep-research` adversarial pass, whose report
-becomes this file — see `episodes/README.md` § Verification gate.
+becomes this file.
 
 ## Human sign-off
 **Final cut reviewed by Lucas on 2026-08-10** — he watched the render end to end and confirmed the
 content is complete and the audio matches the picture. The close is his real recorded voice (6 of 6
-takes, `combined.wav` 54.47s), and `verify-sync.py` measured the cut at **+0.08s, PASS**.
+takes, 54.47s of combined audio), and the sync check measured the cut at **+0.08s, PASS**.
 
 **Research reviewed by Lucas, confirmed 2026-08-10.** He has read this log and the brief and checked
 the sources behind the claims above. ep03 has been iterated on for weeks alongside ep04/05/06, and he

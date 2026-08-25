@@ -2,8 +2,9 @@
 
 _UPGRADED 2026-07-30. The previous version was backfilled from the episode's on-screen citations and
 carried a blanket "⚠️ verify each against its primary source" warning. That warning was unnecessary for
-most of this list: the run's independent verification pass had already **fetched** these primaries
-(`poc-episode/run-1/research/verification-report.md`). Confidence tiers now match that record._
+most of this list: the episode's independent verification pass had already **fetched** these primaries —
+12 claims re-checked against the sources themselves, 11 confirmed and 1 corrected. The confidence tiers
+below match what that pass found, claim by claim; the fact-check log records every one._
 
 **[F]** = fetched and verified directly during the verification pass · **[S]** = search-derived or
 secondary, **still to be confirmed against a primary before publish** · **[A]** = advocacy-adjacent,
