@@ -1,6 +1,8 @@
 /* AI Am Debatable — research bundles. Palette and faces match the show (engine/src/theme.ts). */
 @font-face{font-family:"Space Grotesk";src:url("fonts/SpaceGrotesk-var.woff2") format("woff2");font-weight:300 700;font-display:swap}
 @font-face{font-family:"Inter";src:url("fonts/Inter-var.woff2") format("woff2");font-weight:100 900;font-display:swap}
+@font-face{font-family:"Space Grotesk";src:url("fonts/SpaceGrotesk-sup.woff2") format("woff2");font-weight:300 700;font-display:swap;unicode-range:U+2192, U+21B3, U+2248, U+2082}
+@font-face{font-family:"Inter";src:url("fonts/Inter-sup.woff2") format("woff2");font-weight:100 900;font-display:swap;unicode-range:U+2192, U+21B3, U+2248, U+2082}
 :root{
   --bg2:#0d1a20; --panel:#16303a; --line:#2c4a52; --line2:#3d5b64;
   --ink:#eef3f4; --ink2:#aec3c8; --ink3:#7e979e;
