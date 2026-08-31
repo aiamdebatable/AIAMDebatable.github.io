@@ -17,69 +17,69 @@ THE TENANT STAYS), **Kate** (the judge), and the **Narrator** who reads the cold
 **Lucas:** Alright — let's get to today's topic.
 
 ## The research · One paper, two findings
-**sr:** New York just froze the rent on about a million apartments. Zero on one-year leases, zero on two-year leases, from October.
-**jr:** Two-year leases too? That's not the usual move.
-**sr:** It's a first. Which makes it worth knowing what a freeze actually does — and San Francisco ran that experiment by accident. In nineteen ninety-four, a ballot measure extended rent control to small multi-family buildings built before nineteen eighty.
-**jr:** By accident how? Somebody voted for it.
-**sr:** By accident in the way that matters for measurement. The cutoff was a building's age, so two nearly identical buildings ended up on opposite sides of the line.
-**jr:** So the study compares those two groups.
-**sr:** It does. And it's the paper everybody in this argument cites. Diamond, McQuade and Qian, in the American Economic Review, twenty nineteen.
-**jr:** And what did it find?
-**sr:** Two things. Covered tenants were about twenty percent more likely to stay at their address. Less displacement, measurably.
-**jr:** That's the case for it, then.
-**sr:** That's half of it. The same paper, same table, found a fifteen percent decline in the number of renters living in those buildings.
-**jr:** Hold on. It protects the tenants and removes the housing?
-**sr:** Both. Landlords converted to condos, redeveloped, or sold to owner-occupants. The tenants who stayed were protected. The units left the rental market.
-**jr:** One paper. Two findings. And I'd bet nobody quotes both.
+**Andre:** New York just froze the rent on about a million apartments. Zero on one-year leases, zero on two-year leases, from October.
+**Nia:** Two-year leases too? That's not the usual move.
+**Andre:** It's a first. Which makes it worth knowing what a freeze actually does — and San Francisco ran that experiment by accident. In nineteen ninety-four, a ballot measure extended rent control to small multi-family buildings built before nineteen eighty.
+**Nia:** By accident how? Somebody voted for it.
+**Andre:** By accident in the way that matters for measurement. The cutoff was a building's age, so two nearly identical buildings ended up on opposite sides of the line.
+**Nia:** So the study compares those two groups.
+**Andre:** It does. And it's the paper everybody in this argument cites. Diamond, McQuade and Qian, in the American Economic Review, twenty nineteen.
+**Nia:** And what did it find?
+**Andre:** Two things. Covered tenants were about twenty percent more likely to stay at their address. Less displacement, measurably.
+**Nia:** That's the case for it, then.
+**Andre:** That's half of it. The same paper, same table, found a fifteen percent decline in the number of renters living in those buildings.
+**Nia:** Hold on. It protects the tenants and removes the housing?
+**Andre:** Both. Landlords converted to condos, redeveloped, or sold to owner-occupants. The tenants who stayed were protected. The units left the rental market.
+**Nia:** One paper. Two findings. And I'd bet nobody quotes both.
 
 ## The research · Caps cut rents, and cut listings
-**sr:** Almost nobody. Which is why we should start with what genuinely isn't in dispute, because it's more than the shouting suggests.
-**sr:** Price caps do cut advertised rents. Berlin capped rents in twenty twenty and advertised rents fell seven to eleven percent.
-**jr:** That sounds like it worked.
-**sr:** For the people who already had a lease. In the same window, weekly advertised units halved — from over six hundred to under three hundred.
-**jr:** So the rent went down and the apartments went away.
-**sr:** And the increases moved next door, into the neighbouring areas the cap didn't reach. That's Hahn, Kholodilin and Waltl, Management Science, twenty twenty-four.
-**jr:** What about repealing it? If control shrinks supply, decontrol should release it.
-**sr:** Cambridge, Massachusetts ended rent control in nineteen ninety-four. Property values there rose about one point eight billion dollars over the next decade.
-**sr:** Roughly a quarter of all local appreciation. And here's the part that matters: more than half of that gain went to properties that were never controlled in the first place.
-**jr:** So decontrol made owners richer. Did it make anything affordable?
-**sr:** The paper doesn't find that it did. It finds a transfer. That's Autor, Palmer and Pathak, Journal of Political Economy, twenty fourteen.
-**sr:** One more, and it cuts the other way from where you'd expect. Regulation does suppress investment in the buildings that stay.
+**Andre:** Almost nobody. Which is why we should start with what genuinely isn't in dispute, because it's more than the shouting suggests.
+**Andre:** Price caps do cut advertised rents. Berlin capped rents in twenty twenty and advertised rents fell seven to eleven percent.
+**Nia:** That sounds like it worked.
+**Andre:** For the people who already had a lease. In the same window, weekly advertised units halved — from over six hundred to under three hundred.
+**Nia:** So the rent went down and the apartments went away.
+**Andre:** And the increases moved next door, into the neighbouring areas the cap didn't reach. That's Hahn, Kholodilin and Waltl, Management Science, twenty twenty-four.
+**Nia:** What about repealing it? If control shrinks supply, decontrol should release it.
+**Andre:** Cambridge, Massachusetts ended rent control in nineteen ninety-four. Property values there rose about one point eight billion dollars over the next decade.
+**Andre:** Roughly a quarter of all local appreciation. And here's the part that matters: more than half of that gain went to properties that were never controlled in the first place.
+**Nia:** So decontrol made owners richer. Did it make anything affordable?
+**Andre:** The paper doesn't find that it did. It finds a transfer. That's Autor, Palmer and Pathak, Journal of Political Economy, twenty fourteen.
+**Andre:** One more, and it cuts the other way from where you'd expect. Regulation does suppress investment in the buildings that stay.
 
 ## The research · The number everybody repeats
-**jr:** Go on. That one sounds like it's for the other side.
-**sr:** It is. New York tightened its rent laws in twenty nineteen. Applications to the state's major capital improvement programme fell by about three quarters — from roughly thirteen hundred a year to a few hundred.
-**sr:** That's roughly seventy-five percent down, and it's the state regulator's own mandated reporting, not an industry estimate.
-**jr:** So the boiler doesn't get replaced.
-**sr:** That's the claim, and the filings support it. Over a much longer clock, Britain is the extreme version. Its private rented sector was about ninety percent of housing in nineteen fifteen.
-**sr:** Under eight decades of rent restriction it fell below ten percent by nineteen ninety-one.
-**jr:** Ninety to ten. That's not a policy effect, that's a tenure disappearing.
-**sr:** It is. I'll flag that the report we took it from was commissioned by a landlord association — and I'll also flag that the same report dates the recovery to after two thousand, not to the nineteen eighty-nine deregulation it might have wanted to credit.
-**sr:** Now the one everybody repeats. Saint Paul, Minnesota capped rents at three percent in twenty twenty-one, and you've heard what happened to permits.
-**jr:** Permits fell off a cliff and Minneapolis tripled. Everyone's heard that.
-**sr:** It's wrong on all three counts. The real figure is a sixty-eight percent fall, and it is over three months — not the eighty-four over six that gets quoted. Minneapolis was up — not tripled.
-**sr:** And the series doesn't stop there. Saint Paul permitted about twelve hundred homes the next year, and about twelve hundred again the year after.
-**sr:** The rebound years get dropped. The sustained fall comes in twenty twenty-four — which is after the city exempted new construction, not because of the cap. Same trick as last episode. Pick the window, pick the conclusion.
+**Nia:** Go on. That one sounds like it's for the other side.
+**Andre:** It is. New York tightened its rent laws in twenty nineteen. Applications to the state's major capital improvement programme fell by about three quarters — from roughly thirteen hundred a year to a few hundred.
+**Andre:** That's roughly seventy-five percent down, and it's the state regulator's own mandated reporting, not an industry estimate.
+**Nia:** So the boiler doesn't get replaced.
+**Andre:** That's the claim, and the filings support it. Over a much longer clock, Britain is the extreme version. Its private rented sector was about ninety percent of housing in nineteen fifteen.
+**Andre:** Under eight decades of rent restriction it fell below ten percent by nineteen ninety-one.
+**Nia:** Ninety to ten. That's not a policy effect, that's a tenure disappearing.
+**Andre:** It is. I'll flag that the report we took it from was commissioned by a landlord association — and I'll also flag that the same report dates the recovery to after two thousand, not to the nineteen eighty-nine deregulation it might have wanted to credit.
+**Andre:** Now the one everybody repeats. Saint Paul, Minnesota capped rents at three percent in twenty twenty-one, and you've heard what happened to permits.
+**Nia:** Permits fell off a cliff and Minneapolis tripled. Everyone's heard that.
+**Andre:** It's wrong on all three counts. The real figure is a sixty-eight percent fall, and it is over three months — not the eighty-four over six that gets quoted. Minneapolis was up — not tripled.
+**Andre:** And the series doesn't stop there. Saint Paul permitted about twelve hundred homes the next year, and about twelve hundred again the year after.
+**Andre:** The rebound years get dropped. The sustained fall comes in twenty twenty-four — which is after the city exempted new construction, not because of the cap. Same trick as last episode. Pick the window, pick the conclusion.
 
 ## The research · Two policies, one name
-**sr:** Last of the settled ground, and it's the piece that reorganises everything else.
-**jr:** Which is?
-**sr:** That the word rent control covers two policies that share almost no design features. First-generation laws are hard caps — a nominal rent, frozen, no exit.
-**jr:** And the second generation?
-**sr:** Stabilization. A percentage cap on increases, usually with vacancy decontrol, and usually exempting new construction outright.
-**jr:** So when a unit turns over, the rent resets to market, and nothing stops anyone building.
-**sr:** Correct. And that matters for the famous study, because San Francisco's law had both of those features. Vacancy decontrol, and an exemption for new buildings.
-**jr:** Then the paper everybody cites against building was never about building at all.
-**sr:** It never restricted new construction. Whatever it measured, it wasn't that.
-**sr:** New Jersey is the long test of the second generation. Moderate ordinances across more than a hundred and fifty towns, followed for about forty years.
-**sr:** And the finding is no statistically significant effect on new construction. Which is not the same as no effect anywhere.
-**sr:** No. It's a null on one specific question, and I'd rather state it narrowly than let it do work it can't do.
+**Andre:** Last of the settled ground, and it's the piece that reorganises everything else.
+**Nia:** Which is?
+**Andre:** That the word rent control covers two policies that share almost no design features. First-generation laws are hard caps — a nominal rent, frozen, no exit.
+**Nia:** And the second generation?
+**Andre:** Stabilization. A percentage cap on increases, usually with vacancy decontrol, and usually exempting new construction outright.
+**Nia:** So when a unit turns over, the rent resets to market, and nothing stops anyone building.
+**Andre:** Correct. And that matters for the famous study, because San Francisco's law had both of those features. Vacancy decontrol, and an exemption for new buildings.
+**Nia:** Then the paper everybody cites against building was never about building at all.
+**Andre:** It never restricted new construction. Whatever it measured, it wasn't that.
+**Andre:** New Jersey is the long test of the second generation. Moderate ordinances across more than a hundred and fifty towns, followed for about forty years.
+**Andre:** And the finding is no statistically significant effect on new construction. Which is not the same as no effect anywhere.
+**Andre:** No. It's a null on one specific question, and I'd rather state it narrowly than let it do work it can't do.
 
 ## Quick check
-**jr:** Before we hand this over to the debaters, one quick gut-check for you at home.
-**sr:** Which of these does the peer-reviewed evidence actually support?
-**sr:** A — San Francisco's rent control law banned new construction. Or B — it exempted new construction, and let rents reset to market whenever a tenant moved out.
-**sr:** What's genuinely up for debate starts now.
+**Nia:** Before we hand this over to the debaters, one quick gut-check for you at home.
+**Andre:** Which of these does the peer-reviewed evidence actually support?
+**Andre:** A — San Francisco's rent control law banned new construction. Or B — it exempted new construction, and let rents reset to market whenever a tenant moved out.
+**Andre:** What's genuinely up for debate starts now.
 
 ## The reframe
 **Lucas:** I went looking for a fight about whether a policy works, and I came back with a fight about what the word means.
