@@ -3,7 +3,7 @@
 > ⏭ **THIS HEADER WAS REWRITTEN 2026-08-31 — the pipeline changed underneath it.**
 >
 > It used to say this file could never earn `fact_checked`, because the ruled engine was
-> `/deep-research`, a slash command only Lucas could invoke in a fresh session. **He lifted that on
+> a research pass the host had to launch himself in a separate session. **That changed on
 > 2026-08-31** ("I want you to be able to run the why now, and deep research the topic without
 > needing me to do separate sessions"), so the research is now run in-session and this log is the
 > real thing rather than a placeholder.
@@ -224,7 +224,7 @@ dismissal are the two documents this episode most needs in primary form — ever
 
 ⛔ **Rounds 1 and 2 never ran a peg HUNT.** Round 1 *verified and corrected* the peg it already had,
 which is how the dead Amazon trial date was caught — but correcting a peg you hold cannot find one
-you have no word for. That is ISS-095 exactly. Phase 1 blind sweep run properly this time.
+you have no word for. That is the failure mode this show has recorded before. Phase 1 blind sweep run properly this time.
 
 ## 15. ✅ THE FIND — the UK's third model
 **CONFIRMED.** Regime confirmed against **gov.uk primary guidance**: under the DMCCA 2024 the CMA
