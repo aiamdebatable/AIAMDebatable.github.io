@@ -77,7 +77,7 @@ effects are unmeasured. The honest claim is that the experiment is running, not 
 
 ⛔ **HOW IT WAS FOUND, because the method is the point.** *Strategic Market Status*, *DMCCA* and
 *conduct requirement* appear **nowhere** in the prior research. They could not have been found by
-searching this brief's vocabulary — which is precisely ISS-095. They surfaced from the peg-hunt
+searching this brief's vocabulary — the failure mode this show has recorded before. They surfaced from the peg-hunt
 blind sweep, by naming a counterparty the brief never mentions.
 
 ⛔ **THE FORWARD DATE IN THIS SECTION WAS WRONG AND IS CORRECTED.** The scout pass had *FTC v.
