@@ -33,7 +33,7 @@ domain queries naming no entity from the brief.
 | ⛔ FERC "Launches Aggressive Targeted Action to Speed Large Load Integration" | undated in results | ? | ⚠ Date not established, so it stays out — do not cite until dated against `ferc.gov`. |
 
 ## ✅ BOTH BARRED FIGURES RESOLVED — and a premise of mine was wrong
-### (built-in deep-research run `wf_a3d1f9c2-86e`, 2026-09-01, 108 agents, 26 sources)
+### (deep-research run, 2026-09-01, 108 agents, 26 sources)
 
 ⛔ **CORRECTED — my claim that `scc.virginia.gov` DocketSearch PDFs are image-only scans was FALSE.**
 I inferred it from one 5.4 MB PDF that `WebFetch` returned as JPEG streams, and stated it as a
@@ -82,7 +82,7 @@ claim was **outdated rather than false** — killed on positive evidence, which 
 the verifier was re-instructed to use. ✅ **No false negative in this run.**
 
 ⚠ **But 105 claims were never adjudicated at all.** 130 extracted, 25 verified. The dossier's own
-stats say `"unverified": 0`, which reads as "nothing went unverified" — it is not true (ISS-108).
+stats say `"unverified": 0`, which reads as "nothing went unverified" — it is not true; the tally counts only the claims that were sent to a verifier.
 
 ### ⚠ Gaps the run declared about itself, and they must be closed before scripting
 
@@ -177,7 +177,7 @@ Committee's **fiscal note (7 Feb 2026)** and its **fiscal memorandum on the bill
   serve others, involve repair or replacement of infrastructure someone else originally paid for, and
   the allocation follows the utility's **contribution in aid of construction** policies.
   ★ **That is exactly the shared-network-upgrade question Virginia and Wisconsin deferred and
-  Pennsylvania decided (see the ISS-111 correction below). Tennessee did not solve it either — it
+  Pennsylvania decided (see the Pennsylvania correction below). Tennessee did not solve it either — it
   wrote an exception for it.**
 - Also authorises a utility to **reimburse** a data center for infrastructure costs, on five
   conditions: standard policies, applied to comparable customers, not data-center-specific, no more
@@ -198,7 +198,7 @@ unresolved.** ⚠ So *"fix the tariff, as Oklahoma and Tennessee did"* is only h
 **easy** half (sole-use facilities) and deferred or excepted the **contested** half — which is the
 same half New York paused over.
 
-### ⛔ CORRECTION 2026-09-03 (ISS-111) — Pennsylvania did NOT defer; it decided, and is under challenge
+### ⛔ CORRECTION 2026-09-03 — Pennsylvania did NOT defer; it decided, and is under challenge
 
 This log said above that *"the Pennsylvania Final Order PDF was never opened"* and that the
 *"uncertain, difficult to quantify"* characterisation was secondary-sourced. It has now been opened
@@ -222,7 +222,7 @@ wrong about it in every place it was spoken or shown:
 - **It is contested.** The Energy Association of Pennsylvania filed a Petition for Reconsideration or
   Clarification of the Final Order on 27 May 2026 (<https://www.puc.pa.gov/pcdocs/1932400.pdf>, 22 pp.), fifteen
   days after entry.
-- **How it was found.** The ISS-109 controlled re-verification: the stock verifier prompt killed the
+- **How it was found.** A controlled re-verification of the same claims with two verifier prompts: the stock verifier prompt killed the
   Pennsylvania claim 3–0 on the superseding Final Order; the fixed prompt this research used passed it
   3–0 and never surfaced the order. The gap note above was written and not acted on.
 - **What changed in the episode:** `s04_cost` lines f, j, l; `s06_reframe` line c; `s08_against_resp`

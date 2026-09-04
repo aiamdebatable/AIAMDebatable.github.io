@@ -2,7 +2,7 @@
 
 _The full research behind the episode. This is the "full research" we link below the video._
 
-> ✅ **EPISODE-GRADE.** Peg hunt 2026-09-01; deep-research fan-out `wf_a3d1f9c2-86e` (108 agents,
+> ✅ **EPISODE-GRADE.** Peg hunt 2026-09-01; deep-research fan-out (108 agents,
 > 26 sources, 130 claims); the two gaps that pass declared about itself closed by hand 2026-09-02
 > from enrolled bills and fiscal records. Every claim traces to `factcheck-log.md`.
 >
@@ -67,7 +67,7 @@ the amended allocation came from Dominion's own rebuttal with Staff and Consumer
    the line to the door — are settled: the large customer pays. **Shared network upgrades are
    unresolved in four of the five.** Virginia expressly deferred higher-order transmission; Wisconsin
    ordered further revisions; **Tennessee wrote an explicit exception for it.**
-   ⚠ **CORRECTED 2026-09-03 (ISS-111) — Pennsylvania DECIDED it.** The Final Order in Docket
+   ⚠ **CORRECTED 2026-09-03 — Pennsylvania DECIDED it.** The Final Order in Docket
    M-2025-3054271 (entered 12 May 2026, <https://www.puc.pa.gov/pcdocs/1929842.pdf>, Disposition pp. 41–42, read
    in full) adopts the OCA's but-for test: *"if a Network Improvement would not have been needed 'but
    for' the interconnection of the Large Load Customer, then the costs of the upgrade should be

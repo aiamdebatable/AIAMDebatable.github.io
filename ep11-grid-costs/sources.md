@@ -99,7 +99,7 @@ upgrades the only exception. **Petition for Reconsideration or Clarification** b
 Association of Pennsylvania, 27 May 2026 — `https://www.puc.pa.gov/pcdocs/1932400.pdf`, 22 pp.
 ⚠ An earlier version of this entry said the Final Order was not opened and that Pennsylvania called
 the test *"uncertain, difficult to quantify"*; that phrase (p. 28) concerns the majority-beneficiary
-criterion for collateral, not cost allocation. Corrected under ISS-111.
+criterion for collateral, not cost allocation. Corrected 2026-09-03 against the Final Order itself.
 
 ⚠ **Wisconsin PSC — We Energies "Very Large Customer" rate structure, Docket 6630-TE-113** (Final
 Order 21 May 2026). Rests on a press release self-described as preliminary; the Final Order is
