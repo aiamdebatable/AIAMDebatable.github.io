@@ -84,4 +84,4 @@ _Every claim that carries a number or a name should trace to a source here. Grou
 
 ## Research engine record
 
-- deep-research-v3 run wf_2303b19d-0df, 2026-09-12: 24 finders, 12 primary-source verifications (all held), 3 completeness critics, 41 agents, 3.85M tokens, 13 min. Dossier archived beside this file.
+- Deep-research fan-out, 2026-09-12: 24 finder agents, 12 primary-source verifications (all held), 3 completeness critics; 41 agents in all. The fact-check log above is the published record of what it found.
