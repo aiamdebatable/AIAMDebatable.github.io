@@ -94,6 +94,13 @@ Found during later research and re-read at both primaries before publication. Th
 - **"Anthropic could reach two" of the 15 hosts.** Wrong unit. The July 30 post: *"We notified … the three affected organizations on Monday, July 27. The two organizations we were able to reach had not previously detected the activity."* That is two of **three organisations**. The 15 hosts were, in Anthropic's belief, security vendors whose scanners installed the package (alignment assessment). The brief's line "could reach two of the 15 affected hosts" carried the error into the script.
 - **"Widened the search … and found a fourth incident."** Wrong order. The alignment assessment says the fourth was found in August in transcripts missed by the first scan, *"while assembling transcripts to share with METR"*. *"After finding this incident, we broadened our search to roughly 481 million transcripts"*, and that sweep *"found no further cases"*. The 141,006 figure on screen is correct.
 
+Both, as rows of the claim record (added 2026-09-28, so they are counted among the claims that came back wrong):
+
+| claim (as aired) | verdict |
+|---|---|
+| "Anthropic could reach two" of the 15 hosts | **CORRECTED (after publication).** Two of the **three affected organisations**, not two of 15 hosts (Anthropic, July 30 post). The published video carries the error; corrected here, in the transcript note and in the video description. |
+| Anthropic "widened the search … and found a fourth incident" | **CORRECTED (after publication).** Wrong order: the fourth incident was found first, in August, in transcripts the first scan missed; the ~481 million-transcript sweep came after it and found no further cases (alignment assessment). |
+
 ## Fairness audit
 - The show runs on Anthropic's model (Fable 5.1 = Mythos 5.1 with safeguards) and says so on air.
 - Anthropic's record is on screen at the same resolution as OpenAI's: four incidents, one found seven months late, one with 15 external victims, environments "faster than our systems could vet them", and the UK AISI exclusion.

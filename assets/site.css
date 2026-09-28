@@ -17,7 +17,7 @@
 [hidden]{display:none!important}
 html{scroll-behavior:smooth;scroll-padding-top:1.5rem}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
-body{margin:0;background:linear-gradient(160deg,var(--panel),var(--bg2)) fixed;color:var(--ink);
+body{margin:0;background:linear-gradient(160deg,var(--panel),var(--bg2)) fixed;background-color:var(--bg2);color:var(--ink);
   font-family:var(--body);font-size:17px;line-height:1.65;-webkit-text-size-adjust:100%}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .skip{position:absolute;left:-999px;top:0;padding:.6rem 1rem;background:var(--green);color:#04140e;z-index:9}
@@ -223,147 +223,78 @@ body.home .sr{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overf
   clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;border:0}
 body.home :focus-visible{outline:2px solid var(--cyan);outline-offset:2px}
 
-/* ---------------------------------------------------------------- masthead: a band, not a hero */
-body.home .mast{padding:clamp(16px,2.1vw,28px) var(--pad) 0;border-bottom:1px solid var(--line);position:relative;
-  max-width:var(--measure);margin:0 auto;isolation:isolate;overflow:hidden}
-/* Depth, without a request — and quieter than wall's. Three things went:
-     · the ruled-paper cadence (a 46px repeating rule behind two columns of text and a vertical seam
-       is a third grid arguing with the two that carry meaning);
-     · the accent glow at the right edge, so --accent is spent on exactly ONE object up here — the
-       corrections count, which is the number the show's honesty claim rests on;
-     · about a third of the green glow's strength. It ran at .42 and lit the headline's own corner,
-       which is why wall's top read hot rather than dark.
-   What is left is two soft fields, green rising at the left and gold at the right, doing the same
-   job the seam does: the page is two sides before it is anything else. Still masked out before it
-   reaches the wall, so the tiles stay on flat ground. */
-body.home .mast::before{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;
-  background-image:
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23g)' opacity='.05'/%3E%3C/svg%3E"),
-    radial-gradient(78% 150% at -6% -22%,rgba(47,143,102,.27),transparent 62%),
-    radial-gradient(64% 130% at 82% -18%,rgba(201,154,42,.15),transparent 66%);
-  -webkit-mask-image:linear-gradient(to bottom,#000 0%,#000 58%,rgba(0,0,0,.25) 88%,transparent 100%);
-  mask-image:linear-gradient(to bottom,#000 0%,#000 58%,rgba(0,0,0,.25) 88%,transparent 100%)}
-body.home .mast>*{position:relative;z-index:1}
-/* THE SQUINT LAYER, half two — a BAND, not a rule. 8px, hard, green meeting gold at page centre.
-   It carries the page's one structural division (above = the show, below = the archive), and it is
-   still a 2px bicolour bar in a 25% thumbnail, where the 2px gradient it replaces was nothing. */
-body.home .mast::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:8px;z-index:2;background:var(--seam-hard)}
+/* ------------------------------------------------- masthead + the duel (package SITEC, option C)
+   The latest episode sits BETWEEN its two sides: green field left, gold field right, the episode's own
+   object thumbnail in the middle. The format is taught by the layout before a word is read. */
+body.home .mast{max-width:var(--measure);margin:0 auto;padding:16px var(--pad) 0;position:relative}
+body.home .mast-in{display:flex;align-items:center;gap:10px 22px;flex-wrap:wrap;padding-bottom:16px;border-bottom:1px solid var(--line)}
+body.home .wordmark{font-family:var(--head);font-weight:700;font-size:17px;letter-spacing:.06em;text-decoration:none;white-space:nowrap}
+body.home .wordmark .g{color:var(--green-l)}body.home .wordmark .o{color:var(--gold-l);margin-left:.14em}body.home .wordmark .w{color:var(--ink);margin-left:.14em}
+body.home .hed{font-family:var(--head);font-weight:600;font-size:15px;color:var(--ink-2);flex:1 1 auto}
+body.home .hed em{font-style:normal;color:var(--gold-l)}
+body.home .chan{font-size:13px;font-weight:600;color:var(--cyan);text-decoration:none;white-space:nowrap}
+body.home .chan:hover{text-decoration:underline}
 
-/* Two columns, and the right one is a PICTURE. That is the whole point of the round: identity has
-   to land before a word is read, and the show already owns artwork good enough to do it. */
-body.home .mast-in{display:grid;grid-template-columns:minmax(0,1.02fr) minmax(0,1fr);
-  gap:clamp(18px,3vw,52px);align-items:center;padding-bottom:clamp(12px,1.5vw,20px)}
-body.home .mast-say{min-width:0}
-/* THE SQUINT LAYER, half three. 22px is a footer credit, and the one place the brand's own name is
-   set should not be the smallest type in the band. At display weight it is the second-largest thing
-   in the masthead and it is three colours, which is what a wordmark is for. */
-body.home .wordmark{display:inline-block;font-family:var(--head);font-weight:700;text-decoration:none;
-  font-size:clamp(20px,2.15vw,31px);line-height:1;letter-spacing:.005em;margin-bottom:clamp(12px,1.6vw,20px)}
-body.home .wordmark .g{color:var(--green-l)}
-body.home .wordmark .o{color:var(--gold-l);margin-left:.14em}
-body.home .wordmark .w{color:var(--ink);margin-left:.14em}
+body.home .duel{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.4fr) minmax(0,1fr);margin:22px 0 0;
+  border-radius:16px;overflow:hidden;border:1px solid var(--line-2)}
+body.home .dside{padding:clamp(18px,2.4vw,34px);display:flex;flex-direction:column;justify-content:center;gap:8px}
+body.home .dside.g{background:linear-gradient(135deg,var(--fld-g),#0c3a2b)}
+body.home .dside.d{background:linear-gradient(225deg,var(--fld-d),#3a2c08);text-align:right}
+body.home .dside b{font-family:var(--head);font-size:12px;letter-spacing:.16em;text-transform:uppercase}
+body.home .dside.g b{color:var(--green-l)}body.home .dside.d b{color:var(--gold-l)}
+body.home .dside p{font-family:var(--head);font-weight:700;font-size:clamp(20px,2vw,28px);line-height:1.15;color:#fff}
+body.home .dmid{background:var(--bg-2);padding:clamp(14px,1.6vw,22px);display:flex;flex-direction:column;gap:10px}
+body.home .dsay{display:flex;flex-direction:column;gap:10px}
+body.home .duel.solo{grid-template-columns:1fr;background:var(--bg-2)}
+body.home .duel.solo .dmid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:clamp(16px,2.4vw,34px);align-items:center;
+  background:linear-gradient(135deg,rgba(47,143,102,.14),rgba(201,154,42,.10))}
+body.home .dsub{color:var(--ink-2);font-size:15px}
+body.home .dmid .k{color:var(--cyan);font-family:var(--head);font-weight:700;font-size:11px;letter-spacing:.16em;text-transform:uppercase}
+body.home .dmid h1{font-family:var(--head);font-weight:700;font-size:clamp(22px,2.3vw,32px);line-height:1.1;letter-spacing:-.015em}
+body.home .dmid h1 a{text-decoration:none}body.home .dmid h1 a:hover{color:var(--gold-l)}
+body.home .cta{display:flex;gap:10px;flex-wrap:wrap}
+body.home .watch,body.home .ghost{display:inline-flex;align-items:center;gap:8px;padding:10px 16px;border-radius:10px;
+  font-weight:600;font-size:14px;text-decoration:none;border:1px solid var(--line-2)}
+body.home .watch{background:var(--green-l);color:#06231a;border-color:transparent}
+body.home .watch:hover,body.home .ghost:hover{filter:brightness(1.1)}
+body.home .jury{text-align:center;color:var(--ink-2);font-size:14px;margin:16px auto 20px;max-width:900px;line-height:1.6}
+body.home .jury em{font-style:normal;color:var(--cyan);font-weight:600}
+body.home .jury b{color:var(--ink)}
+body.home .jury .tot{display:block;color:var(--ink-3)}
+body.home .jury .tot b.warn{color:var(--accent)}
 
-/* THE line. The show's whole editorial stance in six words, so it is the largest type on the page. */
-body.home .hed{margin:0;font-family:var(--head);font-weight:700;line-height:.94;letter-spacing:-.036em;
-  font-size:clamp(2.15rem,4vw,3.9rem);color:var(--ink);text-wrap:balance}
-body.home .hed em{font-style:normal;display:inline-block;position:relative;color:var(--gold-l)}
-body.home .hed em::after{content:"";position:absolute;left:.02em;right:.06em;bottom:-.02em;height:.075em;
-  background:var(--gold);opacity:.62}
+/* the thumbnail frame — shared by the duel and every card */
+body.home .thumb{position:relative;display:block;aspect-ratio:16/9;border-radius:10px;overflow:hidden;background:var(--bg-2)}
+body.home .thumb .art{display:block;width:100%;height:100%;transition:transform .35s}
+body.home a.thumb:hover .art{transform:scale(1.03)}
+body.home .thumb .dur{position:absolute;right:8px;bottom:8px;background:rgba(0,0,0,.8);color:#fff;font-size:12px;font-weight:600;
+  padding:2px 6px;border-radius:5px;font-variant-numeric:tabular-nums}
+body.home .thumb .new{position:absolute;left:8px;top:8px;background:var(--green-l);color:#06231a;font-size:10.5px;font-weight:700;
+  letter-spacing:.1em;text-transform:uppercase;padding:3px 7px;border-radius:5px}
 
-/* ------------------------------------------------------- the format, DRAWN, not only set in type */
-/* The lede states what the show is; this states how it is refereed, and it is deliberately second.
-   One idea per column, one column per side, and the reader's eye is handed left to right across the
-   thing that divides them.
-
-   THE SQUINT LAYER, half four — the biggest of them. wall-calm drew this as two columns of body copy
-   with a 3px rule between: a diagram only for someone close enough to read it, and two grey smudges
-   at 25%. It is a PLATE now — a deep green field butted against a deep bronze one, ~700x150 — so the
-   composition itself says "two sides, set against each other" where the words have stopped existing.
-   Nothing about the content changed: same two sentences, same body size, same seam on the join. */
-body.home .stand{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);position:relative;
-  margin:clamp(16px,2vw,24px) 0 0;gap:0;border-radius:3px;overflow:hidden;isolation:isolate}
-/* THE SEAM, at the one place on the page where the two sides are actually opposed. It no longer has
-   to overshoot to be read as structural — it is the boundary between two solid fields — so it runs
-   the plate's full height and stops. The glow is what keeps 3px of pure green-to-gold from reading
-   as a border between two panels rather than as the join. */
-body.home .stand::before{content:"";position:absolute;left:calc(50% - 1.5px);top:0;bottom:0;width:3px;z-index:2;
-  background:linear-gradient(180deg,var(--green-l),var(--gold-l));
-  box-shadow:0 0 18px -2px rgba(127,211,175,.35)}
-body.home .st{min-width:0;padding:clamp(13px,1.35vw,17px) clamp(15px,1.6vw,22px);display:flex;flex-direction:column}
-/* Deep enough that the band's value does not rise — this is still the calm masthead — and saturated
-   enough that at thumbnail scale it is a green rectangle and a gold one, not two dark ones. */
-body.home .st-g{background:linear-gradient(160deg,var(--fld-g),#0e4232)}
-body.home .st-d{background:linear-gradient(160deg,var(--fld-d),#42310a)}
-body.home .stand dt{font-family:var(--head);font-weight:700;font-size:11px;letter-spacing:.2em;
-  text-transform:uppercase;margin-bottom:6px}
-/* Lifted off --ink-2: that grey was chosen against the page's near-black ground and clears only
-   3.2:1 on a saturated field. These are measured — 6.4:1 on the green, 7.8:1 on the bronze. */
-body.home .stand dd{margin:0;font-size:clamp(13px,1.02vw,15px);line-height:1.55;text-wrap:pretty}
-body.home .st-g dt{color:var(--green-l)}
-body.home .st-g dd{color:#cfe3d8}
-body.home .st-d dt{color:var(--gold-l)}
-body.home .st-d dd{color:#ead9b4}
-
-/* The proposition, in prose, ABOVE the plate. Restored from wall verbatim: it is the only sentence
-   on the page that names AI, and its absence is the whole of the stranger judge's objection. */
-body.home .lede{margin:clamp(12px,1.4vw,16px) 0 0;font-size:clamp(14.5px,1.12vw,17px);line-height:1.55;
-  color:var(--ink-2);max-width:58ch;text-wrap:pretty}
-body.home .lede b{color:var(--ink)}
-
-/* The stance, stated once, in prose. This is what the rubber stamp used to shout from the poster's
-   corner and what the fifth rail cell used to restate as a numeral — said properly, it needs neither. */
-body.home .judge{margin:clamp(14px,1.7vw,20px) 0 0;font-family:var(--head);font-size:clamp(14.5px,1.2vw,18px);
-  line-height:1.4;letter-spacing:-.008em;color:var(--ink-2)}
-body.home .judge b{color:var(--ink);font-weight:700}
-body.home .judge em{font-style:normal;color:var(--cyan)}
-
-body.home .cta{display:flex;align-items:center;gap:14px 20px;flex-wrap:wrap;margin-top:clamp(14px,1.7vw,20px)}
-body.home .watch{display:inline-flex;align-items:center;gap:9px;
-  background:var(--green-l);color:#06231a;text-decoration:none;font-weight:700;
-  font-family:var(--head);font-size:15px;letter-spacing:.01em;padding:11px 20px;border-radius:3px;
-  box-shadow:0 0 0 0 rgba(127,211,175,.5);transition:box-shadow .18s,transform .18s,background .18s}
-body.home .watch:hover{background:#96e0c1;transform:translateY(-1px);box-shadow:0 8px 26px -10px rgba(127,211,175,.85)}
-/* ------------------------------------------------------------------------------- the hero art */
-body.home .hero-art{position:relative;min-width:0;padding:clamp(20px,2.4vw,36px) 0 clamp(8px,1vw,14px)}
-body.home .poster{display:block;position:relative;border-radius:5px;overflow:hidden;line-height:0;
-  background:var(--fb,#0b1220);border:1px solid rgba(255,255,255,.12)}
-body.home .poster .art{display:block;width:100%;height:auto}
-body.home .poster.front{z-index:3;box-shadow:0 34px 70px -28px rgba(0,0,0,.92),0 0 0 1px rgba(255,255,255,.05);
-  transition:transform .22s,box-shadow .22s}
-body.home .poster.front:hover{transform:translateY(-3px);box-shadow:0 40px 80px -26px rgba(0,0,0,.95)}
-/* The two receding plates that used to sit behind this one are gone, and so is the stamp that was
-   pressed over its corner. Both were arguments for the same thing — "there is a body of work here" —
-   made in the one place on the page that cannot prove it, three hundred pixels above the six-cell
-   wall that can. What is left is one plate at full strength with air on three sides. */
-/* A caption strip UNDER the art, not floated over its corner. Every poster in this template ends
-   with its closer line — "Ban it, or bound it? You're the jury." — running along the bottom, so a
-   floating label there covers the sentence the whole format rests on, and covers more of it the
-   narrower the screen gets. */
-body.home .plabel{display:flex;align-items:center;gap:9px;
-  font-family:var(--head);font-size:10.5px;font-weight:500;letter-spacing:.17em;text-transform:uppercase;
-  line-height:1.6;color:var(--ink-2);background:rgba(6,12,16,.86);padding:7px 12px;
-  border-top:1px solid rgba(255,255,255,.08)}
-body.home .plabel b{color:var(--fl,var(--green-l));font-weight:700}
-body.home .plabel .pd{color:var(--ink-3);font-variant-numeric:tabular-nums}
-
-body.home .rail{list-style:none;display:grid;grid-template-columns:repeat(5,1fr);gap:0;margin:0;padding:0;
-  position:relative}
-body.home .rail::before{content:"";position:absolute;left:0;right:0;top:0;height:1px;background:var(--seam);opacity:.55}
-body.home .rail li{padding:10px 0 12px;border-left:1px solid var(--line);padding-left:16px;display:flex;flex-direction:column;gap:1px}
-body.home .rail li:first-child{border-left:0;padding-left:0}
-body.home .rail b{font-family:var(--head);font-weight:700;font-size:clamp(22px,2.3vw,30px);line-height:1;
-  font-variant-numeric:tabular-nums;color:var(--ink)}
-body.home .rail span{font-size:10.5px;letter-spacing:.15em;text-transform:uppercase;color:var(--ink-3)}
-body.home .rail li:nth-child(1) b{color:var(--green-l)}
-/* The only accent object left in the top third. wall spent --accent three times up here — a glow, a
-   rubber stamp and this — so the one number the show's honesty actually rests on was competing with
-   two decorations for the same colour. It now owns it outright. */
-body.home .rail .hot b{color:var(--accent)}
-body.home .rail .hot span{color:var(--accent);opacity:.8}
-/* The strip lands on a zero, and it is the only cell whose number is a promise rather than a count.
-   Gold, because it is the verdict half of the format that is refusing to declare one. */
-body.home .rail .nil b{color:var(--gold-l)}
-body.home .rail .nil span{color:var(--gold-l);opacity:.78}
+/* --------------------------------------------------------------------------------- the cards */
+body.home #wall{padding:calc(var(--pad) * .8) var(--pad) 34px;max-width:var(--measure);margin:0 auto}
+body.home .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+body.home .case{display:grid;grid-template-columns:minmax(0,43%) minmax(0,1fr);gap:16px;padding:14px;border:1px solid var(--line);
+  border-radius:14px;background:linear-gradient(180deg,rgba(255,255,255,.035),rgba(255,255,255,.012));transition:border-color .2s}
+body.home .case:hover{border-color:var(--line-2)}
+body.home .case .body{min-width:0;display:flex;flex-direction:column;gap:8px}
+body.home .case .q{font-family:var(--head);font-weight:600;font-size:17px;line-height:1.22;letter-spacing:-.01em}
+body.home .case .q a{text-decoration:none}body.home .case .q a:hover{color:var(--gold-l)}
+body.home .case .sub{color:var(--ink-3);font-size:12px}
+body.home .tw{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+body.home .tw span{font-size:11.5px;line-height:1.3;padding:6px 8px;border-radius:7px}
+body.home .tw .g{background:rgba(47,143,102,.2);color:var(--green-l)}
+body.home .tw .d{background:rgba(201,154,42,.18);color:var(--gold-l)}
+body.home .tw i{font-style:normal}
+body.home .cbar .cb{display:flex;gap:2px;height:6px;border-radius:3px;overflow:hidden;background:var(--line)}
+body.home .cbar i{background:var(--green-l)}body.home .cbar i.x{background:var(--accent)}
+body.home .cl{font-size:12px;color:var(--ink-3)}body.home .cl b{color:var(--accent)}
+body.home .acts{display:flex;gap:16px;font-size:13px;font-weight:600;margin-top:auto}
+body.home .acts a{text-decoration:none;color:var(--ink-2)}body.home .acts a:hover{color:var(--ink)}
+body.home .acts .play{color:var(--green-l)}
+/* A single survivor of a search keeps the card's width rather than stretching across the row. */
+body.home .grid[data-n="1"]{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
 
 /* ------------------------------------------------------------------------ sticky utility bar */
 body.home .vsw{position:absolute;width:1px;height:1px;opacity:0;pointer-events:none}
@@ -423,245 +354,6 @@ body.home #v-grid:checked~#wall .tablewrap{display:none}
 body.home #v-table:checked~#wall .grid{display:none}
 body.home .count{margin:0;font-size:12px;color:var(--ink-3);letter-spacing:.02em;white-space:nowrap;flex:0 0 auto}
 body.home .count b{color:var(--ink-2);font-variant-numeric:tabular-nums}
-
-/* --------------------------------------------------------------------------------- the wall */
-/* 34px, not 54: the wall used to end on a visible band of nothing before the footer, which is the
-   one place a grid can look like it ran out rather than like it stopped. */
-body.home #wall{padding:calc(var(--pad) * .55) var(--pad) 34px;max-width:var(--measure);margin:0 auto}
-body.home .grid{display:grid;grid-template-columns:repeat(12,1fr);
-  column-gap:clamp(14px,1.5vw,22px);row-gap:clamp(24px,2.4vw,36px)}
-/* THE CELL ORDER IS PER WIDTH. A 3-up row puts cells 1 and 2 side by side; a 2-up row puts 2 and 3
-   side by side and a 2-up column puts 1 and 3 one above the other — so those three cells form a
-   triangle in the union of the two adjacency graphs, and a triangle cannot be two-coloured. One
-   fixed order therefore CANNOT checkerboard warm against cool at both widths; some width has to lose.
-   The episodes' order is data (newest first) and does not move. The record's slot is ours, so
-   dealWall() picks it per width and these three properties carry the answer. --o0 is the DOM order,
-   so the desktop page reads in source order and only the narrower widths re-flow. */
-body.home .grid>*{order:var(--o0,0)}
-/* ROUND 4 — the card is not a box. Every tile used to sit inside a slightly-lighter dark rectangle
-   with a border round it, which turned the one bright object on the card into a chip trapped in a
-   frame. The page's own background is the card now: the colour plate hits the page at full strength
-   and the type hangs off it, so what separates one card from the next is the gap, not a rule. */
-body.home .tile{grid-column:span 4;display:flex;flex-direction:column;position:relative;min-width:0}
-
-/* ---- the data plate. One mark per episode, its KIND picked from the episode's own numbers. ---
-   Two plates, not one. GLOW is the deep field with a light mark on it; INK is the saturated field
-   with a near-black mark. They alternate down the deal, so what changes between neighbouring cells
-   is luminance and not only hue — the thing that was missing when five dark jewel plates sat on a
-   near-black page and read as one object repeated. The card BODY is dark either way: only the
-   picture flips, which keeps the wall a wall and not a patchwork. */
-/* ROUND 5 — 4:3, not 16/9. At three across on a 1440 page a 16/9 plate is 438x246: two rows of
-   short wide bands that read as stripes, with a dead strip of page under the last one. The same
-   tile at 4:3 is 438x328, which is where a grid stops being a list with pictures and starts being
-   a wall. It also matches the mark stage exactly (640x480), so the art fills the plate corner to
-   corner instead of being letterboxed inside it. */
-/* --pl is the PLATE's own colour, handed to the marks. ROUND 6's marks fill their plate corner to
-   corner, so anything they have to say has to be knocked back OUT of the picture — a caption strip,
-   a figure standing inside its own column — rather than set in a gap left for it. */
-body.home .plate{display:block;position:relative;overflow:hidden;aspect-ratio:4/3;
-  --mk:var(--fl); --mute:rgba(255,255,255,0.62); --pl:var(--fb);
-  --sg:#7fd3af; --sd:#eccb76; --acc:var(--accent);
-  /* --sgm / --sdm are the SAME two side colours, chosen for type drawn ON THE MARK rather than on
-     the plate. Once a mark paints a solid mass, anything set inside it is standing on --mk, not on
-     the field — and --sg/--sd are picked against the field, so on a deep plate the gold that reads
-     against the ground is the gold that vanishes on a light mass. They are the pair swapped: the
-     mark is light here, so type on it is dark, and the other way round under [data-mode="ink"]. */
-  --sgm:#0a4a31; --sdm:#5c3f06;
-  background:radial-gradient(120% 120% at 30% 26%,var(--f,#17734f),var(--fb,#0b3a28) 78%);
-  transition:transform .2s,box-shadow .2s}
-body.home .tile:hover .plate{transform:translateY(-3px);box-shadow:0 18px 34px -18px rgba(0,0,0,.9)}
-body.home [data-mode="ink"] .plate{
-  --mk:var(--fik); --mute:rgba(0,0,0,0.58); --pl:var(--fi);
-  --sg:#0a4a31; --sd:#5c3f06;
-  --sgm:#7fd3af; --sdm:#eccb76;
-  background:radial-gradient(125% 125% at 28% 22%,var(--fi),var(--fib) 82%)}
-body.home .plate::after{content:"";position:absolute;left:0;right:0;bottom:0;height:2px;z-index:2;
-  background:var(--fl,var(--line));opacity:.75}
-body.home [data-mode="ink"] .plate::after{background:var(--fik);opacity:.5}
-/* On a bright plate the dark corner chips read as holes; give them the plate's own ink instead. */
-body.home [data-mode="ink"] .tab,body.home [data-mode="ink"] .dur{background:rgba(255,255,255,.82);color:var(--fik);
-  border-color:transparent}
-body.home [data-mode="ink"] .plate .new{background:var(--fik);color:var(--fi)}
-body.home .mark{position:absolute;inset:0;width:100%;height:100%;transition:filter .25s}
-body.home .tile:hover .mark{filter:brightness(1.08)}
-body.home .m-num{font-family:"Space Grotesk",system-ui,sans-serif;font-weight:700;letter-spacing:-.03em;
-  font-variant-numeric:tabular-nums}
-body.home .m-unit{font-family:"Space Grotesk",system-ui,sans-serif;font-weight:500;font-size:30px;letter-spacing:.2em}
-body.home .m-pan{font-family:"Space Grotesk",system-ui,sans-serif;font-weight:700;font-size:30px;letter-spacing:.045em}
-body.home .m-at{font-family:"Space Grotesk",system-ui,sans-serif;font-weight:700;font-size:21px;letter-spacing:.19em}
-
-/* The file tab, top-RIGHT: the plate's own top-left is where the mark's air is. */
-body.home .tab{position:absolute;top:0;right:0;z-index:2;font-family:var(--head);font-weight:700;font-size:10.5px;
-  letter-spacing:.16em;text-transform:uppercase;line-height:1.6;color:var(--fl,var(--green-l));
-  background:rgba(6,12,16,.72);padding:5px 10px}
-body.home .dur{position:absolute;right:8px;bottom:8px;z-index:2;font-family:var(--head);font-size:10.5px;font-weight:700;
-  letter-spacing:.08em;line-height:1.6;border-radius:2px;padding:2px 7px;color:var(--ink);
-  background:rgba(6,14,18,.8);border:1px solid rgba(255,255,255,.13);font-variant-numeric:tabular-nums}
-body.home .plate .new{position:absolute;left:0;top:0;z-index:2;color:#06231a;background:var(--fl,var(--green-l));
-  font-family:var(--head);font-weight:700;font-size:10px;letter-spacing:.16em;text-transform:uppercase;
-  line-height:1.6;padding:5px 10px}
-
-/* ============================================================================ THE FURNITURE ====
-   Six tiles used to carry the same four things in the same four corners — file tab top-right,
-   duration bottom-right, attribution top-left, figure bottom-left. Once the artwork stopped being
-   the problem, that repetition was what still read as one template dealt six times: a grid whose
-   cells differ in hue and agree in every other respect is a swatch book, not a wall. The reference
-   wall fields six different KINDS of picture with different internal structure, and this is the same
-   idea applied to the one layer every tile shares.
-
-   The scheme is dealt by MARK KIND (see CHROME), so it lands where that particular picture has room.
-   .furn is display:contents until a scheme claims it, so PLAIN — the one tile that keeps the old
-   arrangement — is unchanged, and nothing here moves anything the marks draw. */
-body.home .furn{display:contents}
-
-/* --- BAND · the counted lattice. It bleeds to all four edges, so its chrome takes a full-width
-       strip rather than sitting in a corner of it: latest, file and duration on one rule. */
-body.home [data-chrome="band"] .furn,body.home [data-chrome="foot"] .furn{position:absolute;left:0;right:0;z-index:2;
-  display:flex;align-items:stretch;background:rgba(6,12,16,.74)}
-body.home [data-chrome="band"] .furn{top:0}
-/* --- FOOT · the shelf. Six rows of spines run off the bottom edge; a rail across it is the edge a
-       shelf has, and it is the same strip as the band turned upside down one row above it. */
-body.home [data-chrome="foot"] .furn{bottom:0}
-body.home [data-chrome="band"] .tab,body.home [data-chrome="band"] .dur,body.home [data-chrome="band"] .new,body.home [data-chrome="foot"] .tab,body.home [data-chrome="foot"] .dur,body.home [data-chrome="foot"] .new{
-  position:static;background:none;border:0;border-radius:0;display:flex;align-items:center;padding:5px 10px}
-body.home [data-chrome="band"] .new,body.home [data-chrome="foot"] .new{color:#06231a;background:var(--fl,var(--green-l))}
-body.home [data-chrome="band"] .dur,body.home [data-chrome="foot"] .dur{margin-left:auto;color:var(--ink)}
-body.home [data-mode="ink"][data-chrome="band"] .furn,body.home [data-mode="ink"][data-chrome="foot"] .furn{background:rgba(255,255,255,.86)}
-body.home [data-mode="ink"][data-chrome="band"] .tab,body.home [data-mode="ink"][data-chrome="band"] .dur,body.home [data-mode="ink"][data-chrome="foot"] .tab,body.home [data-mode="ink"][data-chrome="foot"] .dur{color:var(--fik)}
-body.home [data-mode="ink"][data-chrome="band"] .new,body.home [data-mode="ink"][data-chrome="foot"] .new{background:var(--fik);color:var(--fi)}
-
-/* --- CREST · the two-panel screen. Its one open space is the gutter up the middle, so the chrome
-       goes there as a single centred pill instead of clipping a corner off either panel. */
-body.home [data-chrome="crest"] .furn{position:absolute;left:50%;top:13px;transform:translateX(-50%);z-index:2;
-  display:flex;align-items:center;background:rgba(6,12,16,.82);border-radius:999px;overflow:hidden;white-space:nowrap}
-body.home [data-chrome="crest"] .tab,body.home [data-chrome="crest"] .dur{position:static;background:none;border:0;
-  border-radius:0;padding:5px 12px;color:var(--fl,var(--green-l))}
-body.home [data-chrome="crest"] .dur{border-left:1px solid rgba(255,255,255,.22);color:var(--ink)}
-body.home [data-mode="ink"][data-chrome="crest"] .furn{background:rgba(255,255,255,.88)}
-body.home [data-mode="ink"][data-chrome="crest"] .tab,body.home [data-mode="ink"][data-chrome="crest"] .dur{color:var(--fik)}
-body.home [data-mode="ink"][data-chrome="crest"] .dur{border-left-color:rgba(0,0,0,.24)}
-
-/* --- SPINE · the ledger. Its bars are centred and its two lines are centred, which leaves a clear
-       left margin; the label stands up in it as a full-height rail. Nothing else on the wall has a
-       vertical element, which is most of why this cell now reads as the different one. */
-body.home .tile[data-chrome="spine"] .furn{position:absolute;left:0;top:0;bottom:0;z-index:2;width:29px;
-  display:flex;align-items:flex-end;justify-content:center;background:var(--fl,var(--green-l))}
-body.home .tile[data-chrome="spine"] .tab{position:static;background:none;color:#0a1410;padding:14px 0;
-  letter-spacing:.22em;writing-mode:vertical-rl;transform:rotate(180deg)}
-
-/* --- STACK · the range. Its tall column is solid to the top-right corner and its legend already
-       owns the top-left, so file and duration go as one two-line block into the corner the picture
-       fills — a label ON the stack rather than two chips floating at opposite ends of the plate. */
-body.home [data-chrome="stack"] .furn{position:absolute;right:8px;bottom:8px;z-index:2;display:flex;
-  flex-direction:column;align-items:stretch;background:rgba(6,14,18,.82);
-  border:1px solid rgba(255,255,255,.14);border-radius:2px;overflow:hidden}
-body.home [data-chrome="stack"] .tab,body.home [data-chrome="stack"] .dur{position:static;background:none;border:0;
-  border-radius:0;padding:3px 9px;text-align:right}
-body.home [data-chrome="stack"] .dur{border-top:1px solid rgba(255,255,255,.16);color:var(--ink)}
-body.home [data-mode="ink"][data-chrome="stack"] .furn{background:rgba(255,255,255,.86);border-color:transparent}
-body.home [data-mode="ink"][data-chrome="stack"] .tab,body.home [data-mode="ink"][data-chrome="stack"] .dur{color:var(--fik)}
-body.home [data-mode="ink"][data-chrome="stack"] .dur{border-top-color:rgba(0,0,0,.2)}
-
-/* --- PLAIN · one tile keeps the old arrangement, so the wall still has a plain brick in it. */
-
-/* No side padding: with the box gone there is no box to inset from, so the headline hangs off the
-   left edge of the plate the way it does on the reference wall. */
-body.home .body{padding:11px 0 0;display:flex;flex-direction:column;gap:7px;flex:1;min-width:0}
-/* The headline is HTML again. It lived inside the poster as a 90 px SVG text node, which is why the
-   old card had to hide it — nothing could be selected, searched or wrapped.
-
-   ROUND 5 — it is set at poster weight now. At 17-21px on a 438px tile it was a caption under a
-   picture: the art carried the whole card and the bottom third was inert. At 22-30px, full white,
-   it is the card's second focal point and the thing that pulls the eye down off the plate. */
-body.home .q{margin:0;font-family:var(--head);font-weight:700;line-height:1.08;letter-spacing:-.026em;
-  font-size:clamp(22px,2vw,30px);color:var(--ink);text-wrap:balance}
-body.home .q a{text-decoration:none;color:inherit}
-body.home .q a:hover{color:var(--fl,var(--green-l))}
-body.home .q em{font-style:normal;color:var(--gold-l)}
-body.home .ctx{margin:0;font-size:13.5px;line-height:1.45;color:var(--ink-2);max-width:52ch}
-/* The category, folded into the first line of context instead of standing on a line of its own.
-   It is data, so it stays; it was costing a whole row of card height to say one word. */
-body.home .cat{color:var(--fl,var(--green-l));font-family:var(--head);font-weight:700;font-size:9.5px;
-  letter-spacing:.16em;text-transform:uppercase;margin-right:9px;white-space:nowrap}
-
-/* THE METER — the one element on a card that is not the same on every card, so it is the only one
-   that survived the cut. One tick per claim checked, the corrected ones struck in accent. It runs
-   full-bleed directly under the plate and reads as the bottom edge of the art rather than as a row
-   of text, which is why the sentence that used to label it is gone. */
-body.home .meter{display:flex;flex-wrap:wrap;gap:3px;padding:9px 0 0;min-height:9px}
-body.home .meter i{display:block;width:7px;height:14px;border-radius:1px;background:var(--fl,var(--green-l));opacity:.6}
-body.home .meter i.x{background:var(--accent);opacity:1;box-shadow:0 0 0 1px rgba(240,166,121,.4)}
-
-body.home .side{font-size:11px;line-height:1.5;padding:2px 8px;border-radius:999px;border:1px solid;white-space:nowrap}
-body.home .side.green{color:var(--green-l);border-color:rgba(127,211,175,.34);background:rgba(47,143,102,.14)}
-body.home .side.gold{color:var(--gold-l);border-color:rgba(236,203,118,.32);background:rgba(201,154,42,.13)}
-
-body.home .docs{display:flex;gap:0;flex-wrap:wrap;width:100%}
-body.home .docs a{font-size:10px;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-2);
-  text-decoration:none;padding:1px 0;white-space:nowrap}
-body.home .docs a+a{margin-left:8px;padding-left:8px;border-left:1px solid var(--line)}
-body.home .docs a:hover{color:var(--cyan)}
-body.home .docs .play{color:var(--accent);font-weight:600}
-
-/* The trust cell. Same shape as every other cell in the wall — plate, meter line, headline, context
-   — because it belongs to the wall; different only in what its plate DRAWS, which is the archive's
-   whole ledger instead of one episode's number. It is dealt in at position four so the grid has a
-   break in it rather than a plug on the end. */
-body.home .record{--f:#7a5410;--fb:#2b1d05;--fl:var(--gold-l)}
-body.home .record .plate{background:radial-gradient(130% 130% at 30% 20%,#a2701a,#33230a 84%)}
-/* ROUND 9 — THE RECORD STOPS SETTING THE ROW.
-   Every cell is a flex column of plate + meter + body, and a grid row is as tall as its tallest
-   cell's CONTENT. The record's body carries two lines the episodes do not — a headline that wraps
-   and the four document names — so wherever it landed, its row ran 512px against the other row's
-   443 and the two episode tiles beside it each got 69px of nothing under their context line. Not a
-   gap between cards: an empty rectangle inside one, with a plate above it and page below.
-   The plate is the only part of this cell with slack in it, so the plate takes the difference. Its
-   flex-basis is 0, which is what stops it contributing to the row's intrinsic height at all, and it
-   then grows into whatever the EPISODES leave — so the row is sized by the wall and the record fits
-   into it. The body is pinned to flex:0 0 auto, or it would split that space with the plate.
-   The ledger inside it is drawn to slice rather than fit, so a shorter plate crops the field instead
-   of letterboxing it back into the bare gradient rounds 4-7 spent themselves deleting. */
-body.home .record .plate{aspect-ratio:auto;flex:1 1 0;min-height:120px}
-/* --- ALONE IN THE ROW (LEDGER, ISS-037 option d). recordSpan is 12 at 3, 6, 9… episodes — exactly
-   when the record starts a fresh row by itself, so flex:1 1 0 has no neighbour to take height from
-   and the plate fell to its 120px floor: 1357x120 at 1440px, and the slice crop showed a 56-unit
-   strip of bar middles with no baseline rule. Same principle the one-column breakpoint below already
-   states; that case was covered and this one was not.
-   4/1 rather than a pixel floor because aspect-ratio makes the crop WIDTH-INDEPENDENT — the band is
-   640/4 = 160 viewBox units on any monitor, holding y 160..320, so the bars' feet (294) and the rule
-   (308) are always in. A px floor would show a different picture at every width.
-   ⚠ THE RULE ITSELF LIVES IN THE min-width:1141px BREAKPOINT, not here. data-span comes from the
-   episode COUNT and knows nothing about widths, and [data-span="12"] outranks the plain
-   .record .plate rule the one-column breakpoint uses — left unscoped it would silently have taken
-   the phone layout's 4/3 away. */
-/* --- The ledger's words (PKG-038, then LEDGER for ISS-037). PKG-038 took them out of the SVG and
-   parked them ON the plate, so they were resolved against the plate and painted on the bars: 1.45:1.
-   Out here in the tile's flow nothing is behind them at any span, so the contrast is a property of
-   the LAYOUT and cannot vary with the episode count. Measured on the page ground #0d1a20: figure
-   11.3:1, sub-line 5.5:1. ⚠ opacity:.62 is GONE from the sub-line — it would take --ink-3 to 2.9:1
-   here; subordinate is done with size, weight and hue, never by fading toward the background.
-   Left-aligned because it now belongs to the tile's text column. The full account is in the markup,
-   which does not ship. (No backticks: this stylesheet is a JS template literal.) */
-body.home .record .ltype{margin:0;padding:10px 0 0;display:flex;flex-wrap:wrap;align-items:baseline;
-  gap:2px 12px}
-body.home .record .ltype b{font-family:"Space Grotesk",system-ui,sans-serif;color:var(--fl,var(--gold-l));
-  font-weight:700;font-size:clamp(11px,1.15vw,19px);letter-spacing:.19em}
-body.home .record .ltype span{font-family:"Space Grotesk",system-ui,sans-serif;color:var(--ink-3);
-  font-weight:500;font-size:clamp(9px,.82vw,13px);letter-spacing:.2em}
-body.home .record .body{flex:0 0 auto}
-body.home .record .plate::after{background:var(--gold-l);opacity:.75}
-body.home .record .tab{color:#2b1d05;background:var(--gold-l)}
-/* ⛔ THE EMPTY .meter SPACER IS GONE (LEDGER). It was a 23px blank holding this cell's rhythm —
-   plate, rule of ticks, headline — without drawing a measurement that does not exist. The ledger
-   caption now holds that slot with real copy, so nothing has to exist purely to reserve space. The
-   trade recorded there is unchanged: since ROUND 9 the plate absorbs the row's slack, so this cell's
-   headline starts higher than the episodes' beside it. */
-body.home .record .q em{color:var(--accent)}
-body.home .rlist{list-style:none;margin:auto 0 0;padding:8px 0 0;display:flex;flex-wrap:wrap;gap:5px;counter-reset:doc}
-body.home .rlist li{font-family:var(--head);font-size:9.5px;letter-spacing:.09em;text-transform:uppercase;
-  color:var(--ink-2);border:1px solid var(--line);border-radius:2px;padding:3px 6px 3px 5px;white-space:nowrap}
-body.home .rlist li::before{counter-increment:doc;content:counter(doc,decimal-leading-zero);
-  color:var(--gold-l);margin-right:5px;font-weight:700}
 
 /* search hits, revealed under a matching tile */
 body.home .hits{list-style:none;margin:2px 0 0;padding:9px 0 0;border-top:1px dashed var(--line);display:flex;flex-direction:column;gap:5px}
@@ -779,51 +471,21 @@ body.home .foot-site .w{color:var(--ink-2);font-family:var(--head);font-weight:7
 body.home .foot-site a{color:var(--cyan)}
 
 /* ------------------------------------------------------------------------------ breakpoints */
-@media (min-width:1141px){
-  body.home .grid[data-n="2"] .tile{grid-column:span 6}
-  body.home .grid[data-n="1"] .tile{grid-column:span 8}
-  body.home .grid[data-n="1"] .body{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);
-    gap:8px 22px;align-content:start}
-  body.home .grid[data-n="1"] .q,body.home .grid[data-n="1"] .ctx{grid-column:1}
-  body.home .grid[data-n="1"] .hits{grid-column:2;grid-row:1/span 5;margin:0;padding:0 0 0 20px;
-    border-top:0;border-left:1px solid var(--line);gap:7px;align-self:stretch}
-  /* ALONE IN THE ROW — the record spans all 12 only where the grid HAS 12, so the rule is scoped
-     here rather than reset in the two narrower blocks below. See .record .plate above. */
-  body.home .record[data-span="12"] .plate{aspect-ratio:4/1;flex:0 0 auto;min-height:0}
+@media (max-width:1100px){
+  body.home .grid,body.home .grid[data-n="1"]{grid-template-columns:minmax(0,1fr)}
 }
-@media (max-width:1140px){
-  body.home .grid{grid-template-columns:repeat(6,1fr)}
-  body.home .grid>*{order:var(--o1,0)}
-  body.home .tile{grid-column:span 3}
-  body.home .record{grid-column:span 3!important}
-}
-@media (max-width:980px){
-  /* the picture stays — it just goes on top, where a phone's first screen is */
-  body.home .mast-in{grid-template-columns:1fr;gap:clamp(16px,3vw,26px)}
-  body.home .mast-say{order:2}
-  body.home .hero-art{order:1;padding-top:clamp(18px,3vw,30px);max-width:620px}
-  /* Five across down to here; below it the labels start colliding, so the band folds to 3+2 rather
-     than shrinking the numbers into decoration. The zero lands on the second row's right, which is
-     where the eye finishes — the strip still ends on it. */
-  body.home .rail{grid-template-columns:repeat(3,1fr)}
-  body.home .rail li:nth-child(4){border-left:0;padding-left:0}
-  body.home .rail li:nth-child(n+4){border-top:1px solid var(--line);padding-top:11px}
+@media (max-width:900px){
+  /* the thumbnail goes on top, where a phone's first screen is; green then gold below it */
+  body.home .duel{grid-template-columns:1fr}
+  body.home .dmid{order:-1}
+  body.home .duel.solo .dmid{grid-template-columns:1fr}
+  body.home .dside.d{text-align:left}
+  body.home .dside p{font-size:19px}
 }
 @media (max-width:700px){
-  body.home .grid{grid-template-columns:1fr;gap:12px}
-  body.home .grid>*{order:var(--o2,0)}
-  body.home .tile{grid-column:auto;grid-row:auto}
-  body.home .record{grid-column:auto!important}
-  /* One column: every cell is its own row, so nothing is being squared off against a neighbour and
-     there is no slack for the plate to absorb. The record takes its 4:3 back rather than standing a
-     third shorter than every tile above and below it for no reason. */
-  body.home .record .plate{aspect-ratio:4/3;flex:0 0 auto;min-height:0}
-  body.home .rail{grid-template-columns:repeat(3,1fr)}
-  body.home .rail li{padding:8px 0 9px;padding-left:10px;gap:0}
-  body.home .rail li:nth-child(3n+1){border-left:0;padding-left:0}
-  body.home .rail li:nth-child(n+4){border-top:1px solid var(--line);padding-top:9px}
-  body.home .rail b{font-size:22px}
-  body.home .rail span{font-size:8.5px;letter-spacing:.1em;line-height:1.4}
+  body.home .hed{display:none}
+  body.home .chan{margin-left:auto}
+  body.home .case{grid-template-columns:1fr}
   body.home .bar-in{gap:8px 10px;padding:9px var(--pad)}
   body.home .search{flex:1 1 100%;max-width:none;order:0}
   body.home .search kbd{display:none}
@@ -833,31 +495,56 @@ body.home .foot-site a{color:var(--cyan)}
   body.home .chips::-webkit-scrollbar{display:none}
   body.home .views{margin-left:0;order:1}
   body.home .count{order:1;flex:1 1 auto;font-size:10.5px;white-space:normal;text-align:right}
-  body.home .hed{font-size:clamp(2rem,8.8vw,2.9rem);letter-spacing:-.032em}
-  /* The plate stacks; it does NOT stop being a plate. Two 170px columns is four words a line and the
-     definitions stop being readable as sentences, so green goes on top of gold — still two solid
-     fields, still butted, with the seam turned ninety degrees onto the join. A phone screenshot is
-     the single most-reshared picture this page will ever produce, so the colour blocking has to
-     survive the stack; wall-calm's version went to two paragraphs and a rule here, which is the
-     squint problem back again at the width where it matters most. */
-  body.home .stand{grid-template-columns:1fr;gap:0}
-  /* the vertical rule goes; the seam is redrawn on the second block's own top edge, so it lands
-     between the two definitions whatever height either one wraps to — 50% of the block is not the
-     boundary once green's sentence is a line longer than gold's */
-  body.home .stand::before{display:none}
-  body.home .st{padding:13px 15px}
-  body.home .st+.st{position:relative}
-  body.home .st+.st::before{content:"";position:absolute;left:0;right:0;top:0;height:3px;z-index:2;
-    background:linear-gradient(90deg,var(--green-l),var(--gold-l));
-    box-shadow:0 0 18px -2px rgba(127,211,175,.35)}
-  body.home .stand dd{font-size:13.5px}
-  body.home .lede{font-size:14px;line-height:1.5}
-  /* stacked, the judge line lands directly under the gold definition and starts reading as a third
-     sentence of it; the clamp bottoms out at 14px here, so it is set explicitly */
-  body.home .judge{font-size:15px;margin-top:17px}
-  body.home .cta{gap:12px 16px}
-  body.home .watch{padding:10px 17px;font-size:14px}
-  body.home .hero-art{padding:clamp(14px,4vw,26px) 0 6px}
-  body.home .plabel{font-size:9.5px;padding:5px 9px;gap:7px}
-  body.home .q{font-size:25px}
 }
+
+/* ══════════════════════════ THE EPISODE PAGE + THE RECORD TABS (package SITEC) ═════════════════
+   Scoped to body.epx (the episode page) except .ep-tabs, which the document pages carry too. */
+.ep-tabs{display:flex;gap:2px;overflow-x:auto;border-bottom:1px solid var(--line);margin:1.6rem 0 0;scrollbar-width:thin}
+.ep-tabs a{padding:.7rem 1rem;color:var(--ink2);font-family:var(--head);font-weight:600;font-size:.92rem;text-decoration:none;
+  white-space:nowrap;border-bottom:2px solid transparent;margin-bottom:-1px}
+.ep-tabs a:hover{color:var(--ink)}
+.ep-tabs a.on{color:var(--ink);border-bottom-color:var(--green-l)}
+.ep-tabs small{font-family:var(--body);font-weight:500;color:var(--ink3);font-size:.78rem;margin-left:.45rem}
+body.hastoc .ep-tabs,.crumb+.ep-tabs{max-width:var(--w);margin:.8rem auto 0;padding:0 clamp(1rem,5vw,3rem)}
+body.hastoc .crumb+.ep-tabs{max-width:76rem}
+
+body.epx main{max-width:74rem}
+.ep-hd{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:2rem;align-items:center}
+.ep-art{position:relative;display:block;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:var(--bg2)}
+.ep-art .art{display:block;width:100%;height:100%}
+.ep-art .dur{position:absolute;right:8px;bottom:8px;background:rgba(0,0,0,.8);color:#fff;font-size:.78rem;font-weight:600;padding:2px 7px;border-radius:5px}
+.ep-say h1{margin:.2rem 0 .7rem}
+.ep-say .q{font-size:.98rem}
+.ep-cta{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:1rem}
+.ep-cta a{display:inline-flex;align-items:center;gap:.4rem;padding:.6rem 1rem;border-radius:10px;font-weight:600;font-size:.92rem;
+  text-decoration:none;border:1px solid var(--line2);color:var(--ink)}
+.ep-cta .watch{background:var(--green-l);color:#06231a;border-color:transparent}
+.ep-cta a:hover{filter:brightness(1.1)}
+.ep-two{display:grid;grid-template-columns:1fr 1fr;gap:.9rem;margin:1.8rem 0 0}
+.ep-two div{padding:1rem 1.15rem;border-radius:12px}
+.ep-two b{font-family:var(--head);font-size:.72rem;letter-spacing:.16em;text-transform:uppercase}
+.ep-two p{margin:.3rem 0 0;font-family:var(--head);font-weight:700;font-size:1.2rem;line-height:1.25;color:#fff}
+.ep-two .g{background:rgba(47,143,102,.22);border-top:3px solid var(--green-l)}.ep-two .g b{color:var(--green-l)}
+.ep-two .d{background:rgba(201,154,42,.2);border-top:3px solid var(--gold-l)}.ep-two .d b{color:var(--gold-l)}
+body.epx .docs{grid-template-columns:repeat(2,minmax(0,1fr));margin-top:1.2rem}
+.ep-claims h2,.ep-rel h2{margin-top:2.4rem}
+.ep-claims h2 span{font-family:var(--body);font-weight:500;font-size:.85rem;color:var(--ink3);margin-left:.5rem;letter-spacing:0}
+.claims{list-style:none;padding:0;margin:0;display:grid;gap:.6rem}
+.claim{margin:0;border:1px solid var(--line);border-radius:10px;padding:.75rem 1rem;background:rgba(0,0,0,.18);display:flex;gap:.8rem;align-items:baseline}
+.claim p{margin:0;font-size:.93rem;color:var(--ink2)}
+.claim.x{border-color:rgba(240,166,121,.5);background:rgba(240,166,121,.06)}
+.vd{flex:0 0 auto;font-family:var(--head);font-weight:700;font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;padding:.2rem .45rem;border-radius:5px;background:rgba(255,255,255,.07);color:var(--ink2)}
+.vd-corrected{background:rgba(240,166,121,.16);color:var(--mark)}
+.vd-confirmed{background:rgba(127,211,175,.14);color:var(--green-l)}
+.more-claims{margin-top:.8rem}
+.more-claims summary{cursor:pointer;color:var(--ink2);font-weight:600;font-size:.92rem;margin-bottom:.6rem}
+.ep-claims .raw{margin-top:.9rem;font-size:.9rem}
+.ep-rel ul{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}
+.ep-rel li{margin:0}
+.ep-rel a{text-decoration:none;color:var(--ink)}
+.ep-rel b{display:block;margin-top:.5rem;font-family:var(--head);font-weight:600;font-size:.95rem;line-height:1.3}
+.ep-rel a:hover b{color:var(--green-l)}
+@media (max-width:860px){.ep-hd,.ep-two,body.epx .docs{grid-template-columns:1fr}.ep-rel ul{grid-template-columns:1fr 1fr}}
+@media (max-width:520px){.ep-rel ul{grid-template-columns:1fr}}
+/* The object thumbnails' own type rules, lifted out of each inline copy (see thumbArt). */
+.fm-num{font-family:"Space Grotesk";font-weight:700;letter-spacing:-.03em}.fm-unit{font-family:"Space Grotesk";font-weight:500;font-size:30px;letter-spacing:.2em}.fm-pan{font-family:"Space Grotesk";font-weight:700;font-size:30px;letter-spacing:.045em}.fm-at{font-family:"Space Grotesk";font-weight:700;font-size:21px;letter-spacing:.19em}.ft-q{font-family:"Space Grotesk";font-weight:700;letter-spacing:-.02em}.ft-ctx{font-family:"Inter";font-weight:500}.ft-mark{font-family:"Space Grotesk";font-weight:700;letter-spacing:.18em}

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The research — What's actually inside a data center? · AI Am Debatable</title>
+<meta name="description" content="What we found, and how solid it is.">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body class="hastoc">
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <a class="brand" href="../index.html"><span class="mk">AI</span> Am Debatable</a>
+  <span class="sub">The full record behind every episode.</span>
+</header>
+<nav class="crumb"><a href="index.html">← What's actually inside a data center?</a> <span class="dot">·</span> <a href="brief.md">raw markdown</a></nav>
+<nav class="ep-tabs" aria-label="The record"><a href="brief.html" class="on" aria-current="page">The research</a><a href="sources.html">Sources</a><a href="factcheck-log.html">Fact-check log<small>25 claims · 1 corrected</small></a><a href="transcript.html">Transcript</a></nav>
+<div class="wrap">
+<nav class="toc" aria-label="On this page"><p class="toch">On this page</p><ul><li class="l2"><a href="#the-question">The question</a></li><li class="l2"><a href="#why-now">Why now</a></li><li class="l2"><a href="#what-s-inside">What's inside</a></li><li class="l2"><a href="#how-big">How big</a></li><li class="l2"><a href="#settled-not-in-dispute">Settled (not in dispute)</a></li><li class="l2"><a href="#claims-that-don-t-hold-up-as-repeated">Claims that don't hold up as repeated</a></li><li class="l2"><a href="#where-the-argument-starts">Where the argument starts</a></li><li class="l2"><a href="#what-we-could-not-establish">What we could not establish</a></li></ul></nav>
+<main id="main" class="doc">
+<p class="kicker">Episode 24 <span class="dot">·</span> The research</p>
+<h1 id="research-brief-what-s-actually-inside-a-data-center">Research brief — What's Actually Inside a Data Center?</h1>
+<p><em>The full research behind the episode, linked below the video. This is an <strong>explainer</strong>: it takes no side. It says what is known, how big it is, and where the real arguments begin.</em></p>
+<h2 id="the-question">The question</h2>
+<p>What is physically inside a data center, how does it work, and how much electricity and water does it really use? The fights over data centers (bans, power bills, water) are loud; most people have never been told what the building actually is.</p>
+<h2 id="why-now">Why now</h2>
+<p>Northern Virginia, the largest market in North America, added more than a gigawatt in a year and is down to 0.2% vacancy (CBRE, 8 Sep 2026). Oracle has reportedly sent a force-majeure notice on its New Mexico Stargate campus (TechCrunch, 24 Sep 2026). Towns are voting on whether to allow new sites.</p>
+<h2 id="what-s-inside">What's inside</h2>
+<ul><li><strong>Racks of servers:</strong> cabinets of screenless computers (processors, memory, storage), networked through switches at the top of each rack into larger switches.</li><li><strong>Power:</strong> the grid feeds an on-site substation; power is stepped down and distributed to the racks. Batteries bridge any outage until diesel generators start. Loudoun County alone has 4,000+ permitted generators (~2 MW each, tractor-trailer sized), usually run about an hour a week for testing.</li><li><strong>Cooling:</strong> every watt in becomes heat. Conventional sites move it with chilled water and reject it through cooling towers, which evaporate water. Dry coolers save water but use more power: that is the core trade-off. Dense AI racks bring liquid to plates on the chips themselves.</li></ul>
+<h2 id="how-big">How big</h2>
+<ul><li>US data center electricity: ~60 TWh a year through 2016, 76 TWh in 2018, <strong>176 TWh (4.4%) in 2023</strong> — about what 16 million homes use. <strong>6.7–12% projected for 2028</strong> (LBNL).</li><li>A typical rack drew <strong>8.4 kW</strong> in 2020 (Uptime); an NVIDIA GB200 NVL72 rack draws <strong>~120 kW</strong>, about the average draw of a hundred homes. The largest training runs exceed <strong>100 MW</strong>, growing ~2.2x a year (Epoch).</li><li>Water, 2023: <strong>~66 billion liters</strong> consumed on site; <strong>~800 billion liters</strong> behind the electricity (LBNL). Google: ~8.1 billion gallons across data centers and offices in 2024, which Google compares to 54 Southwestern golf courses.</li><li>Campus headline figures are usually <strong>plans</strong>: Meta says Richland Parish will deliver 5 GW of compute capacity.</li></ul>
+<h2 id="settled-not-in-dispute">Settled (not in dispute)</h2>
+<ul><li>Use roughly tripled from the mid-2010s to 2023 and is still rising.</li><li>AI racks are an order of magnitude denser than typical ones.</li><li>Water figures swing on definitions: withdrawal vs consumption, on-site vs power plant, and place.</li><li>A finished building employs few permanent workers (~50 full-time per typical building, JLARC); data centers can be a large share of local revenue (up to 31% in one Virginia locality).</li></ul>
+<h2 id="claims-that-don-t-hold-up-as-repeated">Claims that don't hold up as repeated</h2>
+<ul><li>"A bottle of water per prompt": the study said a bottle per 10–50 responses, for GPT-3, counting power-plant water.</li><li>Per-prompt energy: Google reports a median of 0.24 Wh. Long or complex tasks cost more, and small per question is not small in total.</li><li>"X gigawatts": usually capacity a site is being built toward, not what it draws.</li></ul>
+<h2 id="where-the-argument-starts">Where the argument starts</h2>
+<p>How much more gets built; who pays for the lines and plants it needs; whether towns get a say. The channel's debates: ep17 (should your town be able to ban a data center?), ep11 (who pays for the grid the AI boom needs?), ep03 (build fast, or pump the brakes?).</p>
+<h2 id="what-we-could-not-establish">What we could not establish</h2>
+<p>The IEA's headline figures (the report could not be opened); the origin of the "ten times a search" claim; a sourced diagram of the grid-to-rack power chain; any official count of US data centers.</p>
+</main>
+</div>
+<footer>
+  <p>This is the working record behind the videos — the research, both sides' arguments, and the
+     fact-check log, including the claims we got wrong and corrected.</p>
+  <p>Every page here is kept in version control. <strong>The edit history is public</strong>, so a
+     correction can be checked rather than taken on trust — that is the point of publishing it this way.</p>
+  <p>None of the debaters are human experts, and none of this is advice.</p>
+</footer>
+<script src="../assets/site.js"></script>
+</body>
+</html>

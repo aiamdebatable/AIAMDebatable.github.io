@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Transcript — What's actually inside a data center? · AI Am Debatable</title>
+<meta name="description" content="The verbatim spoken track, in broadcast order.">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body class="hastoc">
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <a class="brand" href="../index.html"><span class="mk">AI</span> Am Debatable</a>
+  <span class="sub">The full record behind every episode.</span>
+</header>
+<nav class="crumb"><a href="index.html">← What's actually inside a data center?</a> <span class="dot">·</span> <a href="transcript.md">raw markdown</a></nav>
+<nav class="ep-tabs" aria-label="The record"><a href="brief.html">The research</a><a href="sources.html">Sources</a><a href="factcheck-log.html">Fact-check log<small>25 claims · 1 corrected</small></a><a href="transcript.html" class="on" aria-current="page">Transcript</a></nav>
+<div class="wrap">
+<nav class="toc" aria-label="On this page"><p class="toch">On this page</p><ul><li class="l2"><a href="#cold-open">Cold open</a></li><li class="l2"><a href="#what-a-data-center-is">What a data center is</a></li><li class="l2"><a href="#walk-in">Walk in</a></li><li class="l2"><a href="#power-in-and-the-backup-plan">Power in, and the backup plan</a></li><li class="l2"><a href="#how-much-electricity">How much electricity</a></li><li class="l2"><a href="#what-ai-changed">What AI changed</a></li><li class="l2"><a href="#getting-rid-of-the-heat">Getting rid of the heat</a></li><li class="l2"><a href="#how-much-water-really">How much water, really</a></li><li class="l2"><a href="#numbers-you-ve-heard">Numbers you've heard</a></li><li class="l2"><a href="#where-the-argument-starts">Where the argument starts</a></li></ul></nav>
+<main id="main" class="doc">
+<p class="kicker">Episode 24 <span class="dot">·</span> Transcript</p>
+<h1 id="ep24-transcript-what-s-actually-inside-a-data-center">ep24 — transcript · "What's actually inside a data center?"</h1>
+<p><em>The verbatim spoken track, in running order. Generated from the spine by <code>node episodes/gen_transcript.mjs ep24-inside-a-data-center --write</code>; the headings are authored, the dialogue is the script that was synthesised. This is an explainer: no debate and no recorded close — the AI disclosure is on the closing card and in the description.</em></p>
+<h2 id="cold-open">Cold open</h2>
+<p class="say"><span class="who">Narrator</span><span class="what">You've heard the arguments about data centers. The power bills. The water. Towns voting on whether to let one in.</span></p>
+<p class="say"><span class="who">Narrator</span><span class="what">But most people have never been inside one.</span></p>
+<p class="say"><span class="who">Narrator</span><span class="what">So let's go in, see what's actually there, and check the numbers everybody's fighting about.</span></p>
+<h2 id="what-a-data-center-is">What a data center is</h2>
+<p class="say"><span class="who">Erin</span><span class="what">Okay, Walt. Plain English. What is a data center?</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">A building full of computers that never turn off.</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">When you stream a show, send an email, or ask an AI something, the work happens on a machine in a building like this.</span></p>
+<p class="say"><span class="who">Erin</span><span class="what">How many are there?</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">Honestly? Nobody keeps an official count.</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">But we know where the biggest cluster is. Northern Virginia.</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">About four and a half gigawatts of capacity, and almost none of it sitting empty.</span></p>
+<p class="say"><span class="who">Erin</span><span class="what">Why there?</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">Right now, the people who track that market say one word decides it. Power.</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">Hold on to that word. It explains almost everything inside.</span></p>
+<h2 id="walk-in">Walk in</h2>
+<p class="say"><span class="who">Walt</span><span class="what">Walk in, and you'd see rows of tall metal cabinets. We call them racks.</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">Each one is stacked with servers. Computers with no screen and no keyboard. Just chips, memory, and storage.</span></p>
+<p class="say"><span class="who">Erin</span><span class="what">And they're all wired together?</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">Each rack plugs into a switch on top. Those switches plug into bigger ones.</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">So any machine in the building can reach any other in a couple of hops.</span></p>
+<p class="say"><span class="who">Erin</span><span class="what">So it's a giant, very loud library of computers.</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">A very loud, very hot one. We'll get to hot.</span></p>
+<h2 id="power-in-and-the-backup-plan">Power in, and the backup plan</h2>
+<p class="say"><span class="who">Walt</span><span class="what">Power comes in from the grid, through the site's own substation.</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">It gets stepped down, and sent out to every rack.</span></p>
+<p class="say"><span class="who">Erin</span><span class="what">What if the power goes out?</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">Batteries take over instantly. Then diesel generators start up behind them.</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">In Loudoun County, Virginia, more than four thousand backup generators are permitted. Each one about the size of a tractor-trailer.</span></p>
+<p class="say"><span class="who">Erin</span><span class="what">Four thousand? Are those running all the time?</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">Mostly not. The county says most sites run them about an hour a week, for testing.</span></p>
+<h2 id="how-much-electricity">How much electricity</h2>
+<p class="say"><span class="who">Erin</span><span class="what">So how much electricity are we talking about?</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">For years, America's data centers used roughly the same amount. About sixty terawatt-hours a year.</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">Then it took off. By twenty twenty-three, about a hundred and seventy-six.</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">That's around four and a half percent of all the electricity the country uses.</span></p>
+<p class="say"><span class="who">Erin</span><span class="what">Give me something I can picture.</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">About what sixteen million American homes use in a year.</span></p>
+<p class="say"><span class="who">Erin</span><span class="what">And where's it going?</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">The national lab behind those numbers says by twenty twenty-eight, somewhere between seven and twelve percent.</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">A range, because nobody knows how much of what's announced will actually get built.</span></p>
+<h2 id="what-ai-changed">What AI changed</h2>
+<p class="say"><span class="who">Erin</span><span class="what">Where does AI come into this?</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">In what goes in the racks. The new ones are packed with chips built to do huge amounts of math at once.</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">A few years ago, a typical rack drew about eight kilowatts.</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">One of Nvidia's current AI racks draws about a hundred and twenty.</span></p>
+<p class="say"><span class="who">Erin</span><span class="what">In the same size cabinet?</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">Same footprint. One of those racks draws about as much as a hundred average homes.</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">And the biggest AI training runs now use more than a hundred megawatts at once. That's been more than doubling every year.</span></p>
+<p class="say"><span class="who">Erin</span><span class="what">And all of that turns into what?</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">Heat. Every bit of it.</span></p>
+<h2 id="getting-rid-of-the-heat">Getting rid of the heat</h2>
+<p class="say"><span class="who">Walt</span><span class="what">Most data centers cool the way a big office building does.</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">Chilled water carries heat out of the server halls. Towers outside dump it into the air, by evaporating some of that water.</span></p>
+<p class="say"><span class="who">Erin</span><span class="what">So that's where the water goes.</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">That's where the building's own water goes. Some sites skip it, and use dry coolers. Like a giant car radiator.</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">But those burn more electricity. Save water, spend power. Save power, spend water.</span></p>
+<p class="say"><span class="who">Erin</span><span class="what">And the AI racks?</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">At that density, blowing air isn't enough. Liquid runs through plates sitting right on the chips.</span></p>
+<h2 id="how-much-water-really">How much water, really</h2>
+<p class="say"><span class="who">Erin</span><span class="what">So how much water, really?</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">In twenty twenty-three, US data centers used about seventeen billion gallons on site.</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">But here's the part most coverage leaves out. Power plants use water too.</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">The water behind data centers' electricity was more than ten times that.</span></p>
+<p class="say"><span class="who">Erin</span><span class="what">So the power plant is the bigger water user.</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">Nationally, yes. But the on-site water lands on whatever town hosts the building.</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">Google says its data centers and offices used about eight billion gallons in twenty twenty-four.</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">Its own comparison is fifty-four golf courses in the Southwest.</span></p>
+<p class="say"><span class="who">Erin</span><span class="what">So whether that's a lot depends on where it is.</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">And which river it's coming out of.</span></p>
+<h2 id="numbers-you-ve-heard">Numbers you've heard</h2>
+<p class="say"><span class="who">Erin</span><span class="what">Okay. Some numbers I've definitely heard. A bottle of water for every AI prompt.</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">The study behind that said a bottle for every ten to fifty responses.</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">For an older model. And it counted the power plant's water too.</span></p>
+<p class="say"><span class="who">Erin</span><span class="what">What about the energy for one AI question?</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">Google says its typical text prompt uses about a quarter of a watt-hour.</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">They compare that to nine seconds of TV. That's Google's own number, and long, complicated requests use more.</span></p>
+<p class="say"><span class="who">Erin</span><span class="what">And the five-gigawatt headlines?</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">Usually a plan. Meta says its Louisiana site will deliver five gigawatts of capacity. That's the goal, not what it draws today.</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">So each question is small. The total is big, and it's growing.</span></p>
+<h2 id="where-the-argument-starts">Where the argument starts</h2>
+<p class="say"><span class="who">Erin</span><span class="what">So what's actually settled?</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">That they use a lot of power, that it roughly tripled in seven years, and that it's still climbing.</span></p>
+<p class="say"><span class="who">Erin</span><span class="what">And what are people really arguing about?</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">How much more gets built. Who pays for the power lines and plants it needs. And whether a town gets a say.</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">For the town, it's a big building, a lot of power, some water, and not many permanent jobs. About fifty full-time workers in a typical building.</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">And for some counties, a big share of the budget.</span></p>
+<p class="say"><span class="who">Erin</span><span class="what">We've argued those out on this channel.</span></p>
+<p class="say"><span class="who">Erin</span><span class="what">Whether your town should be able to ban one. Who pays for the grid. And whether to build fast, or pump the brakes.</span></p>
+<p class="say"><span class="who">Walt</span><span class="what">Now at least you know what's inside.</span></p>
+</main>
+</div>
+<footer>
+  <p>This is the working record behind the videos — the research, both sides' arguments, and the
+     fact-check log, including the claims we got wrong and corrected.</p>
+  <p>Every page here is kept in version control. <strong>The edit history is public</strong>, so a
+     correction can be checked rather than taken on trust — that is the point of publishing it this way.</p>
+  <p>None of the debaters are human experts, and none of this is advice.</p>
+</footer>
+<script src="../assets/site.js"></script>
+</body>
+</html>
