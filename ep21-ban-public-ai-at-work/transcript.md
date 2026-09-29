@@ -1,0 +1,201 @@
+# ep21 — transcript · "Should Your Company Ban Public AI at Work?"
+
+_The verbatim spoken track, in running order. Generated from the spine by `node episodes/gen_transcript.mjs ep21-ban-public-ai-at-work --write`; the headings are authored, the dialogue is the script that was synthesised._
+
+## Cold open
+**Narrator:** Should your company ban public AI at work? Start with the case everyone cites.
+**Narrator:** In twenty twenty-three, Samsung let its chip engineers use ChatGPT. In under twenty days, by one Korean paper's count, they typed in chip code twice and a meeting's contents once. Samsung couldn't take it back.
+**Narrator:** So it shut the door. This June, it opened it again: three AI tools, after security training, then a contract. The Pentagon went further, and put ChatGPT inside its own network, on a platform built for more than three million personnel.
+**Narrator:** But a ban on company laptops can't reach one thing: the phone in your pocket. In one survey, about one in four workers whose employer restricts AI used a personal device or account anyway.
+**Narrator:** So today, what's actually worth banning: the app, or what you put into it? Two teams argue it, the research desk checks both, and you're the jury.
+
+## The clash
+**Cole:** This is AI Am Debatable. If you've sat in the meeting where this gets decided, you've probably heard three answers.
+**Cole:** Block anything that isn't on the approved list. Careful, because somebody has to handle the fallout when people suddenly get cut off. Or watch what people use, and find the tools to do it. Nobody has measured which one leaks less.
+**Cole:** Erin argues for keeping the door open.
+**Cole:** Raj argues for locking it.
+**Cole:** Before either of them, let's follow what actually happens to the thing you paste. Lena.
+
+## The research · What happens when you hit enter
+**Lena:** Picture it. You open a free chatbot, drop in a work email, and hit enter.
+**Cole:** And it goes where, exactly?
+**Lena:** To the AI company's servers. It gets processed there, and kept there, under that company's rules. Not your employer's.
+**Cole:** What rules?
+**Lena:** That depends on which door you came in by. A personal account, or one your company pays for.
+**Cole:** Why does that matter?
+**Lena:** Training. On a personal ChatGPT account, what you type can be used to train future models, unless you find the switch and turn it off. The business versions don't train on it by default.
+**Cole:** And the others?
+**Lena:** Anthropic started training on personal Claude accounts last year too, and keeping that data for up to five years. Its own pop-up showed the switch already on.
+**Cole:** Okay. Here's what everyone is actually scared of. I paste a secret, and the AI tells it to someone else.
+**Lena:** That's the fear. So we went looking for one documented case. Confidential data that one person typed, turning up in a stranger's answer. We didn't find one.
+**Cole:** Not even Samsung?
+**Lena:** Not even Samsung. We'll get to that story. The closest thing on record is a ChatGPT bug in twenty twenty-three that showed some users other people's chat titles and payment details. Not what anyone typed.
+**Cole:** So if the AI isn't blabbing, what's the actual risk?
+**Lena:** Losing control. Once it's typed, it's out of your building, under someone else's terms. And that has gone wrong in four documented ways.
+**Lena:** One, it can train the next model. Two, a court can order it kept. In the New York Times case against OpenAI, a judge had chat logs preserved for months, and OpenAI said that reached a paid business tier.
+**Cole:** Three and four?
+**Lena:** Three, stolen logins. Over three hundred thousand ChatGPT credentials were exposed last year. Four, shared chats that turned up in search results. ChatGPT's, Grok's, and Claude's, twice.
+**Cole:** So the question isn't whether the robot repeats you. It's who's holding your words, and on what terms. Hold that.
+
+## The ringmaster
+**Cole:** Erin. You first. Make the case.
+
+## The debate · Team Green · BAN THE DATA, NOT THE TOOL — opens
+**Erin:** Here's what Lena just showed you. The nightmare, the AI repeating your secret to a stranger, isn't on the record. What is on the record is data sitting under the wrong terms. A personal account, with the training switch on.
+**Erin:** So fix that. Decide what never goes into any tool without a contract. Give people work accounts with training off. And leave the public tools open for public work. Ban the data, not the tool.
+
+## The ringmaster
+**Cole:** Hold it there. Before we go further, Lena, how often is this actually happening?
+
+## The research · How often it happens — and what nobody can see
+**Lena:** The best evidence comes from security companies. Their software sits on work laptops and watches what gets pasted into AI tools.
+**Cole:** So this is the monitoring option. What does it see?
+**Lena:** A lot. One of them, Cyberhaven, watched more than two hundred companies last year. About four in ten AI interactions involved data the company's own rules call sensitive.
+**Cole:** Four in ten? Give me something I can picture.
+**Lena:** For one employee, about once every three days. At a three-hundred-person company, roughly a hundred times a day.
+**Cole:** And it's growing?
+**Lena:** Two years earlier, about a tenth of what went into AI was sensitive. Now it's about a third.
+**Cole:** Whose accounts are people using?
+**Lena:** More and more, the company's. Netskope found the share of AI users on personal accounts fell from nearly four in five to under half in a year. When companies handed out a tool, people used it.
+**Cole:** Which tools run most on personal accounts?
+**Lena:** Cyberhaven measured how much of each tool's use ran on personal accounts. ChatGPT, about a third. Claude, fifty-eight percent. Only Perplexity was higher.
+**Cole:** Now the question this whole episode turns on. What about the phone in my pocket?
+**Lena:** Every number I just gave you is blind to it. That's the limit of this kind of monitoring: it only sees company laptops and company networks. Your personal phone is invisible to it, by design.
+**Cole:** So how do we know anything about phones?
+**Lena:** Only by asking people. Zapier surveyed about a thousand American workers at companies that already pay for an AI tool. Of those whose employer restricts AI, about one in four used a personal device or account anyway.
+**Cole:** And when a company bans it outright?
+**Lena:** A big study by KPMG and the University of Melbourne asked that. Where AI was banned, about two in three said they'd uploaded sensitive work information to public tools. Where there was no policy at all, about one in three.
+**Cole:** Wait. Banned, and more people did it?
+**Lena:** That's what they reported. It's a correlation, not proof that a ban causes it. But the authors read it as a sign that outright bans may not work.
+**Cole:** So plenty of sensitive data goes in. And the one place a ban would push it is the one place nobody can see. Hold that.
+
+## The ringmaster
+**Cole:** Erin. Keep going.
+
+## The debate · Team Green — block the laptop, lose the view
+**Erin:** Now think about what a ban actually does. Every number Lena just gave you comes from company laptops. Block the app there, and you haven't stopped the paste. You've just stopped seeing it.
+**Erin:** And the people who were banned didn't stop. They reported doing it more. The study's own authors read that as a sign bans may not work. I'd rather keep the paste where I can see it, on a work account, with rules about what goes in.
+
+## The ringmaster
+**Cole:** Hold that thought, Raj. Before you answer, Lena has what the companies actually did.
+
+## The research · What companies did — the famous bans
+**Lena:** Start with the story everyone cites. Samsung.
+**Cole:** The chip code.
+**Lena:** Spring, twenty twenty-three. Samsung's chip division lets its engineers use ChatGPT. Within twenty days, according to one Korean business paper, there are three incidents. Chip-equipment code, twice. The contents of a meeting, once.
+**Cole:** And it leaked.
+**Lena:** That's the legend. The paper says entered, not leaked. Nothing in it says anyone outside ever saw a line. And Samsung never confirmed it.
+**Cole:** Then why the panic?
+**Lena:** Because it couldn't be taken back. It was on another company's servers. Samsung capped uploads at about a kilobyte a question. Then a memo, seen by Bloomberg, restricted public AI tools across one of its biggest divisions.
+**Cole:** And that's the ban everyone quotes.
+**Lena:** Here's the part that gets less airtime. This June, Samsung reopened. First three tools, ChatGPT, Gemini and Claude, but only after security training. Then a deal with OpenAI for every employee in Korea. Not the public app. A contract.
+**Cole:** Did anyone else ban it back then?
+**Lena:** The banks. JPMorgan restricted ChatGPT in twenty twenty-three, reportedly as routine compliance, not over any incident. Today its own AI suite has two hundred thousand users. Goldman and Morgan Stanley run their own assistants too.
+**Cole:** And the Pentagon is the big one this month.
+**Lena:** It went the furthest. It put ChatGPT inside its own network, on a platform cleared for sensitive unclassified data. This month its chief digital and AI officer said over two million people used that platform in a single week, across its three AI models.
+**Cole:** Did it work? Is anything safer?
+**Lena:** Nobody has published that. Adoption, yes. Security results, no. And one ban is still fresh. In April, the Democratic National Committee barred its staff from ChatGPT and Claude.
+**Cole:** So almost every famous ban didn't end as a ban. It ended as a company tool. Hold that.
+
+## The ringmaster
+**Cole:** Raj. Your response.
+
+## The debate · Team Gold · BLOCK THE PUBLIC TOOLS — responds
+**Raj:** Erin's best point first. A blocked app might just move the paste to a phone. It might. Nobody has measured it, for her side or mine.
+**Raj:** Now look at what the companies actually did. Samsung didn't reopen the public app. It signed a contract. The Pentagon brought it inside its own network. The banks built their own. Not one of them went back to the free version.
+**Raj:** And why? Lena told you at the start. Once it's typed into a personal account, it's under that company's terms, not yours. Your employee clicked accept. Your company didn't. And with four in ten AI interactions carrying sensitive data, that's a lot of clicks.
+**Raj:** So my first answer. The risk isn't the robot repeating you. It's who signed the contract.
+
+## The reframe · the ringmaster's
+**Cole:** Let's stop the clock. I came in expecting to referee ban it against allow it. That's not the argument on this desk.
+**Cole:** Here's the story so far. Nobody has shown a secret coming back out of a chatbot. What's documented is losing control of it. Plenty of sensitive data goes in, and the one place a ban would push it, nobody can see. And almost every famous ban ended in a company tool.
+**Cole:** So nobody here defends pasting secrets into personal accounts. And nobody defends a bare ban with nothing to replace it. The real question is what, exactly, you close off.
+**Cole:** Green says close off the data, and keep the public tools for public work, because a blocked app just goes dark on a phone. Gold says close off the public tools and hand people a company one, because nobody judges sensitivity right every time.
+**Cole:** And under that, the dial. How far down the sensitivity ladder does no consumer AI reach? That's the fight.
+
+## The ringmaster
+**Cole:** Before they go again, Lena. The piece nobody has argued yet: the law.
+
+## The research · What the rules say — and the question nobody answered
+**Lena:** Four stops: the regulators, the courts, the lawyers, and one question nobody has answered.
+**Cole:** Start with the regulators. Does any of them say just ban it?
+**Lena:** None we checked. They draw lines on the data instead. The UK government: never put official information into public AI unless it's already public. Australia: public tools are fine for its lowest classification, never above it. France: fine for non-confidential work, on work accounts.
+**Cole:** And the only actual ban?
+**Lena:** Aimed at a vendor, not at staff. Australia pulled DeepSeek off government devices.
+**Cole:** The courts, then. If I type a secret in, is it still a secret?
+**Lena:** The courts don't agree yet. In February, a federal judge in New York ruled that a defendant's chats with Claude weren't privileged, partly because of Anthropic's consumer privacy policy.
+**Cole:** Claude again.
+**Lena:** Claude again. But within a week, another judge called ChatGPT a tool, not a person, and protected a party's own trial preparation. And in June, two state courts shielded a litigant's ChatGPT chats. Different facts, different results.
+**Cole:** And the lawyers themselves?
+**Lena:** The American Bar Association says get the client's consent first. Not abstain. Consent. And California's legislature has passed a bill barring lawyers from putting confidential information into any AI system that isn't restricted to them and the people they authorise.
+**Cole:** Okay. So bring it inside the wall, with a company tool, and you're safe?
+**Lena:** Not on the record. The company tools have had their own holes. Microsoft's Copilot had a zero-click flaw, rated nine point three by Microsoft. Slack's AI could be tricked into pulling from private channels. Salesforce had one rated nine point four.
+**Lena:** And Anthropic first closed a Claude data-exfiltration report as out of scope, then said it shouldn't have. All of them patched. None shown exploited.
+**Cole:** Then the question I actually came in with. Does a ban work?
+**Lena:** Nobody has measured it. We searched for any organisation that counted personal phone or account use before and after a ban. Twice. We found none.
+**Cole:** Not one? Then what happens when you block it overnight?
+**Lena:** The closest is Italy, which blocked ChatGPT nationwide for about a month in twenty twenty-three. One study found developers' output fell by about half for two days, then bounced back, while searches for ways around the block went up.
+**Cole:** So a ban just moves the leak to phones?
+**Lena:** A reasonable guess. Not a finding. People say they route around bans. Nobody has measured what happens to the total.
+**Cole:** No regulator says ban it. The company tool has holes too. And nobody has measured a ban. Hold that.
+
+## The ringmaster
+**Cole:** Erin. You've heard the law. Finish your case.
+
+## The debate · Team Green — her weakest ground, then her rule
+**Erin:** Here's what it costs me, and I'll say it first. My rule depends on people judging what's sensitive, and the telemetry says a lot of sensitive data goes in anyway. A data rule is only as good as the worst paste of the day. That's my weakest ground.
+**Erin:** But weigh what the other side needs. Raj needs the company tool to be the safe place. You just heard about the holes in Copilot, Slack and Salesforce. And the court order he'd point to reached a paid business tier too. Bringing it inside swaps one company's terms for another's.
+**Erin:** So my rule, and it's the regulators' rule. Public tools for public work, with work accounts and the training switch off. Nothing confidential into any tool without a contract that covers it. Log what you can see. And don't block the one channel you can actually watch.
+**Erin:** Ban the data, not the tool. Not because employees are careful. Because a banned tool doesn't disappear from the phone. It disappears from your view.
+
+## The ringmaster
+**Cole:** Raj. Build yours.
+
+## The debate · Team Gold · BLOCK THE PUBLIC TOOLS
+**Raj:** Let me grant what's true. The famous bans ended in company tools. No regulator we checked recommends a blanket ban. And nobody has measured whether a ban works. I'll carry all three.
+**Raj:** Now what the record does show. Consumer terms change underneath you. Anthropic did it last year, and showed the switch already on. The employer wasn't asked. That's my best example.
+**Raj:** Second, the courts. The New York ruling on Claude chats turned partly on a consumer privacy policy. Other judges have gone the other way, on different facts, and I'll say so. But no company gets to argue about any of it until after an employee has typed.
+**Raj:** Third, her data rule needs a detector. A network block can stop a website. It can't read an employee's judgement. Every regulator's line, don't enter sensitive data, depends on the employee getting it right, every time, including at eleven at night with a deadline.
+**Raj:** My weakest ground, taken by me. Erin's right that a blocked tool can move to a phone, and I can't show you a ban that reduced anything. Nobody has measured it for my side either. And the company tools have had holes of their own.
+**Raj:** And look at what her rule asks. Every employee, on every paste, judging what's sensitive, on an app whose terms can change next month. The company everyone cites didn't make that bet. It made the company tool the door.
+**Raj:** So the honest posture isn't ban AI. It's this. Block the public tools for anything that matters. Supply a company one people actually want to use. And make that the easy path. That's where Samsung, the banks and the Pentagon all ended up.
+**Raj:** Block the public tools. Not because AI is dangerous. Because what's typed there lives under someone else's terms, and your company never signed them.
+
+## The ringmaster
+**Cole:** Erin. Last word before the judge.
+
+## The debate · Team Green — responds
+**Erin:** His terms point. I'll take it, because it's the strongest thing on this floor. Consumer terms do change, and that switch was shown on. But that's an argument for a contract on anything confidential. I've said that. It's not an argument for blocking a public tool from tidying up a press release that's already public.
+**Erin:** His courts. The New York ruling was a criminal defendant, not an employee and not a company. Within a week, another judge called ChatGPT a tool, not a person. And two state courts in June shielded ChatGPT chats. That's a direction he hopes for, not a rule.
+**Erin:** His detector. He's right that a network block can stop a website. It can't stop a phone. So his rule has the same detector problem mine has. Mine just keeps the laptop visible.
+**Erin:** My concession, plainly. He's right that every serious banner moved the data under a contract. So would I, for anything confidential. We disagree about the rest: the public work, the press release, the email that's already out there. He'd close all of it. I'd watch it.
+**Erin:** So what's left is where you'd rather lose sight. His way, you know the laptop is clean, and you don't know about the phone. Mine, you see most of it, and you trust people with the line. Nobody has measured which leaks less. I'd rather see.
+
+## The ringmaster
+**Cole:** Before the judge rules, one gut check for you at home.
+
+## Quick check
+**Lena:** Which of these is on the record: A, a company's confidential data, typed into a public chatbot, turning up in another user's answer. Or B, a federal judge ruling that a defendant's chats with a public chatbot weren't privileged.
+**Lena:** A, or B.
+
+## Quick check · the answer
+**Lena:** It's B. A federal judge in New York, this February, and the chatbot was Claude. The other one, a secret coming back out in someone else's answer, has no documented case. Not none. Not found.
+
+## The verdict
+**Walt:** This one doesn't resolve, and neither team wins it. Three things from me: what's settled, what survived, and what's yours.
+**Walt:** Both teams accepted the same record. Employees put sensitive data into AI tools, routinely. The famous bans ended in company tools. No regulator we checked recommends a blanket ban. Nobody has documented a secret coming back out in another user's answer. And nobody has measured whether a ban reduces exposure or moves it.
+**Walt:** What survived from green. Every measurement of what's typed comes from company devices, so a blocked app goes dark rather than away. Where employers banned AI, more workers reported uploading sensitive data, not fewer. And the company tools have documented holes; a court order even reached a paid business tier.
+**Walt:** What survived from gold. Consumer terms change underneath you, and Anthropic changed its own last year. A consumer privacy policy has already been read against a user in court. A data rule needs every employee to judge right, every time. And every serious banner went back through a contract, not the public app.
+**Walt:** What fell. Green's comfort: her rule leans on the same judgement the telemetry says lets sensitive data through. Gold's fear: he can't show a ban that reduced anything, and the company tool he trusts has had holes.
+**Walt:** So here's what the record supports. The danger isn't the AI repeating your secret. It's losing control of it. And everyone on this record drew the same line in the end: a controlled channel on one side, consumer accounts on the other.
+**Walt:** That leaves one dial neither team can set for you. How far down the sensitivity ladder does no consumer AI reach? Block the consumer tools entirely and supply your own, like Samsung and the Pentagon, which fails when people use their phones. Allow them for public work only, like Australia and the UK, which fails when people misjudge. Or data rules and consent with no tool rule, like the bar association, which fails when the terms change under you.
+**Walt:** So the question we're handing you isn't ban it or allow it. It's this: where on that ladder does your company close the door? That one's yours.
+
+## The close
+**Lucas:** Alright, that's the episode. I came into this one expecting an easy answer. Of course you don't paste company secrets into a chatbot. Who argues otherwise?
+**Lucas:** Then we read the record. Nobody's secret has been shown coming back out in someone else's answer. What's actually documented is losing control of it: the terms, the courts, the logins, the links.
+**Lucas:** The finding that stuck with me is the ladder. Everyone ends up drawing the same line. The fight is how far down it goes, and whether you enforce it on the tool or on the data.
+**Lucas:** One more thing. If you've been in one of these meetings at work, you know it isn't an easy call. Block too hard and people route around you. Trust too much and you're betting on every paste. That's why the verdict is yours.
+**Lucas:** Quick reminder before you go. None of the people you just heard are human experts. They're algorithms I set up to research this, fact-check it, and argue both sides. I'm not an expert either, and none of this is advice. I read what they used and what they threw out, and I decide whether it publishes. And nobody here declared a winner. That one's yours.
+**Lucas:** Everything's linked below. The research, both sides' arguments, the fact-check log, including where we caught our own bots getting things wrong. If you think we got a claim wrong, tell me which one and bring a source. If enough of you make the same case, I'll re-run it and show what changed.
+**Lucas:** If you enjoyed today's episode, like and subscribe. And join the discussion down in the comments — who knows, maybe your debatable question is the next question we debate.
