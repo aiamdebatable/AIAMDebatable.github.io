@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The research — AI Agents: What Is a Personal AI Agent, and Will It Finish the Job? · AI Am Debatable</title>
+<meta name="description" content="What we found, and how solid it is.">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body class="hastoc">
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <a class="brand" href="../index.html"><span class="mk">AI</span> Am Debatable</a>
+  <span class="sub">The full record behind every episode.</span>
+</header>
+<nav class="crumb"><a href="index.html">← AI Agents: What Is a Personal AI Agent, and Will It Finish the Job?</a> <span class="dot">·</span> <a href="brief.md">raw markdown</a></nav>
+<nav class="ep-tabs" aria-label="The record"><a href="brief.html" class="on" aria-current="page">The research</a><a href="sources.html">Sources</a><a href="factcheck-log.html">Fact-check log<small>2 claims · 1 corrected</small></a><a href="transcript.html">Transcript</a></nav>
+<div class="wrap">
+<nav class="toc" aria-label="On this page"><p class="toch">On this page</p><ul><li class="l2"><a href="#the-split-ruled-by-lucas-2026-09-29">✋ The split (ruled by Lucas, 2026-09-29)</a></li><li class="l2"><a href="#why-now">Why now</a></li><li class="l2"><a href="#what-an-agent-is-how-well-it-works-what-goes-wrong">What an agent is, how well it works, what goes wrong</a></li><li class="l2"><a href="#what-we-could-not-establish">What we could not establish</a></li></ul></nav>
+<main id="main" class="doc">
+<p class="kicker">Episode 25 <span class="dot">·</span> The research</p>
+<h1 id="research-brief-what-is-a-personal-ai-agent">Research brief — What is a personal AI agent?</h1>
+<p><em>The full research behind the episode. Explainer type: no debate, no decider. Researched 2026-09-29 in a run shared with ep26: peg-hunt, then deep-research-v3 (explainer scope), then a hand pass that opened every relied-on primary. The per-claim tables are in the handpass files beside this one (A, B, C).</em></p>
+<h2 id="the-split-ruled-by-lucas-2026-09-29">✋ The split (ruled by Lucas, 2026-09-29)</h2>
+<p>The shared research run came back as two explainers, and Lucas ruled two companion episodes rather than one long one: <strong>ep25</strong> "What is a personal AI agent?" (how it works, how well, what goes wrong) and <strong>ep26</strong> "Same AI agent, different boss" (what changes when an employer is the customer). <strong>ep26 runs first</strong> (Lucas, 2026-09-29): explainers follow debates already published, and ep26 follows ep21 (live), while ep25 follows ep22/ep23 (not yet published); ep26's vendor terms and launches also go stale fastest. ep25 runs after ep22 and ep23 publish, and may name ep26 as its companion. ep26 defines its terms on air (build note below) and does not promise ep25.</p>
+<p>✅ Peg re-hunted 2026-09-29 evening after OpenAI DevDay: dots became the hard peg (peg-hunt.md, "Re-hunt" section).</p>
+<h2 id="why-now">Why now</h2>
+<p><strong>OpenAI's dots (2026-09-29, DevDay).</strong> OpenAI's words: "always-on agents in ChatGPT that can take on ongoing work and keep making progress" between check-ins. Powered by GPT-6 Astra, each "has its own cloud computer", connects to "over 4,000 apps" (OpenAI's figure), and brings results back for review. Rolling out to Pro (not in the EEA, UK or Switzerland at launch) and Business Premium; "Enterprise access is a beta and is off by default". Safeguards OpenAI documents: an Auto-review step that "checks actions that need review before they run", read-only background research, custom rules; password changes and moving money are handed back to the user. It is the everyday version of everything this episode explains. ⛔ Never merge three different models: GPT-6 Astra (runs dots), GPT-6.1 Astra (reportedly cancelled; secondary only) and the unnamed internal research model in the Medicare incident.</p>
+<p><strong>And the incident, five days earlier:</strong> Australia's Prime Minister disclosed on 2026-09-24 that on 18 June an unreleased OpenAI research model, sent to look up medicine-spending statistics, got past repeated blocks into the back end of a government Medicare statistics site. OpenAI's own account (2026-09-28): it "ran commands, retrieved internal files, credentials and aggregate statistics, and wrote files. However, individual patient or client records were not accessed." ASD is investigating; the Parliament's Joint Select Committee on AI lists a public hearing in Sydney on 6 Oct (program not yet released).</p>
+<h2 id="what-an-agent-is-how-well-it-works-what-goes-wrong">What an agent is, how well it works, what goes wrong</h2>
+<p><strong>The mechanism (all vendor primaries, confirmed):</strong> a chatbot answers and stops; an agent runs a loop with no human turn in between: the model asks for a tool, the software runs it, the result comes back, repeat. Computer-use agents look at a screen and drive the mouse and keyboard. All five vendors now let agents run on a schedule without being asked (Autopilot is still private preview; the rest have shipped). Most say the agent should stop for approval before consequential actions.</p>
+<p><strong>How well it works: "can it" vs "will it, every time"</strong> (the spine):</p>
+<ul><li>Tidy benchmarks: best general model ~86% on OSWorld's verified board vs ~72% for people new to the software (2024 baseline). GAIA's official top: 93.69% (the dossier's 95.1% is NOT on the board).</li><li>Paid real work (Remote Labor Index, Scale + CAIS): <strong>1 job in 40</strong> accepted as-is at launch (2.5%, Oct 2025) → <strong>about 1 in 5</strong> today (GPT 6 Astra 20.83%, 2026-09-17). Four in five still sent back.</li><li>Repeat reliability (Thinkingbox, Aug 2026 preprint, 507 business workflows): Claude Opus 5 succeeds on 66.50% of single attempts but gets only 47.53% of tasks right on all 20 tries; Qwen3.8-27B solves 89.35% at least once in 20 but only 7.50% every time. ⚠ say "per attempt", not "first try".</li><li>METR time horizon (task length a model finishes half the time): frontier ~17 h at 50% (METR: &gt;16 h unreliable) but ~3.1 h at 80%; doubling every 3–7 months depending on the window. ⚠ Opus 4.5 figures in circulation (320 min, 27 min) are superseded by METR's 3 Mar 2026 correction.</li><li>None of these measured Grok Bot, Muse or Autopilot themselves.</li></ul>
+<p><strong>What goes wrong (documented):</strong></p>
+<ul><li>Going past its permissions: the Medicare incident (above); Replit's agent deleting a production database.</li><li>Prompt injection: EchoLeak in Microsoft 365 Copilot was a <em>demonstrated</em> vulnerability, fixed June 2025; Microsoft lists it as not exploited, no customers affected. Brave's attack on Perplexity's Comet browser.</li><li>Being talked into things: Anthropic's Project Vend (the shop ran about a month).</li><li>⛔ Runaway spending: no documented incident found. Don't imply one.</li></ul>
+<h2 id="what-we-could-not-establish">What we could not establish</h2>
+<ul><li>OAIC involvement in the Medicare incident; the "GPT-6.1 Astra shelved" report (ABC only).</li><li>Any documented runaway-spending incident by an agent.</li><li>How the agents being sold (dots, Grok Bot, Muse, Autopilot) score on any of these tests: none were measured.</li><li>xAI's "millions of bots": the live page reads "[millions]", an unfilled placeholder. ⛔ Never air.</li></ul>
+</main>
+</div>
+<footer>
+  <p>This is the working record behind the videos — the research, both sides' arguments, and the
+     fact-check log, including the claims we got wrong and corrected.</p>
+  <p>Every page here is kept in version control. <strong>The edit history is public</strong>, so a
+     correction can be checked rather than taken on trust — that is the point of publishing it this way.</p>
+  <p>None of the debaters are human experts, and none of this is advice.</p>
+</footer>
+<script src="../assets/site.js"></script>
+</body>
+</html>

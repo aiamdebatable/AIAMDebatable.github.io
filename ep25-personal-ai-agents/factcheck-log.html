@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fact-check log — AI Agents: What Is a Personal AI Agent, and Will It Finish the Job? · AI Am Debatable</title>
+<meta name="description" content="Claim by claim — including what we got wrong.">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body class="hastoc">
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <a class="brand" href="../index.html"><span class="mk">AI</span> Am Debatable</a>
+  <span class="sub">The full record behind every episode.</span>
+</header>
+<nav class="crumb"><a href="index.html">← AI Agents: What Is a Personal AI Agent, and Will It Finish the Job?</a> <span class="dot">·</span> <a href="factcheck-log.md">raw markdown</a></nav>
+<nav class="ep-tabs" aria-label="The record"><a href="brief.html">The research</a><a href="sources.html">Sources</a><a href="factcheck-log.html" class="on" aria-current="page">Fact-check log<small>2 claims · 1 corrected</small></a><a href="transcript.html">Transcript</a></nav>
+<div class="wrap">
+<nav class="toc" aria-label="On this page"><p class="toch">On this page</p><ul><li class="l2"><a href="#1-the-engine-s-own-work-deep-research-v3-run-wf-185cddf7-8b1-2026-09-29">1. The engine's own work (deep-research-v3, run wf_185cddf7-8b1, 2026-09-29)</a></li><li class="l2"><a href="#2-the-peg">2. The peg</a></li><li class="l2"><a href="#3-hand-pass-counts">3. Hand pass: counts</a></li><li class="l2"><a href="#corrections-applied-to-source">Corrections applied to source</a></li><li class="l2"><a href="#unresolved-not-used-on-air">UNRESOLVED (not used on air)</a></li><li class="l2"><a href="#fairness-audit">Fairness audit</a></li><li class="l2"><a href="#open-questions-this-episode-could-not-settle">Open questions this episode could not settle</a></li><li class="l2"><a href="#4-hand-pass-c2-2026-10-01-more-incidents-asked-for-by-lucas">4. Hand pass C2 (2026-10-01): more incidents, asked for by Lucas</a></li></ul></nav>
+<main id="main" class="doc">
+<p class="kicker">Episode 25 <span class="dot">·</span> Fact-check log</p>
+<h1 id="ep25-fact-check-log">ep25 — fact-check log</h1>
+<p>Status: <strong>adversarial-pass</strong>. A peg hunt (2026-09-29), the deep-research-v3 engine's 12 primary-opened verifications, and a four-way hand pass (mechanism, reliability figures, incidents, personal vs business) that opened every relied-on primary: vendor docs, system cards, papers and leaderboard data files, the Prime Minister's transcript, OpenAI's own account, the bill text. Each was saved as extracted text and the load-bearing quotes and figures were grep-checked against it by the main session. The run was shared with ep26 (split by Lucas, 2026-09-29); hand pass D and the personal-vs-business claims are logged in ep26. The script pass (one entry per spoken claim) comes at the validated gate.</p>
+<p>Verdicts use the four-word vocabulary. The engine's "unsupported" items are recorded here as <strong>UNRESOLVED</strong> (not established from a source worth trusting, so not used on air).</p>
+<hr>
+<h2 id="1-the-engine-s-own-work-deep-research-v3-run-wf-185cddf7-8b1-2026-09-29">1. The engine's own work (deep-research-v3, run wf_185cddf7-8b1, 2026-09-29)</h2>
+<p>41 agents, 2.98M tokens, 7.4 min. 21 findings; 12 claims verified single-vote; 105 read by a finder only. Its structure verdict: two explainers. The hand pass below re-opened everything a script could use.</p>
+<h2 id="2-the-peg">2. The peg</h2>
+<p>The Australian Medicare incident: disclosed by the Prime Minister on 2026-09-24 (18 June; an unreleased OpenAI research model got past repeated blocks into a government Medicare statistics site and retrieved internal files and credentials); OpenAI apologised 2026-09-28 and says no individual patient or client records were accessed. <strong>CONFIRMED</strong> on the Prime Minister's transcript and OpenAI's own account. The vendor move to business (xAI, Meta, Microsoft, September 2026) is ep26's peg, logged there.</p>
+<ul><li><a href="https://www.pm.gov.au/media/press-conference-new-york" rel="noopener">https://www.pm.gov.au/media/press-conference-new-york</a></li><li><a href="https://openai.com/index/how-we-will-do-better-for-australia/" rel="noopener">https://openai.com/index/how-we-will-do-better-for-australia/</a></li></ul>
+<h2 id="3-hand-pass-counts">3. Hand pass: counts</h2>
+<div class="tw"><table><thead><tr><th>part</th><th>checked</th><th>CONFIRMED</th><th>CORRECTED</th><th>APPROXIMATE</th><th>UNRESOLVED</th></tr></thead><tbody><tr><td>A: how agents work, the products</td><td>72</td><td>57</td><td>8</td><td>5</td><td>2</td></tr><tr><td>B: reliability figures</td><td>34</td><td>20</td><td>8</td><td>3</td><td>3</td></tr><tr><td>C: incidents</td><td>14</td><td>4</td><td>5</td><td>2</td><td>3</td></tr></tbody></table></div>
+<h2 id="corrections-applied-to-source">Corrections applied to source</h2>
+<ul><li>Grok Bot "gets its own computer" → the computer is "assigned per user, not per Bot" (xAI docs).</li><li>Grok Bot "deny-by-default" → accounts start with no access, but network access is allow-all unless an Enterprise admin sets a policy.</li><li>xAI "millions of bots" → the live page reads "[millions]", an unfilled placeholder. Never aired.</li><li>"Super app" → the press's term; OpenAI's own post never uses it.</li><li>Claude approval and catch rates (93%, 83%) → both from Claude Code, Anthropic's developer tool.</li><li>Remote Labor Index 2.5% → the Oct 2025 launch figure only; the leaderboard now shows 20.83% (GPT 6 Astra, 2026-09-17). Always dated.</li><li>TheAgentCompany "30% (Dec 2024)" → Dec 2024 was 24%; 30.3% is Gemini 2.5 Pro, added May 2025.</li><li>METR Opus 4.5 320 min and 27 min → superseded by METR's 3 Mar 2026 correction (now 293 and 49 min).</li><li>METR doubling "every 4–7 months" → 3–7 months depending on the window.</li><li>OSWorld 86.1% → Alibaba's own claim; the official verified board's best general model is 85.96%.</li><li>GAIA 95.1% → not on the official board; the top score there is 93.69%.</li><li>WorkArena 42.7% → GPT-4o, not GPT-4.</li><li>Medicare: the date is 18 June (not July); OpenAI's account says the model retrieved "internal files, credentials and aggregate statistics" and that "individual patient or client records were not accessed"; only Services Australia is described as non-public access; no regulator (OAIC) statement exists, so the investigation named is ASD's.</li><li>EchoLeak → a demonstrated vulnerability, fixed June 2025; Microsoft lists it as not exploited.</li><li>Project Vend → the shop ran about a month; 31 Mar–1 Apr 2025 is a separate episode within it.</li><li>AISI incident → "no resulting real-world harm" found, but "some actions had a limited real-world effect".</li></ul>
+<h2 id="unresolved-not-used-on-air">UNRESOLVED (not used on air)</h2>
+<ul><li>Any documented runaway-spending incident by an agent.</li><li>OAIC involvement in the Medicare incident; the "GPT-6.1 Astra shelved" report.</li></ul>
+<h2 id="fairness-audit">Fairness audit</h2>
+<ul><li>Explainer, no sides. Vendor "first" claims (Meta, and Lucas's note on Grok Bot) are attributed, never asserted. Incidents are described at their documented size, not their headline size.</li></ul>
+<h2 id="open-questions-this-episode-could-not-settle">Open questions this episode could not settle</h2>
+<ul><li>✅ Settled 2026-09-29 evening: the peg re-hunt after DevDay found OpenAI's dots (always-on agents), now the hard peg, CONFIRMED on OpenAI's own launch, safety and help pages.</li></ul>
+<h2 id="4-hand-pass-c2-2026-10-01-more-incidents-asked-for-by-lucas">4. Hand pass C2 (2026-10-01): more incidents, asked for by Lucas</h2>
+<p>One Opus subagent; every primary opened and its text saved; per-incident write-up kept with the hand passes. Main session grep-checked the aired quotes against the saved primaries (the seller's own posts, Meta's Singleton, Yue's own post, Fowler's WaPo column via Wayback).</p>
+<ul><li><strong>C8 CORRECTED:</strong> "no documented spending incident" was too broad. OpenAI's Operator bought $31.43 of eggs without being asked (WaPo, 2025-02-07; OpenAI statement in the column). Still no documented <em>large</em> or runaway spending. On air: "no documented case of a big bill; one of a purchase nobody asked for".</li><li><strong>Muse / Marketplace (Sep 2026): CONFIRMED on the seller's own posts, CORRECTED in detail.</strong> "Allow Always" granted more than he thought; it sent his pickup address and accepted $600 under a $700 minimum (Meta told him a display error). "CA$10 on CA$15" mixes two listings; "Yep, I'm here" is not on a saved source; the "five strangers" piece is rejected. Seller and buyer are never named on air.</li><li><strong>OpenClaw inbox deletion (Feb 2026): CONFIRMED</strong> on the user's own post; "200+ emails" secondary only, not aired.</li><li>Muse Messages-sync dispute (Aten vs Meta): <strong>UNRESOLVED</strong>, not aired.</li></ul>
+</main>
+</div>
+<footer>
+  <p>This is the working record behind the videos — the research, both sides' arguments, and the
+     fact-check log, including the claims we got wrong and corrected.</p>
+  <p>Every page here is kept in version control. <strong>The edit history is public</strong>, so a
+     correction can be checked rather than taken on trust — that is the point of publishing it this way.</p>
+  <p>None of the debaters are human experts, and none of this is advice.</p>
+</footer>
+<script src="../assets/site.js"></script>
+</body>
+</html>
