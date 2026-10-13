@@ -265,7 +265,7 @@ body.home .jury .tot b.warn{color:var(--accent)}
 
 /* the thumbnail frame — shared by the duel and every card */
 body.home .thumb{position:relative;display:block;aspect-ratio:16/9;border-radius:10px;overflow:hidden;background:var(--bg-2)}
-body.home .thumb .art{display:block;width:100%;height:100%;transition:transform .35s}
+body.home .thumb .art{display:block;width:100%;height:100%;object-fit:cover;transition:transform .35s}
 body.home a.thumb:hover .art{transform:scale(1.03)}
 body.home .thumb .dur{position:absolute;right:8px;bottom:8px;background:rgba(0,0,0,.8);color:#fff;font-size:12px;font-weight:600;
   padding:2px 6px;border-radius:5px;font-variant-numeric:tabular-nums}
@@ -511,7 +511,7 @@ body.hastoc .crumb+.ep-tabs{max-width:76rem}
 body.epx main{max-width:74rem}
 .ep-hd{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:2rem;align-items:center}
 .ep-art{position:relative;display:block;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:var(--bg2)}
-.ep-art .art{display:block;width:100%;height:100%}
+.ep-art .art{display:block;width:100%;height:100%;object-fit:cover}
 .ep-art .dur{position:absolute;right:8px;bottom:8px;background:rgba(0,0,0,.8);color:#fff;font-size:.78rem;font-weight:600;padding:2px 7px;border-radius:5px}
 .ep-say h1{margin:.2rem 0 .7rem}
 .ep-say .q{font-size:.98rem}

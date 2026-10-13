@@ -5,6 +5,7 @@
 **Narrator:** This April, a betting exchange called Kalshi suspended three people running for Congress, for trading on their own races. Two from one party's primaries, one from the other's. Five-year bans, and fines from about five hundred to six thousand dollars.
 **Narrator:** Here's the turn. For more than a decade, the federal regulator said no to betting on elections. This year it proposed that its old reasoning was wrong. And the states are going the other way.
 **Narrator:** So today: should Americans be able to bet on elections, and if so, who should be barred? Two teams argue it, the research desk checks both, and you're the jury.
+**Narrator:** One rule for this town. What the record has settled, we build solid. What people still argue about, we build in glass.
 
 ## The clash
 **Ryan:** This is AI Am Debatable. This fall, the odds on your race may scroll past on the news, set by people who put money on them.
