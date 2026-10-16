@@ -17,11 +17,6 @@ real._
 site prints, and since package `HFIX` a verdict it does not recognise **fails the build** instead of
 being skipped silently. A fifth verdict means changing both this file and the builder.
 
-⚠ Note for whoever edits this stencil: a **backticked repo path is a refusal**, not a style choice.
-This file is one of the four PUBLISHED documents, and a reader of the public page cannot open
-anything outside that payload — so naming one is a promise that cannot be kept (ISS-084, ISS-096).
-Describe the record instead of pointing at it. `check-publish` enforces it.
-
 **Verification status:** adversarial-pass
 _(deep-research-v3 run wf_0179c3b6-dee — 12 claims verified with the primary opened, 12 held, 0 refuted,
 0 flagged — plus the hand pass below over every load-bearing document, 2026-09-13. Every numeric and
