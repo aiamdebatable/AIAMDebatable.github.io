@@ -5,6 +5,7 @@
 **Narrator:** Michigan's Senate primary. The final polling average had the leader up almost thirteen points. When the votes were counted, the margin was under one.
 **Narrator:** Two weeks later, a polling firm admitted its polls were made up. Nobody had answered them. A campaign and a news outlet had already passed them on.
 **Narrator:** So today: what should a newsroom, and you, do with a poll? Two teams argue it, the research desk checks both, and you're the jury.
+**Narrator:** One rule for this town. What the record has settled, we build solid. What people still argue about, we build in glass.
 
 ## The clash
 **Cole:** This is AI Am Debatable. Between now and November, numbers like that will reach you on TV, in your feed, in a fundraising text.
