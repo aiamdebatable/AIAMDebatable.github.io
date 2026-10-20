@@ -19,9 +19,12 @@
    read this and stopped. Document pages with a TOC are wired for real now. */
 /* WALL — live search + category filters, reshaping a list that is already fully in the HTML. */
 (function () {
-  var EPS = window.__EPISODES__ || [];
-  var by = {};
-  for (var i = 0; i < EPS.length; i++) by[EPS[i].s] = EPS[i];
+  /* SEARCHLAZY — the index is not on the page. It arrives as a second <script> the first time the
+     visitor touches #q (focus, or a value restored by the back button), never with the page: the
+     wall, the chips and the table all work from the HTML alone, so nothing waits on it. It stays a
+     <script>, never fetch(), because fetch() is blocked under file:// and the site is reviewed
+     locally before it is pushed. Until it lands, a typed query is held, not answered with "nothing". */
+  var EPS = [], by = {}, blob = {}, READY = false, LOADING = false;
 
   var q = document.getElementById("q");
   var clearBtn = document.getElementById("clear");
@@ -62,19 +65,38 @@
     return out;
   }
 
-  /* Everything about one episode, flattened once, so keystrokes stay cheap. */
-  var blob = {};
-  for (var k = 0; k < EPS.length; k++) {
-    var e = EPS[k];
-    var parts = [e.t, e.b, e.q, e.c, e.fc, "ep" + e.n, (e.g || []).join(" "), (e.p || []).join(" ")];
-    for (var d = 0; d < (e.d || []).length; d++) {
-      parts.push(e.d[d][1]);
-      var hs = e.d[d][2] || [];
-      for (var h = 0; h < hs.length; h++) parts.push(hs[h][1]);
-      var cl = e.d[d][3] || [];
-      for (var c = 0; c < cl.length; c++) parts.push(cl[c]);
+  /* Everything about one episode, flattened once, so keystrokes stay cheap. Runs once, when the
+     index arrives. */
+  function ingest() {
+    EPS = window.__EPISODES__ || [];
+    for (var k = 0; k < EPS.length; k++) {
+      var e = EPS[k];
+      by[e.s] = e;
+      var parts = [e.t, e.b, e.q, e.c, e.fc, "ep" + e.n, (e.g || []).join(" "), (e.p || []).join(" ")];
+      for (var d = 0; d < (e.d || []).length; d++) {
+        parts.push(e.d[d][1]);
+        var hs = e.d[d][2] || [];
+        for (var h = 0; h < hs.length; h++) parts.push(hs[h][1]);
+        var cl = e.d[d][3] || [];
+        for (var c = 0; c < cl.length; c++) parts.push(cl[c]);
+      }
+      blob[e.s] = parts.join(" \u2022 ").toLowerCase();
     }
-    blob[e.s] = parts.join(" \u2022 ").toLowerCase();
+    READY = true;
+  }
+  function load() {
+    if (READY || LOADING) return;
+    if (window.__EPISODES__) { ingest(); return; }
+    LOADING = true;
+    var s = document.createElement("script");
+    s.src = "assets/search-index.js";
+    s.onload = function () { LOADING = false; ingest(); apply(); };
+    // A failed load is said, and the next touch of the box retries it.
+    s.onerror = function () {
+      LOADING = false; s.parentNode && s.parentNode.removeChild(s);
+      if (q.value.trim()) countEl.innerHTML = "Search could not load \u2014 every episode is still listed below.";
+    };
+    document.body.appendChild(s);
   }
 
   /* Deep hits — the sections and fact-checked claims that matched, linked to their anchors. */
@@ -161,6 +183,16 @@
     var terms = raw.toLowerCase().split(/\s+/).filter(Boolean);
     var active = terms.length > 0;
     var shown = 0, deep = 0, textHits = 0;
+    // A query with no index yet would match nothing and say so, which is false. Hold the page as it
+    // is and answer when the index lands (load()'s onload calls apply() again).
+    if (active && !READY) {
+      load();
+      if (!READY) {
+        if (clearBtn) clearBtn.hidden = false;
+        if (LOADING) countEl.innerHTML = "Loading search\u2026";
+        return;
+      }
+    }
 
     for (var s1 in CATOF) {
       TEXTOK[s1] = !active || matches(blob[s1] || "", terms);
@@ -263,6 +295,7 @@
       (active && shown ? " · <b>" + deep + "</b> match" + (deep === 1 ? "" : "es") + " inside the record" : "");
   }
 
+  q.addEventListener("focus", load);
   q.addEventListener("input", apply);
   q.addEventListener("search", apply);
   if (clearBtn) clearBtn.addEventListener("click", function () { q.value = ""; q.focus(); apply(); });
