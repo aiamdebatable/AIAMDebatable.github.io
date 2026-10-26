@@ -58,6 +58,7 @@
   var DOC = { brief: "The research", sources: "Sources", "factcheck-log": "Fact-check log", transcript: "Transcript" };
 
   function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
+  function attr(s) { return esc(s).replace(/"/g, "&quot;"); }
   function rx(t) { return new RegExp("(" + t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")", "ig"); }
   function mark(text, terms) {
     var out = esc(text);
@@ -217,7 +218,7 @@
         if (hits.length) {
           var html = "";
           for (var j = 0; j < Math.min(hits.length, 4); j++)
-            html += '<li><a href="' + hits[j].href + '"><span class="where">' + esc(hits[j].w) + "</span>" + mark(hits[j].t, terms) + "</a></li>";
+            html += '<li><a href="' + attr(hits[j].href) + '"><span class="where">' + esc(hits[j].w) + "</span>" + mark(hits[j].t, terms) + "</a></li>";
           if (hits.length > 4) html += '<li class="more">+ ' + (hits.length - 4) + " more inside the record</li>";
           box.innerHTML = html;
           box.hidden = false;
