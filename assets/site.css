@@ -298,6 +298,8 @@ body.home .grid[data-n="1"]{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
 
 /* ------------------------------------------------------------------------ sticky utility bar */
 body.home .vsw{position:absolute;width:1px;height:1px;opacity:0;pointer-events:none}
+/* SITECASE: the radios are invisible, so their focus is drawn on the label they drive (WCAG 2.4.7). */
+body.home:has(#v-grid:focus-visible) .vl-grid,body.home:has(#v-table:focus-visible) .vl-table{outline:2px solid var(--green-l);outline-offset:2px}
 body.home .bar{position:sticky;top:0;z-index:30;background:rgba(10,21,26,.9);
   -webkit-backdrop-filter:saturate(160%) blur(12px);backdrop-filter:saturate(160%) blur(12px);
   border-bottom:1px solid var(--line)}
@@ -537,6 +539,21 @@ body.epx .docs{grid-template-columns:repeat(2,minmax(0,1fr));margin-top:1.2rem}
 .vd-corrected{background:rgba(240,166,121,.16);color:var(--mark)}
 .vd-confirmed{background:rgba(127,211,175,.14);color:var(--green-l)}
 .more-claims{margin-top:.8rem}
+/* SITECASE: draft said → the record says, and the verdict as aired */
+.pairs{list-style:none;padding:0;margin:0 0 .4rem;display:grid;gap:.6rem}
+.pairs li{margin:0;display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.pairs p{margin:0;padding:.75rem 1rem;font-size:.93rem;line-height:1.45}
+.pairs span{display:block;font-family:var(--head);font-weight:700;font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;margin-bottom:.25rem}
+.pairs .had{background:rgba(240,166,121,.06)}.pairs .had span{color:var(--mark)}
+.pairs .had del{color:var(--ink2);text-decoration-color:rgba(240,166,121,.7)}
+.pairs .is{background:rgba(127,211,175,.07);border-left:1px solid var(--line)}.pairs .is span{color:var(--green-l)}
+.pairs .is ins{text-decoration:none;color:var(--ink)}
+@media (max-width:640px){.pairs li{grid-template-columns:1fr}.pairs .is{border-left:0;border-top:1px solid var(--line)}}
+.ep-verdict h2{margin-top:2.2rem}
+.ep-verdict details{border:1px solid var(--line);border-radius:12px;padding:.85rem 1.1rem;background:rgba(0,0,0,.18)}
+.ep-verdict summary{cursor:pointer;font-weight:600;color:var(--gold-l)}
+.ep-verdict p{margin:.7rem 0 0;font-size:.97rem;line-height:1.6;color:var(--ink2);max-width:72ch}
+.ep-verdict p b{color:var(--ink);margin-right:.3rem}
 .more-claims summary{cursor:pointer;color:var(--ink2);font-weight:600;font-size:.92rem;margin-bottom:.6rem}
 .ep-claims .raw{margin-top:.9rem;font-size:.9rem}
 .ep-rel ul{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}
