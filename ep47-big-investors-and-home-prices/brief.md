@@ -444,8 +444,9 @@ estimates…"; they would gain if the rules were eased):
 **guidance** only, due from HUD by **2029-07-11** (our arithmetic), with no duty on any state or city;
 environmental-review streamlining by HUD rulemaking with no deadline, for money appropriated afterwards;
 the block-grant cut and bonus from **fiscal 2029** (from 2028-10-01, our arithmetic) through 2043;
-chassis-free manufactured homes once states certify and HUD writes standards; and **no new money**
-(sec. 1202). CBO scored the Act, but its figures could not be read, and no source estimates how many
+chassis-free manufactured homes once states certify and HUD writes standards; and **no money yet**: sec. 1202
+bars additional funds, and the one figure, $200M a year for an Innovation Fund (sec. 208), is authorized
+but not appropriated (corrected 2026-11-08). CBO scored the Act, but its figures could not be read, and no source estimates how many
 homes these sections add (T5-39).
 - ⛔ **This beat ranks nothing:** no source here says building matters more or less than investors, and
   how much zoning explains is itself contested (D-A2, D-C7, D-C8).
@@ -573,8 +574,9 @@ A second, smaller reframe: **the law is wider than its one famous section.** The
 supply measures: HUD zoning guidelines (sec. 107, guidance only, due by 2029-07-11, our arithmetic),
 NEPA streamlining for small infill (sec. 206, by rulemaking with no deadline), a 10% cut in
 community-development block grants for cities with below-median housing growth (sec. 213, from fiscal
-2029), manufactured homes without a permanent chassis (sec. 301), and it authorizes **no new money**
-(sec. 1202) (D-E1–D-E6, T5-36–T5-38). A viewer who reads the Act should not think the episode hid half
+2029), manufactured homes without a permanent chassis (sec. 301), and **no money yet**: sec. 1202 bars
+additional funds, and its one figure, $200M a year for an Innovation Fund (sec. 208), is authorized but
+not appropriated (corrected 2026-11-08) (D-E1–D-E6, T5-36–T5-38). A viewer who reads the Act should not think the episode hid half
 of it.
 
 ## Both sides quietly agree

@@ -4,6 +4,8 @@ _Verbatim spoken track, in broadcast order. Speakers: **Lucas** (host), **Mara**
 lead), **Nia** (the ringmaster), **Ryan** (Team Green · MANAGE THE WILDERNESS), **Kate** (Team Gold ·
 MANAGE THE VISITOR), **Andre** (the judge), and the **Narrator** who reads the cold open._
 
+> **Correction (2026-11-08).** One line below says the research could not find whether the park held a permit to kill an endangered wolf, and that this stays open. A permit was not required for this kind of removal. Federal rules let designated Park Service staff remove an endangered animal that is a real threat to people's safety without a permit, as long as catching it and moving it is not reasonably possible, and the killing has to be reported to the Fish and Wildlife Service within five days. The park said the wolf was a growing public safety risk; it did not say which rule it used. The transcript keeps what was said on air.
+
 ## Cold open
 **Narrator:** Ask the internet what to do about the wolves on Isle Royale, and you'll get shut the island to people on one side, and shoot the problem wolves on the other.
 **Narrator:** Ask the Park Service, and it put nineteen wolves on that island itself, seven years ago, on purpose. Ask the count: thirty-seven wolves now, about five hundred moose, not one calf seen this winter. Ask the campgrounds: a wolf shot last summer for living on human food, and since the end of August, no tents at four of them.

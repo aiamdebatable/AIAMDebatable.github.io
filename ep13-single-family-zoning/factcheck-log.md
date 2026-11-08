@@ -184,9 +184,13 @@ townhouse price comparison could not be traced to a primary source and is not ai
 ## 21. "Upzoning raised land prices in Chicago and built nothing."
 **CONFIRMED as the author states it.** Freemark (2020): transit-area upzonings of 2013 and 2015
 raised transaction prices on upzoned parcels and produced no increase in newly permitted dwellings
-over five years. The 2013 ordinance covered about 6 % of the city's land — a narrow reform, which is
-the point the episode makes with it.
+over five years. The 2013 and 2015 ordinances together covered about 6 % of the city's land — a narrow reform, which is
+the point the episode makes with it. The author limits the finding to "short-term, local-level" impacts (abstract) and
+says it is "not universally generalizable" (conclusion). The episode keeps to that: one city, one narrow reform, five
+years, and it never says upzoning in general doesn't build. Re-read at the primary 2026-11-08: Urban Affairs Review
+56(3):758–789, "I find no impacts of the reforms, however, on the number of newly permitted dwellings over five years."
 - https://yonahfreemark.com/2021/04/13/upzoning-chicago-impacts-of-a-zoning-reform-on-property-values-and-housing-construction/
+- https://doi.org/10.1177/1078087418824672
 
 ## 22. "Infill imposes unpriced infrastructure and school costs on existing residents."
 **UNRESOLVED.** No municipal fiscal-impact study of Minneapolis 2040, Portland's infill project or

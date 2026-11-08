@@ -199,7 +199,7 @@ essay with a unilateral commitment that week (claim B7 below).
 | U36: SSI valued at $32B | UNRESOLVED. not fetched; secondary in the engine |  |
 | U71: Amodei left OpenAI because it was "not taking AI danger seriously" | UNRESOLVED. the cited ITPro URL is about Sutskever's SSI. **Source mismatch** (engine finder). Not checked |  |
 | U39 / U86: Lessig pro bono for 15 former OpenAI staff; AIWI's defence options | UNRESOLVED. not fetched. The Lessig date is unconfirmed in the engine as well |  |
-| Scout brief: Huang 09-15 "false choice"; Zuckerberg 09-15 "strong natural incentive" | UNRESOLVED. no primary found in this pass. CNN 09-24 has other Huang quotes (C11) |  |
+| Scout brief: Huang 09-15 "false choice"; Zuckerberg 09-15 "strong natural incentive" | UNRESOLVED. no primary found in this pass. CNN 09-24 has other Huang quotes (C11). Note 2026-11-08: the Huang line is in NVIDIA's own write-up, "Innovation, speed and safe products — it's a false choice" (found when we compared our episodes); the Zuckerberg line is still unchecked here. Neither aired. | https://blogs.nvidia.com/blog/jensen-huang-dreamforce/ |
 | Tarbell Center's funders (SciAm byline disclosure, C32) | UNRESOLVED. the funding page returned 404 |  |
 | Burry's 2026 positions (C34) | UNRESOLVED. Fool only; there is no 13F after Q3 2025 |  |
 | U34: LeCun's 2023 "preposterously ridiculous" (MIT TR) | UNRESOLVED. not re-fetched; superseded by the 2026 primaries in C5 |  |

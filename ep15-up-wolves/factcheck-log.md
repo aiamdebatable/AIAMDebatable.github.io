@@ -122,7 +122,14 @@ conditioning. Between 2003 and 2022, the Michigan DNR and Wildlife Services leth
 53 wolves … Over the same time periods, private citizens lethally removed an additional 39 wolves …
 the number of wolves removed each year for depredation control (livestock and dogs) ranged from a
 minimum of one wolf in 2009 to a maximum of 18 wolves in 2012." Under the ESA's take prohibition the
-only remaining lawful killing is in defence of human life. **This corrects the episode's own framing**
+only remaining lawful killing is in defence of human life. (Clarified 2026-11-08, no change to what aired: the
+law has two routes, both about people's safety. 50 CFR 17.21(c)(2), anyone "in defense of their own life or the lives
+of others"; and 17.21(c)(3)(iv), designated federal land-agency or state wildlife staff may, without a permit, "Remove
+specimens that constitute a demonstrable but nonimmediate threat to human safety", killing only if live capture and
+release is not reasonably possible. The National Park Service used a public-safety removal on Isle Royale on
+15 Aug 2025. Neither route allows killing for livestock, dogs, deer or sport. eCFR 50 CFR 17.11 still lists Michigan's
+wolves as endangered on 2026-11-01. https://www.ecfr.gov/api/versioner/v1/full/2026-11-01/title-50.xml?part=17&section=17.21)
+**This corrects the episode's own framing**
 (see corrections below).
 - https://ecos.fws.gov/docs/recovery_plan/20251103_SSA%20for%20the%20Gray%20Wolf%20in%20the%20Eastern%20United%20States_final_508.pdf
 

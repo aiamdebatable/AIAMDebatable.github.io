@@ -17,7 +17,7 @@ Anthropic safety-flag retention 5 yrs regardless of toggle · Google reviewer re
 | **OpenAI data-use policy** (proxy) | ✅ Opened. Consumer trains "unless you opt out"; business/API off by default; Temporary Chat excluded. No last-updated date on the page. |
 | **OpenAI Terms of Use** (proxy) | ✅ Opened. Effective 2026-01-01; $100 / 12-months cap; arbitration + class waiver, 30-day opt-out; input retained, output owned; no confidentiality clause. **Closes the "OpenAI leg stands on terms.law" asymmetry** the critics named. |
 | **OpenAI March-20 outage post** (proxy) | ✅ Opened. Titles + first message of a new chat; "1.2% of the ChatGPT Plus subscribers who were active during a specific nine-hour window"; name, email, payment address, card type, last four digits. **Closes the "1.2 % never read in OpenAI's words" gap.** |
-| **Anthropic consumer-terms announcement** (proxy) | ✅ Opened. Free/Pro/Max incl. Claude Code; "If you're a new user, you can select your preference in the signup process"; existing users "until October 8, 2025"; "five years, if you allow us to use your data for model training" vs "30-day data retention period". ⚠ The text says the preference is chosen at signup — it does **not** say the toggle is pre-set ON. The "defaults on" claim stays ○ (Axios/Bitdefender-class). Script wording fixed accordingly. |
+| **Anthropic consumer-terms announcement** (proxy) | ✅ Opened. Free/Pro/Max incl. Claude Code; "If you're a new user, you can select your preference in the signup process"; existing users "until October 8, 2025"; "five years, if you allow us to use your data for model training" vs "30-day data retention period". ⚠ The text says the preference is chosen at signup — it does **not** say the toggle is pre-set ON. The "defaults on" claim stays ○ (Axios/Bitdefender-class). Script wording fixed accordingly. **Amended after publication 2026-11-08** (see the correction below): this pass read the text only; the page's own image of the existing-user pop-up shows the toggle ON. |
 | **Anthropic privacy article 10023580** (proxy) | ✅ Opened (targeted). Updated 2026-03-16; Incognito excluded "even if you have enabled Model Improvement"; feedback kept up to 5 years. The proxy refused a full reproduction; the default-state sentence was not surfaced — see above. |
 | **Anthropic privacy article 7996868** (proxy) | ✅ Opened. Commercial products not trained by default (2026-08-18). |
 | **ABC AU 09-10** (fetch) | ✅ Altman on X: "We did not rush to publish even though the other team wasn't communicating with us." Spokesperson: "While unlikely, we cannot rule out that de-identified data derived from their usage of our products helped improve our models." Bubeck: proofs "differ significantly … even the precise results proved are different in the Euler case." **Closes the "Altman absent" gap** — two sentences, no more. |
@@ -29,7 +29,7 @@ Anthropic safety-flag retention 5 yrs regardless of toggle · Google reviewer re
 ## 3. Gaps the critics named — disposition
 | gap | disposition |
 |---|---|
-| Anthropic's consumer default never quoted verbatim | **Partly closed.** The announcement and article are now ★; the "pre-ticked" claim is still secondary and is worded as such in the brief and traps. |
+| Anthropic's consumer default never quoted verbatim | **Partly closed.** The announcement and article are now ★; the "pre-ticked" claim is still secondary and is worded as such in the brief and traps. **Closed 2026-11-08, after publication:** for existing users, the announcement's own pop-up image shows the toggle ON (★); for new users Anthropic's pages still don't state the starting position. See the correction below. |
 | Codex toggle conflict | **Closed** from OpenAI's page: one control, covers Codex. |
 | OpenAI's Terms never opened | **Closed.** |
 | OpenAI's outage post-mortem never opened | **Closed.** |
@@ -43,3 +43,22 @@ Anthropic safety-flag retention 5 yrs regardless of toggle · Google reviewer re
 | Clay's normal review timeline | **Open.** Brief refuses to read "active" as doubt. |
 | Anthropic's / NYU's institutional position | **Open.** None located. |
 | Buckmaster's plan tier | **Open.** Never printed anywhere. |
+
+### ⛔ CORRECTION 2026-11-08, after publication: "Reporting says the box comes pre-ticked. Anthropic's own page doesn't say that, so neither will we."
+
+Found when we compared our episodes: ep21 says Anthropic's own pop-up showed the training switch already on; this
+episode (1:39–2:10, Cole) said only reporting says so. Re-checked at the primary, Anthropic, "Updates to Consumer Terms
+and Privacy Policy" (2025-08-28), https://www.anthropic.com/news/updates-to-our-consumer-terms, accessed 2026-11-08 and
+in the Wayback copy of 2026-09-24, this episode's air day: "If you're a new user, you can select your preference in the
+signup process. Existing users will see the choice in a pop-up window like the one below." The image below it (caption
+"In-app notification for existing Claude app users") shows "You can help improve Claude. Allow the use of your chats and
+coding sessions to train and improve Anthropic AI models" with the toggle ON, above Accept and Not now. The hand pass
+above read the page as text through a proxy and missed the image. Anthropic's privacy articles ("Is my data used for
+model training?", updated 2026-03-16; "How do I change my model improvement privacy settings?", updated 2026-08-03) do
+not state where the switch starts for new users, so that part stays unknown at the primary. The rest of the episode
+already matches the record ("the default is on"; "train by default at all three companies"). The published video
+carries the line; corrected here, in the transcript note and on the website.
+
+| claim (as aired) | verdict |
+|---|---|
+| "Reporting says the box comes pre-ticked. Anthropic's own page doesn't say that, so neither will we." | **CORRECTED (after publication).** Existing users were shown the pop-up with the training switch already on, in Anthropic's own image; new users choose at signup, and Anthropic does not say which way the switch starts. https://www.anthropic.com/news/updates-to-our-consumer-terms |

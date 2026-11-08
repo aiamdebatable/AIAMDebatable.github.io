@@ -88,9 +88,9 @@ Every quote below grep-checked by the main session against `lab/evidence/ep23/pe
 |---|---|
 | Coxon, Hubinger, Williams, Chughtai, Kokotajlo | **CONFIRMED** in their own words (Williams via secondary); Chughtai is Bilal. |
 | Altman: "the world is right to be afraid" | **CORRECTED (context).** About AI companies getting too much power. Never used as fear of AI itself. |
-| Huang: "leave safety to us" | **CORRECTED.** A TechCrunch headline; his words: "it's a false choice". |
+| Huang: "leave safety to us" | **CORRECTED (wording); row amended 2026-11-08.** "Leave safety to us" is TechCrunch's headline, not his words, but its gist is his. In TechCrunch's quotes he says "We don't need any new laws. We don't need new regulations." and "Safety is an engineering problem, not a legal one", alongside "innovation, speed, and safe products … it's a false choice" (also in NVIDIA's own write-up, 2026-09-15, https://blogs.nvidia.com/blog/jensen-huang-dreamforce/). The earlier wording here suggested the headline misstated him; it did not. Off air. |
 | Burry "self-serving" | **CONFIRMED** (his own X post, "IPOs need hype & puffery"). |
-| LeCun | **UNRESOLVED** — paraphrase only. Off air. |
+| LeCun | **UNRESOLVED** — paraphrase only. Off air. Note 2026-11-08: his own words, found when we compared our episodes, are an X post of 2026-09-13: "Dario was already claiming that GPT2 was too dangerous to open source back in 2019. I made fun of them then. Everyone should make fun of them now." (https://x.com/ylecun/status/2099248236074545576). "Fearmongering" was a paraphrase, not his word. |
 | Amodei's four sentences | **CONFIRMED.** |
 | OpenAI's policy post: "safety institutes" measure RSI; dated ~09-11 | **CORRECTED.** Dated 2026-09-09; "Governments should develop common ways to measure this progress"; and "Fully autonomous recursive self-improvement … is not happening today". |
 | Money timeline | **CONFIRMED** (primary: Anthropic S-1 06-01, Series H 05-28, OpenAI S-1 announced 06-08; secondary: RSI page 06-04, tender 08-10). EDGAR: no lab filing mentions RSI. |
