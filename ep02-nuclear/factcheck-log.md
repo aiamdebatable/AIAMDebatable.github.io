@@ -23,14 +23,14 @@ _REWRITTEN 2026-07-30 from the episode's actual verification record, rather than
 |---|---|---|
 | 1 | TerraPower Natrium construction start (June 2024 vs Mar 2026 vs Apr 2026) | **CONFIRMED** — three different project phases, not a contradiction |
 | 2 | Vogtle 3&4: ~$14B estimate → ~$35–36.8B all-in | **CONFIRMED** — spread explained by the $3.7B Westinghouse settlement, financing scope, and snapshot date |
-| 3 | US nuclear fleet capacity factor >92% in 2024 (wind ~34.3%, solar ~23.4%) | **CONFIRMED** |
+| 3 | US nuclear fleet capacity factor >92% in 2024 (wind ~34.3%, solar ~23.4%) | **CONFIRMED** (clarified 2026-11-08, no change to what aired: the >92% is the DOE Office of Nuclear Energy's March 2025 statement; EIA's final 2024 figures are nuclear 90.8%, wind 34.3%, solar photovoltaic 23.2%, Electric Power Monthly Table 6.07.B, https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_6_07_b, and Monthly Energy Review Table 8.1 also gives 90.8%. The comparison the line makes is unchanged.) |
 | 4 | Lazard LCOE+ 2025: nuclear $141–220/MWh vs onshore wind $37–86 | **CONFIRMED** |
 | 5 | IPCC AR5 lifecycle medians — nuclear 12, onshore wind 11, gas 490, coal 820 g CO₂eq/kWh | **CONFIRMED** — matches exactly |
 | 6 | Our World in Data deaths/TWh — coal 24.6, gas 2.8, nuclear 0.03 | **CONFIRMED** |
 | 7 | Sepulveda/Jenkins et al., *Joule* 2018 — firm capacity cuts system cost 10–62% | **CONFIRMED** (with a framing caveat, below) |
 | 8 | Kashiwazaki-Kariwa Unit 6 restart, "February 2026" | **CORRECTED** — see below |
 | 9 | Meta's Jan 2026 deals, up to 6.6 GW by 2035 (Vistra / Oklo / TerraPower) | **CONFIRMED** |
-| 10 | NuScale/UAMPS cancellation, $4.2B → $9.3B; no US SMR operating | **CONFIRMED** |
+| 10 | NuScale/UAMPS cancellation, $4.2B → $9.3B; no US SMR operating | **CONFIRMED** (clarified 2026-11-08, no change to what aired: the $4.2B is UAMPS's own gross acquisition-and-construction estimate, $4,221,957,043, for the 720 MW 12-module plant in its Budget & Plan of Finance of 7/12/2019, https://www.utah.gov/pmn/files/511869.pdf; the $9.3B is the January 2023 Class 3 estimate "including financing" for the 462 MW six-module plant, https://ieefa.org/sites/default/files/2023-01/UAMPS%20Talking%20Points%20_%20Class%203%20_%2020230102%20_%20Final.pdf. The same 2023 memo lists "DOE Cost Share Award and projected IRA benefits: $4.2 billion", a different figure. Against the 2021 same-size estimate (about $5.3B, IEEFA) the rise was 75%. The partners' stated reason for ending it on 8 Nov 2023 was too few subscribers.) |
 | 11 | Onkalo status | **CONFIRMED** as *not yet licensed, not yet operating* (early July 2026) |
 | 12 | EIA AEO2025 LCOE + EIA's own dispatchable-vs-intermittent caveat | **CONFIRMED** |
 
