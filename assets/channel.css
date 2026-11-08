@@ -226,3 +226,154 @@ tr:hover td{background:#16303a66}
   .all .card .acts{padding-top:6px;font-size:13px;gap:6px 12px}
   .all .card .acts .w{padding:4px 10px}
 }
+
+/* ── SITE-NEXT (lab, path to 9) ─────────────────────────────────────────────────────────────────────────── */
+/* colour roles: Green and Gold belong to the teams; links and actions are neutral */
+a{color:var(--ink)} .blk p a,.lede a,.note a,.subline a,.rows a,.nums a{text-decoration:underline;text-underline-offset:3px}
+.acts .w,.card .acts .w{background:none;color:var(--ink);border:1px solid var(--line2);padding:5px 12px}
+.acts .w:hover,.card .acts .w:hover{background:var(--panel-2);border-color:var(--ink2)}
+.kick{color:var(--ink2)}
+/* solid and glass: the town's own rule. Settled ground is an opaque slab; argued ground is translucent glass */
+.legend{display:flex;flex-wrap:wrap;gap:6px 18px;align-items:center;margin:26px 0 0;color:var(--ink2);font-size:14px}
+.sw{display:inline-block;width:16px;height:16px;border-radius:4px;vertical-align:-3px;margin-right:6px}
+.sw.solid{background:#dfe8ea;border:1px solid #dfe8ea}
+.sw.glass{background:rgba(223,232,234,.08);border:1.5px solid rgba(223,232,234,.7);box-shadow:inset 0 0 0 3px rgba(223,232,234,.06)}
+.mat{margin:0 0 6px;font:600 11px/1.4 var(--head);letter-spacing:.14em;text-transform:uppercase;color:var(--ink2)}
+.blk.solid{background:#e6eef0;color:#0b171c;border-radius:14px;padding:20px 22px}
+.blk.solid h2,.blk.solid p{color:#0b171c} .blk.solid .mat{color:#33484e}
+.blk.glass{border:1.5px solid rgba(223,232,234,.55);background:linear-gradient(180deg,rgba(223,232,234,.07),rgba(223,232,234,.02));border-radius:14px;padding:20px 22px}
+/* the reframe is the page's main statement */
+.blk.reframe .big{font:600 clamp(20px,2.2vw,24px)/1.45 var(--head);color:var(--ink);max-width:40ch}
+/* back into the video */
+.ts{display:inline-block;margin-top:10px;font-weight:600;font-size:14px;text-decoration:none;color:var(--ink)}
+.ts:hover{text-decoration:underline}
+.changed{margin:8px 0 0;color:var(--ink2);font-size:13px}
+.jump{display:flex;flex-wrap:wrap;gap:8px 10px;margin:16px 0 0}
+.jump a{font-weight:600;font-size:14px;text-decoration:none;padding:7px 12px;border-radius:999px;border:1px solid var(--line2)}
+.jump a:hover{border-color:var(--ink2)} .jump .quiet{border-color:transparent;color:var(--ink2)}
+/* the dial: every position on the page, open one at a time; numbered stops on one track; nothing preselected */
+.dial-track{display:grid;gap:10px;margin-top:14px;position:relative}
+.pos{border:1px solid var(--line2);border-radius:12px;background:var(--panel)}
+.pos summary{cursor:pointer;list-style:none;display:flex;gap:12px;align-items:center;padding:12px 14px;font:600 16px/1.3 var(--head)}
+.pos summary::-webkit-details-marker{display:none}
+.pos summary::after{content:"Open";margin-left:auto;font:600 12px var(--body);color:var(--ink2)}
+.pos[open] summary::after{content:"Close"}
+.stop{flex:0 0 auto;display:grid;place-items:center;width:28px;height:28px;border-radius:50%;border:2px solid var(--ink2);font:700 13px var(--head)}
+.pos[open] .stop{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.pos dl{margin:0;padding:0 14px 6px 54px}
+.pos dt{font:600 11px/1.4 var(--head);letter-spacing:.12em;text-transform:uppercase;color:var(--ink2);margin-top:8px}
+.pos dd{margin:2px 0 0;color:var(--ink)}
+.pos .rows{margin:6px 14px 12px 54px;font-size:13px;color:var(--ink2)}
+/* numbers you heard */
+.nums{list-style:none;margin:12px 0 0;padding:0;display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
+.nums li{border:1px solid var(--line);border-radius:12px;padding:14px 16px;background:var(--panel)}
+.nums p{margin:0 0 6px}
+.nums .said{font:600 16px/1.35 var(--head);color:var(--ink)}
+.nums .fig b{font:700 18px var(--head);color:var(--ink)}
+.nums .kind{display:inline-block;margin-left:6px;font:600 11px/1.6 var(--head);letter-spacing:.1em;text-transform:uppercase;color:var(--ink2);border:1px solid var(--line2);border-radius:999px;padding:0 8px}
+.nums .what{color:var(--ink2);font-size:14px} .nums .lim{display:block;margin-top:4px;font-size:13px}
+/* the host's own words */
+.host{margin:36px 0;padding:18px 22px;border-left:3px solid var(--ink2);background:var(--panel);border-radius:0 12px 12px 0}
+.host blockquote{margin:0}.host blockquote p{margin:0;font:500 18px/1.5 var(--head);color:var(--ink)}
+.host figcaption{margin-top:8px;color:var(--ink2);font-size:14px;display:flex;flex-wrap:wrap;gap:4px 14px;align-items:baseline}
+.host .ts{margin:0}
+/* verdict chips on claim results */
+.vchip{display:inline-block;font:600 11px/1.6 var(--head);font-style:normal;letter-spacing:.06em;text-transform:uppercase;color:var(--ink2);border:1px solid var(--line2);border-radius:999px;padding:0 8px;margin-bottom:4px}
+.subline{margin:14px 0 0;color:var(--ink2)}
+/* lighter: no eager map picture behind the home page's town teaser */
+.town-teaser{background:var(--panel)}
+@media (max-width:560px){.pos dl,.pos .rows{padding-left:14px;margin-left:14px}.blk.solid,.blk.glass{padding:16px}}
+
+/* ── ROUND-3 FIXES (lab) ─────────────────────────────────────────────────────────────────────────────── */
+/* the slab: clearly solid, but a mid-light tone that doesn't outshout the reframe or glare at night */
+.blk.solid{background:#b9c7cb;border:2px solid #dfe8ea}
+.blk.solid .fell{margin-top:12px;padding-top:10px;border-top:1px solid rgba(11,23,28,.25)}
+/* glass: a visible dashed edge over a faint fill, so it reads as see-through, not as another card */
+.blk.glass{border:1.5px dashed rgba(223,232,234,.75);background:rgba(223,232,234,.045)}
+@media (forced-colors:active){.blk.solid{border:3px solid CanvasText}.blk.glass{border:1.5px dashed CanvasText}}
+/* legend shapes that don't look like checkboxes: a solid bar and a dashed bar */
+.legend .li{display:inline-flex;align-items:center;gap:8px}.legend .sep{color:var(--line2)}
+.sw{width:26px;height:10px;border-radius:3px;margin:0}
+.sw.solid{background:#b9c7cb;border:1px solid #dfe8ea}
+.sw.glass{background:rgba(223,232,234,.06);border:1.5px dashed rgba(223,232,234,.75);box-shadow:none}
+/* the reframe owns the size; its heading is a small label */
+.blk.reframe h2{font:600 12px/1.4 var(--head);letter-spacing:.14em;text-transform:uppercase;color:var(--ink2);margin-bottom:8px}
+/* the dial: numbered stops joined by one track; positions are glass rows (argued, not settled); an open stop isn't "chosen" */
+.dial-track{list-style:none;margin:14px 0 0;padding:0}
+.dial-track::before{content:"";position:absolute;left:27px;top:22px;bottom:22px;border-left:2px solid var(--line2)}
+.dial-track li{margin:0}
+.pos{background:transparent;border:1px dashed var(--line2)}
+.pos summary::after{content:"";width:8px;height:8px;margin-left:auto;border-right:2px solid var(--ink2);border-bottom:2px solid var(--ink2);transform:rotate(45deg);transition:transform .15s}
+.pos[open] summary::after{content:"";transform:rotate(-135deg)}
+.stop{background:var(--bg);position:relative}
+.pos[open] .stop{background:var(--bg);color:var(--ink);border:3px solid var(--ink)}
+.shared{margin:14px 0 0;color:var(--ink2)}.shared b{color:var(--ink)}
+.checks{margin:12px 0 0;padding-left:22px;display:grid;gap:8px}.checks li{color:var(--ink2)}.checks b{color:var(--ink)}
+/* colour roles: the record's label is neutral, with a tick, so a correction never reads as "Green was right" */
+.is .lbl{color:var(--ink)}.is .lbl::before{content:"✓ "}
+.promise .count strong{color:var(--ink)}.hero h1 em{color:var(--ink2)}.spoil summary{color:var(--ink)}
+/* numbers: the figure leads, the spoken line is the lighter prompt; evidence kind shown by material */
+.nums .lbl{display:block;font:600 10.5px/1.5 var(--head);letter-spacing:.12em;text-transform:uppercase;color:var(--ink2);margin-bottom:2px}
+.nums .said{font:400 15px/1.45 var(--body);color:var(--ink2)}
+.nums .fig b{font:700 19px var(--head)}
+.kind.k-measured,.kind.k-official-count{background:#b9c7cb;color:#0b171c;border-color:#b9c7cb}
+.kind.k-model,.kind.k-estimate,.kind.k-survey{background:none;border:1.5px solid var(--ink2);color:var(--ink)}
+.kind.k-our-arithmetic{background:none;border:1.5px dashed var(--ink2);color:var(--ink)}
+.nums .lim{color:var(--ink2)}.nums .rc{display:block;margin-top:4px;font-size:13px;color:var(--ink2)}
+.more-nums{margin-top:10px}.more-nums summary{cursor:pointer;font-weight:600;padding:8px 0}
+/* links that look like links; a target you can see */
+.ts,.where a,.rewatch a{text-decoration:underline;text-underline-offset:3px}
+.rewatch{margin:10px 0 0;font-size:14px}
+[id]{scroll-margin-top:76px}
+.blk:target{outline:2px solid var(--gold-l);outline-offset:6px;border-radius:14px}
+.subline{margin-top:20px}
+
+/* ── ROUND-4 FIXES (lab) ─────────────────────────────────────────────────────────────────────────────── */
+/* colour roles: Green and Gold only on team content. The judge, the question, the steps, arrows, rings are neutral */
+.blurb{border-left-color:var(--ink2)}
+.spoil .who,.promise li::before{color:var(--ink)}
+.docs b::after{color:var(--ink2)} .docs a:hover{border-color:var(--ink2)}
+.hits .claim a{border-left-color:var(--ink2)}
+:focus-visible{outline-color:var(--ink)} .find input:focus{border-color:var(--ink);box-shadow:0 0 0 3px rgba(238,243,244,.18)}
+.blk:target,h2:target{outline:2px solid var(--ink);outline-offset:6px;border-radius:14px}
+@media (forced-colors:active){.blk:target,h2:target{outline:3px solid Highlight}}
+.ghost:hover,.bar nav .yt:hover{border-color:var(--ink2)} .town-teaser span:last-child{color:var(--ink)} .town-teaser:hover{border-color:var(--ink2)}
+.card h3 a:hover,.newest h2 a:hover{color:var(--ink);text-decoration:underline}
+/* one material rule: only settled content is filled. Plain record content is flat, divided by hairlines */
+.case .nums li{background:none;border:0;border-top:1px solid var(--line);border-radius:0;padding:14px 0 6px}
+.case .spoil{background:none;border:0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);border-radius:0;padding:0}
+.case .host{background:none;border-radius:0}
+.case .fixes li{background:none;border:0;border-top:1px solid var(--line);border-radius:0;padding:14px 0}
+.case .docs a{background:none;border:0;border-top:1px solid var(--line);border-radius:0;padding:14px 0}
+.fight .duel>div{border-style:dashed}
+/* the dial: stops on one track, no box around each row (a dashed box inside a dashed box was double noise) */
+.pos{border:0;border-radius:0}
+.pos summary{padding:10px 0 10px 14px}
+.pos dl{padding:0 0 6px 56px}.pos .rows{margin:6px 0 12px 56px}
+.rcx{color:var(--ink2);font-size:12px}
+@media (max-width:560px){.pos dl,.pos .rows{padding-left:0;margin-left:56px}}
+/* evidence kinds: arithmetic is a square tag, not the dashed edge (dashed means "still argued", and only that) */
+.kind.k-our-arithmetic{border:1.5px solid var(--ink2);border-radius:3px}
+/* grids without holes: numbers are one column; up next is three across */
+.nums{grid-template-columns:1fr}
+.upnext .cards.mini{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media (max-width:760px){.upnext .cards.mini{grid-template-columns:1fr}}
+/* one label size */
+.mat,.lbl,.nums .lbl,.pos dt,.duel>div>span,.kind,.vchip,.blk.reframe h2,.recent-k,.vsum dt{font-size:11px;letter-spacing:.12em}
+/* the verdict's short answers, before the fold */
+.vsum{margin:4px 0 12px;display:grid;gap:4px}
+.vsum dt{font:600 11px/1.5 var(--head);letter-spacing:.12em;text-transform:uppercase;color:var(--ink2);margin-top:10px}
+.vsum dd{margin:0;color:var(--ink);font-size:17px;line-height:1.5;max-width:62ch}
+/* corrections: an index by episode */
+.cindex ol{list-style:none;margin:6px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:6px}
+.cindex a{display:inline-block;padding:4px 10px;border:1px solid var(--line2);border-radius:999px;text-decoration:none;font-size:13px;font-weight:600}
+.cindex .ct{color:var(--ink2);font-size:12px;margin-left:2px}
+/* a phone keeps the site's links: a second, scrollable row under the brand */
+@media (max-width:640px){
+  .bar{flex-wrap:wrap;row-gap:8px}
+  .bar nav{width:100%;justify-content:flex-start;flex-wrap:nowrap;overflow-x:auto;gap:4px 16px;padding-bottom:2px}
+  .bar nav a:not(.yt){display:inline-block;white-space:nowrap}
+  html{scroll-padding-top:112px}[id]{scroll-margin-top:112px}
+}
+/* a dial with two settings: each setting is its own short track */
+.dial .setting{font:600 15px/1.3 var(--head);color:var(--ink);margin:18px 0 0}

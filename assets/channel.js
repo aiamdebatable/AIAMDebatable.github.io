@@ -18,11 +18,11 @@
     let claims = null, loading = false;
     const loadClaims = () => {
       if (claims || loading) return; loading = true;
-      const s = document.createElement("script"); s.src = "assets/search-index.js";
+      // SITE-NEXT: the claim index carries each claim's verdict in words and the id of its row in the log
+      const s = document.createElement("script"); s.src = "assets/claims.js";
       s.onload = () => {
         const live = new Set(F.map((e) => e.s));
-        claims = (window.__EPISODES__ || []).filter((e) => live.has(e.s)).flatMap((e) =>
-          (e.d || []).filter((d) => d[0] === "factcheck-log").flatMap((d) => (d[3] || []).map((c) => ({ s: e.s, n: e.n, c, l: c.toLowerCase() }))));
+        claims = (window.__CLAIMS__ || []).filter((c) => live.has(c.s)).map((c) => ({ ...c, l: String(c.c).toLowerCase() }));
         render();
       };
       document.head.appendChild(s);
@@ -31,9 +31,11 @@
       const words = q.value.toLowerCase().split(/\s+/).filter(Boolean);
       if (!words.length) { hits.innerHTML = ""; say(""); return; }
       const found = hay.filter(([, h]) => words.every((w) => h.includes(w))).slice(0, 4).map(([e]) => e);
-      const cl = claims && words.join("").length >= 3 ? claims.filter((c) => words.every((w) => c.l.includes(w))).slice(0, 4) : [];
+      // claims from an episode that also matched come first, so a search lands on that episode's numbers
+      const near = new Set(found.map((e) => e.s));
+      const cl = claims && words.join("").length >= 3 ? claims.filter((c) => words.every((w) => c.l.includes(w))).sort((a, b) => near.has(b.s) - near.has(a.s)).slice(0, 5) : [];
       const eps = found.map((e) => `<li><a href="${e.s}/">${pic(e)}<span><b>${esc(e.q || e.t)}</b><small>File ${e.n} · ${esc(e.c)} · ${esc(e.d)}</small></span></a></li>`);
-      const cls = cl.map((c) => `<li class="claim"><a href="${LOG}/${c.s}/factcheck-log.html"><span><b>${esc(c.c.length > 160 ? c.c.slice(0, 158) + "…" : c.c)}</b><small>A claim we checked · File ${c.n} · its source is in the fact-check log</small></span></a></li>`);
+      const cls = cl.map((c) => `<li class="claim"><a href="${LOG}/${c.s}/factcheck-log.html${c.r ? "#" + c.r : ""}"><span>${c.v ? `<em class="vchip">${esc(c.v)}</em>` : ""}<b>${esc(c.c.length > 160 ? c.c.slice(0, 158) + "…" : c.c)}</b><small>File ${c.n} · ${c.r ? "opens its row in the fact-check log" : "in the fact-check log"}</small></span></a></li>`);
       say(eps.length || cls.length ? `${eps.length} episode${eps.length === 1 ? "" : "s"}, ${cls.length} claim${cls.length === 1 ? "" : "s"}` : claims ? "No matches" : "");
       hits.innerHTML = eps.length || cls.length ? [...eps, ...cls].join("")
         : `<li class="none">${claims ? "Nothing on that yet. Try another word, or browse every question below." : "Searching the claims…"}</li>`;
