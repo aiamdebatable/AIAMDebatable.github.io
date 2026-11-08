@@ -139,7 +139,7 @@ himself is a visitor who does not remain." International Biosphere Reserve 1980 
 
 ## 15. "A closed system: no bears, no deer, no hunting, no roads. Moose swam out early last century; wolves crossed the ice from Canada in the late 1940s. Counted every winter since 1958 — the longest predator–prey study in the world."
 **CONFIRMED.** Wolf–Moose Project "The Study": research began 1958 under Durward Allen; wolves arrived
-over an ice bridge in the late 1940s; moose colonised in the early 1900s; wolves have ranged 12–50 [wrong, corrected after publication 2026-11-08: the low was 2 in 2016–2018; see the correction at the end of this file],
+over an ice bridge in the late 1940s; moose colonised in the early 1900s; wolves have ranged 12–50 [wrong, corrected after publication 2026-11-08: the low was 2 in 2016–2018; see row 33],
 moose 385–2,422. FEIS 2018: no deer or bears on the island; hunting barred. "Late nineteen forties"
 is spoken; the 1948–49 winter date is secondary (NBC/NPS) and not spoken.
 - https://www.isleroyalewolf.org/the-study
@@ -189,8 +189,7 @@ No outcome published as of 2026-09-13.
 **CONFIRMED (status) / UNRESOLVED (permit).** The park's own 2024 WSP FEIS: gray wolves "federally
 endangered in the remaining contiguous 48 states" after the 10 Feb 2022 vacatur; USFWS pages confirm
 the 44-state entity remained listed through 2025. No take authorisation for the 15 Aug 2025 removal
-was located. Spoken as an open question. Corrected after publication 2026-11-08 (see the correction at the end of
-this file): a permit was not required for a safety removal. 50 CFR 17.21(c)(3)(iv) lets a designated employee of a federal land management
+was located. Spoken as an open question. Corrected after publication 2026-11-08 (see row 32): a permit was not required for a safety removal. 50 CFR 17.21(c)(3)(iv) lets a designated employee of a federal land management
 agency remove, without a permit, an endangered animal that is a demonstrable threat to human safety.
 - https://parkplanning.nps.gov/document.cfm?documentID=138446&parkID=140&projectID=109183
 - https://www.fws.gov/our-work/protecting-wildlife/gray-wolf-recovery
@@ -258,6 +257,34 @@ aggression the leading mortality cause. Paywalled body not read.
 - https://conbio.onlinelibrary.wiley.com/doi/10.1111/csp2.70363
 
 ---
+
+## 32. "The research could not find whether the park held a permit to kill one. That stays open." (aired; corrected after publication 2026-11-08)
+**CORRECTED (after publication).** A permit was not required for this kind of removal: 50 CFR 17.21(c)(3)(iv) lets designated park staff remove an endangered animal that is a demonstrable threat to human safety, if live capture and release is not reasonably possible. The park did not say which rule it used.
+
+Found when we compared our episodes. The question aired as open has an answer in the federal rules: a permit was not
+required for this kind of removal. 50 CFR 17.21(c)(3) (eCFR, same text on 15 Aug 2025 and 1 Nov 2026): "any employee or agent of the Service, any
+other Federal land management agency, ... or a State conservation agency, who is designated by their agency for such
+purposes, may, when acting in the course of their official duties, take endangered wildlife without a permit if such
+action is necessary to: ... (iv) Remove specimens that constitute a demonstrable but nonimmediate threat to human
+safety, provided that the taking is done in a humane manner; the taking may involve killing or injuring only if it
+has not been reasonably possible to eliminate such threat by live-capturing and releasing the specimen unharmed in an
+appropriate area." (c)(4): such a taking "must be reported in writing to the Office of Law Enforcement ... within 5
+calendar days." The park's release (15 Aug 2025) gives "a growing public safety risk" as the reason and does not name
+the rule it used. Still open, and not spoken: whether the park met the rule's conditions and filed the report. The
+status half of row 22 stands: eCFR 50 CFR 17.11 lists the gray wolf in all of Michigan as endangered on both dates.
+Accessed 2026-11-08.
+- https://www.ecfr.gov/api/versioner/v1/full/2026-11-01/title-50.xml?part=17&section=17.21
+
+## 33. "since the study began, wolves have ranged from 12 to 50" (site text, not aired; corrected after publication 2026-11-08)
+**CORRECTED (after publication).** The range is 2 (2016–2018) to 50 (1980).
+
+Found when we compared our episodes. Not spoken on air; it was in the website's note under the "37 wolves" number, taken
+from row 15. The low end was wrong, and the Wolf–Moose Project's "The Study" page (fetched 2026-11-08) does not give a
+12–50 range at all. NPS Final EIS on wolves at Isle Royale (2018): "The wolf population reached its peak on the island
+in 1980, when 50 animals were present"; "By 2016, observations suggest there are only two wolves remaining." FWS Species
+Status Assessment (Nov 2025): "down to just two individuals (a father-daughter pair) from the winter of 2015/2016 until
+2018." The episode itself aired the two (row 6). The site now says 2 to 50. Accessed 2026-11-08.
+- https://npshistory.com/publications/isro/wolves-feis-2018.pdf
 
 ## Corrections applied to source
 - The bench (topic #87) had the lethal removal and the container rule as 2026 events → the script says "last summer" / "mid-August twenty twenty-five" and "spring twenty twenty-five" → no render had shipped.
@@ -425,37 +452,3 @@ closed 1 Nov–15 Apr, the only NPS park that closes entirely (NPS hours page, p
 2025 (NPS, primary); moose swam out early 1900s, wolves crossed ice from Ontario winter 1948–49, no
 bears or deer (Wolf–Moose Project / NBC — secondary; confirm the 1948–49 date against the FEIS text
 which says "late 1940s"). Ranger III six-hour crossing: secondary.
-
-
-### ⛔ CORRECTION 2026-11-08, after publication: "The research could not find whether the park held a permit to kill one. That stays open."
-
-Found when we compared our episodes. The question aired as open has an answer in the federal rules: a permit was not
-required for this kind of removal. 50 CFR 17.21(c)(3) (eCFR, same text on 15 Aug 2025 and 1 Nov 2026): "any employee or agent of the Service, any
-other Federal land management agency, ... or a State conservation agency, who is designated by their agency for such
-purposes, may, when acting in the course of their official duties, take endangered wildlife without a permit if such
-action is necessary to: ... (iv) Remove specimens that constitute a demonstrable but nonimmediate threat to human
-safety, provided that the taking is done in a humane manner; the taking may involve killing or injuring only if it
-has not been reasonably possible to eliminate such threat by live-capturing and releasing the specimen unharmed in an
-appropriate area." (c)(4): such a taking "must be reported in writing to the Office of Law Enforcement ... within 5
-calendar days." The park's release (15 Aug 2025) gives "a growing public safety risk" as the reason and does not name
-the rule it used. Still open, and not spoken: whether the park met the rule's conditions and filed the report. The
-status half of row 22 stands: eCFR 50 CFR 17.11 lists the gray wolf in all of Michigan as endangered on both dates.
-Accessed 2026-11-08.
-
-| claim (as aired) | verdict |
-|---|---|
-| "The research could not find whether the park held a permit to kill one. That stays open." | **CORRECTED (after publication).** A permit was not required for this kind of removal: 50 CFR 17.21(c)(3)(iv) lets designated park staff remove an endangered animal that is a demonstrable threat to human safety, if live capture and release is not reasonably possible. The park did not say which rule it used. https://www.ecfr.gov/api/versioner/v1/full/2026-11-01/title-50.xml?part=17&section=17.21 |
-
-
-### ⛔ CORRECTION 2026-11-08, after publication (site text only): "since the study began, wolves have ranged from 12 to 50"
-
-Found when we compared our episodes. Not spoken on air; it was in the website's note under the "37 wolves" number, taken
-from row 15. The low end was wrong, and the Wolf–Moose Project's "The Study" page (fetched 2026-11-08) does not give a
-12–50 range at all. NPS Final EIS on wolves at Isle Royale (2018): "The wolf population reached its peak on the island
-in 1980, when 50 animals were present"; "By 2016, observations suggest there are only two wolves remaining." FWS Species
-Status Assessment (Nov 2025): "down to just two individuals (a father-daughter pair) from the winter of 2015/2016 until
-2018." The episode itself aired the two (row 6). The site now says 2 to 50. Accessed 2026-11-08.
-
-| claim (site text) | verdict |
-|---|---|
-| "since the study began, wolves have ranged from 12 to 50" | **CORRECTED (after publication).** The range is 2 (2016–2018) to 50 (1980). https://npshistory.com/publications/isro/wolves-feis-2018.pdf |

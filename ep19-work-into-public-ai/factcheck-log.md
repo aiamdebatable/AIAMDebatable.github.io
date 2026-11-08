@@ -59,9 +59,7 @@ not state where the switch starts for new users, so that part stays unknown at t
 already matches the record ("the default is on"; "train by default at all three companies"). The published video
 carries the line; corrected here, in the transcript note and on the website.
 
-| claim (as aired) | verdict |
-|---|---|
-| "Reporting says the box comes pre-ticked. Anthropic's own page doesn't say that, so neither will we." | **CORRECTED (after publication).** Existing users were shown the pop-up with the training switch already on, in Anthropic's own image; new users choose at signup, and Anthropic does not say which way the switch starts. https://www.anthropic.com/news/updates-to-our-consumer-terms |
+**Verdict on "Reporting says the box comes pre-ticked. Anthropic's own page doesn't say that, so neither will we.":** **CORRECTED (after publication).** Existing users were shown the pop-up with the training switch already on, in Anthropic's own image; new users choose at signup, and Anthropic does not say which way the switch starts. https://www.anthropic.com/news/updates-to-our-consumer-terms
 
 ### ⛔ CORRECTION 2026-11-08, after publication: "There is no separate Codex setting. One toggle covers both."
 
@@ -76,6 +74,4 @@ half does not: training on full environments has its own Codex setting, and turn
 change it. The page does not say where that setting starts. The published video carries the line; corrected here, in the
 transcript note and on the website.
 
-| claim (as aired) | verdict |
-|---|---|
-| "There is no separate Codex setting. One toggle covers both." | **CORRECTED (after publication).** The ChatGPT training switch covers Codex conversations and tasks, but Codex has a separate "Include environments" setting for training on full environments, and changing the ChatGPT switch does not change it. https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance |
+**Verdict on "There is no separate Codex setting. One toggle covers both.":** **CORRECTED (after publication).** The ChatGPT training switch covers Codex conversations and tasks, but Codex has a separate "Include environments" setting for training on full environments, and changing the ChatGPT switch does not change it. https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance
