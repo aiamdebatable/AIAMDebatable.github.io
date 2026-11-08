@@ -2,6 +2,8 @@
 
 _Verbatim spoken track, in broadcast order._
 
+> **Correction (2026-11-08).** One line below says "New Western nuclear? Around eight on average." "Western" was wrong. About eight years is the worldwide figure: the IAEA puts the median at about eight and a half years from first concrete to grid connection, for reactors connected in 2021–2024. Western builds have run longer: Finland's Olkiluoto took about seventeen. The transcript keeps what was said on air.
+
 ## Cold open  
 
 

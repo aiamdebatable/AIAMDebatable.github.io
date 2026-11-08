@@ -53,7 +53,7 @@ before air — verified 2026-07-30 by re-reading the shipped captions.**
 | **BLOCKING** — "licenses already extended to 80 years" overstated the cited EIA FAQ, which only says the NRC *can grant* such extensions (regulatory capability, not accomplished fact) | green | ✔ **Dropped** — the 80-year claim is not in the aired script |
 | **BLOCKING** — nuclear's LCOE top ($220) quoted against wind's bottom ($37) with no firmness caveat, when the fact base says both teams must carry EIA's warning that the comparison excludes system value | gold | ✔ **Fixed** — aired as *"though those figures don't price in backup for when the wind stops"* |
 | "10 to 60%" understated the source's 10–62% | green | ✔ **Fixed** — aired as *"ten to as much as sixty-two percent"* |
-| "8 to 17 years for a Western reactor" — 8 yrs is the **global** average (incl. fast Korean/Chinese builds); 17 is Olkiluoto 3 specifically | gold | ✔ **Fixed** — aired as *"around eight on average, and up to seventeen for Europe's Olkiluoto plant"* |
+| "8 to 17 years for a Western reactor" — 8 yrs is the **global** average (incl. fast Korean/Chinese builds); 17 is Olkiluoto 3 specifically | gold | ⚠ **Partly fixed; CORRECTED after publication 2026-11-08** (see below): the aired line still opens "New Western nuclear?". Aired as *"around eight on average, and up to seventeen for Europe's Olkiluoto plant"* |
 | EPRI/CATF $500–800B figure cited without its disclosed "via CATF, a pro-firm-power advocacy nonprofit" label, while the opposing side carried its own source's caveat every time | green | ✔ **Dropped** — the figure is not in the aired script |
 | Asymmetric vividness — green conceded the cost record in adjectives ("wildly over budget") while gold stated the same facts with full figures | green | ✔ **Fixed** — green's aired concession names *Vogtle, Hinkley and Flamanville* explicitly, and the researcher segment carries the full $14B → $35B figures on screen |
 
@@ -81,3 +81,17 @@ interest: *"honestly, that finding covers any firm clean source, not nuclear spe
   **both** directions (n=1 cancelled US project against; Korea/China/UAE learning curves for).
 - What actually firms a renewables-heavy grid through multi-day winter lulls — the contested core,
   handed to the viewer.
+
+### ⛔ CORRECTION 2026-11-08, after publication: "New Western nuclear? Around eight on average."
+
+Found when the research library compared episodes: the fix above cut "8 to 17 years for a Western reactor" but kept
+"Western" in the aired line (9:28). The on-screen chart ("New nuclear (avg) ~8 yrs") was right. Re-checked at the
+primary, IAEA *Nuclear Power Reactors in the World*, 2025 edition (RDS-2/45), Table 8, "Number of new reactors connected
+to the grid and median construction time in months" (first concrete to grid connection): WORLDWIDE 102 months for
+2021–2024 connections (17 reactors), 91 months for 2016–2020; FINLAND 1 reactor, 200 months (Olkiluoto 3). The published
+video carries the error; corrected here, in the transcript note, the video description and the site summary. The old
+approved wording "including fast builds in Korea and China" is dropped: the same table gives Korea 124 months for 2021–2024.
+
+| claim (as aired) | verdict |
+|---|---|
+| "New Western nuclear? Around eight on average" | **CORRECTED (after publication).** About eight years is the worldwide median (IAEA RDS-2/45 Table 8: 102 months, 2021–2024), not a Western figure; Olkiluoto 3 took 200 months. https://www-pub.iaea.org/MTCD/Publications/PDF/RDS-2-45_web.pdf |
