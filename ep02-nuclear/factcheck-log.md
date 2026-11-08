@@ -89,7 +89,7 @@ Found when the research library compared episodes: the fix above cut "8 to 17 ye
 primary, IAEA *Nuclear Power Reactors in the World*, 2025 edition (RDS-2/45), Table 8, "Number of new reactors connected
 to the grid and median construction time in months" (first concrete to grid connection): WORLDWIDE 102 months for
 2021–2024 connections (17 reactors), 91 months for 2016–2020; FINLAND 1 reactor, 200 months (Olkiluoto 3). The published
-video carries the error; corrected here, in the transcript note, the video description and the site summary. The old
+video and its YouTube description stay as published; the correction lives here, in the transcript note and the site summary. The old
 approved wording "including fast builds in Korea and China" is dropped: the same table gives Korea 124 months for 2021–2024.
 
 | claim (as aired) | verdict |
