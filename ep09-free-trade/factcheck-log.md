@@ -20,10 +20,16 @@ read from secondary coverage._
 ---
 
 ## 1. "Chinese import competition explains about a quarter of the decline in US manufacturing employment."
-**CORRECTED to ~21%.** Autor, Dorn & Hanson, "The China Syndrome," *AER* 103(6):2121–68, peer-reviewed.
-The abstract says "one-quarter," but the body is more conservative: 16% (1990–2000), 26% (2000–2007),
-**21% over the full period**. Identification is a shift-share exposure measure instrumented by eight
-other high-income countries' Chinese imports.
+**CORRECTED: the paper's main specification says 44% (1990–2007); careful estimates run from 16% to 55%.**
+Autor, Dorn & Hanson, "The China Syndrome," *AER* 103(6):2121–68, peer-reviewed. The abstract's "one-quarter"
+is the paper's own loose wording. Its main specification explains **33% (1990–2000), 55% (2000–07) and 44%
+(1990–2007)**; about 21% arrives only after a further supply-shock-only adjustment. The low end, 16% (2000–07),
+is Caliendo, Dvorkin & Parro's *Econometrica* estimate (see GAP 2 below). This is what aired: "The paper's own
+main specification says forty-four percent over the same window" and "Sixteen percent at the low end. Fifty-five
+at the high end." Identification is a
+shift-share exposure measure instrumented by eight other high-income countries' Chinese imports.
+_Corrected 2026-11-08: until then this row read "CORRECTED to ~21% … the body is more conservative", which this
+log's own later section ("AND ONE CORRECTION THE DOSSIER GOT RIGHT") had already shown was backwards._
 - https://www.aeaweb.org/articles?id=10.1257/aer.103.6.2121
 
 ## 2. "The China shock cost 2.0 to 2.4 million jobs."
