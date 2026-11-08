@@ -571,5 +571,6 @@ body.epx .docs{grid-template-columns:repeat(2,minmax(0,1fr));margin-top:1.2rem}
 tr:target td{background:rgba(238,243,244,.10)}tr:target td:first-child{box-shadow:inset 4px 0 0 #eef3f4}
 h2:target,h3:target{outline:2px solid #eef3f4;outline-offset:4px}
 .tw[tabindex]:focus-visible{outline:2px solid #eef3f4;outline-offset:2px}
+:focus-visible{outline-color:#eef3f4}
 @media (forced-colors:active){tr:target td{outline:3px solid Highlight;outline-offset:-3px}h2:target,h3:target{outline:3px solid Highlight}}
 @media (max-width:560px){.tw table,.tw tbody,.tw tr,.tw td{display:block;width:auto}.tw thead{display:none}.tw tr{border:1px solid rgba(146,196,180,.25);border-radius:10px;margin:0 0 10px;padding:6px 10px}.tw td{border:0;padding:4px 0}.tw td[data-label]:not([data-label=""])::before{content:attr(data-label);display:block;font:600 11px/1.4 system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#a3b7b4;margin-bottom:2px}}

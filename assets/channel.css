@@ -377,3 +377,17 @@ a{color:var(--ink)} .blk p a,.lede a,.note a,.subline a,.rows a,.nums a{text-dec
 }
 /* a dial with two settings: each setting is its own short track */
 .dial .setting{font:600 15px/1.3 var(--head);color:var(--ink);margin:18px 0 0}
+/* ── DIALSHAPE (PKG-395, round-5 review, 2026-11-08) ──────────────────────────────────────── */
+/* levers you can combine and seats that share one loss: plain rows, no track, no numbers, any number open */
+.dial-rows{list-style:none;margin:14px 0 0;padding:0;display:grid;gap:10px}
+.dial-rows li{margin:0}
+/* a setting heads its group: uppercase label, clearly above the 16 px position names it groups */
+.dial .setting{font:700 13px/1.4 var(--head);letter-spacing:.12em;text-transform:uppercase;color:var(--ink2);margin:24px 0 0}
+/* the line under every position is not part of the last one */
+.dial .shared{border-top:1px solid var(--line2);padding-top:12px;margin-top:18px}
+.nodial{margin:28px 0 0;color:var(--ink2)}
+/* the search box's resting edge at 3:1 or better (WCAG 1.4.11): --ink3 on its own fill is about 6:1 */
+.find input{border-color:var(--ink3)}
+/* open rows have no stop to line up with: their content starts under the name */
+.dial-rows .pos dl{margin-left:0;padding-left:14px}.dial-rows .pos .rows{margin-left:14px}
+@media (max-width:560px){.dial-rows .pos dl{margin-left:0;padding-left:14px}.dial-rows .pos .rows{margin-left:14px}}
