@@ -4,6 +4,8 @@ Verbatim spoken track, one heading per beat in the order it plays. The host's cl
 
 > **Correction (2026-11-08).** One line below says reporting claims Anthropic's training box comes pre-ticked and that Anthropic's own page doesn't say so. That undersold Anthropic's own record: its announcement pictures the pop-up existing users got, with the training switch already on. New users choose at signup, and Anthropic doesn't say which way that switch starts. The transcript keeps what was said on air.
 
+> **Correction (2026-11-08).** One line below says there is no separate Codex setting and that one toggle covers both. Not quite: the ChatGPT training switch does cover Codex conversations and tasks, but OpenAI's own data-use page, updated a few days before this episode came out, lists a separate Codex setting, "Include environments", for training on full environments, and turning off the ChatGPT switch does not change it. If you use Codex, check both. The transcript keeps what was said on air.
+
 ## Cold open
 **Narrator:** You've got a draft. A manuscript, a side project, a spreadsheet your company would rather nobody saw. And a box that says: paste it here and I'll help.
 **Narrator:** This month a mathematician published a statement saying he'd put a year of drafts into one of those boxes, asked the company whether his sessions had trained its model, and got no answer. The company's first written answer: while unlikely, it cannot rule out. Four statements and five days later: a flat no.
