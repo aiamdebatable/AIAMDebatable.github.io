@@ -31,7 +31,7 @@ facts on air — they were softened or dropped. **fact_check.status: web-verifie
 | April 2025: 12 OpenAI/Microsoft cases consolidated into one SDNY MDL | CONFIRMED | Copyright Alliance |
 | 13 novelists sued Meta; NYT sued OpenAI (survived motion to dismiss Mar 2025) | CONFIRMED | Goodwin; NPR |
 | Common Crawl ~9.5 PB, 300B+ pages; 80%+ of GPT-3's tokens; ~45% ToS-restricted (2024 study) | CONFIRMED | Mozilla Foundation |
-| LLMs train on ~hundreds of billions up to ~20 trillion tokens | CONFIRMED | Mozilla Foundation |
+| LLMs train on ~hundreds of billions up to ~20 trillion tokens | CONFIRMED (clarified 2026-11-09, no change to what aired: aired as "words"; a token is a word or a piece of one, so a count in tokens runs higher than the same text counted in words. The Mozilla page does not give this range. The largest published runs were already bigger: Qwen3 was trained on about 36 trillion tokens, April 2025, https://qwenlm.github.io/blog/qwen3/ , so "up to around twenty trillion" does not overstate the scale.) | Qwen3 release (Alibaba Qwen team) |
 | "Books3" ~196,000 pirated books; named in Meta's LLaMA paper | CONFIRMED | Gizmodo; Authors Guild |
 | News Corp–OpenAI reported >$250M/5yr; Reddit–Google ~$60M/yr | CONFIRMED (reported figures — press, not court-filed; hedged as "reported" on screen) | Similarweb; Digiday |
 | UK: Getty v. Stability (Nov 2025) — "does not store the training data itself"; Getty lost secondary copyright claim | CONFIRMED | Ropes & Gray |

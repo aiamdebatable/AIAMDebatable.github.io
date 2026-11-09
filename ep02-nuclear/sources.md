@@ -16,7 +16,7 @@ labeled wherever used.
 - [F] Carbon Brief — "Solar, wind, nuclear have 'amazingly low' carbon footprints" (corroborates the
   ~12 g median) — https://www.carbonbrief.org/solar-wind-nuclear-amazingly-low-carbon-footprints/
 
-## Safety — deaths per TWh (~0.07 nuclear, incl. Chernobyl & Fukushima)
+## Safety — deaths per TWh (aired as ~0.07; Our World in Data's figure incl. Chernobyl & Fukushima is 0.03 — corrected after publication 2026-11-09)
 - [F] Our World in Data — death rates from energy production per TWh: coal **24.6**, gas **2.8**,
   nuclear **0.03**, wind 0.04, solar 0.02 — https://ourworldindata.org/grapher/death-rates-from-energy-production-per-twh
 - [F] Our World in Data — "What are the safest and cleanest sources of energy?" (Ritchie) —
@@ -29,7 +29,7 @@ labeled wherever used.
 - [S][A] Greenpeace — broader modeling, tens of thousands (advocacy source, labeled on air as such by
   attribution)
 - [S] UNSCEAR / Japanese government — Fukushima: 1 death linked to radiation, ~2,200 to the evacuation
-  _These three remain [S]: the verification pass confirmed the ~0.07 aggregate and that the range is
+  _These three remain [S]: the verification pass confirmed the aggregate (0.03 at Our World in Data; the aired 0.07 is Markandya & Wilkinson's 2007 European estimate, see the fact-check log's 2026-11-09 correction) and that the range is
   genuinely disputed, but did not re-fetch each toll estimate individually._
 
 ## Capacity factor (nuclear >92% vs wind ~34%, solar ~23%, 2024)

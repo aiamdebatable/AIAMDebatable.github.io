@@ -181,7 +181,7 @@ restoring competition, while **buyers of limited asset packages were more likely
 report's own PDF was not read. The figures above come from a law-journal analysis that names the
 report and its numbers precisely (Skadden, *A Moment of Repose: The FTC's Merger Remedy Study*, NYLJ
 vol. 257 no. 48, 14 Mar 2017), extracted from PDF. **Secondary, not primary.** Before any of these
-numbers goes on screen, pull the FTC report itself.
+numbers goes on screen, pull the FTC report itself. _Read at the primary after publication, 2026-11-09: the figures stand (89 merger orders, 79 requiring divestitures, 121 buyers, 2006 through 2012); what aired about asset packages did not, see 21._
 
 ⛔ **AND THE EXTRAPOLATION IS THE BIGGER PROBLEM.** This is evidence about **merger remedies** —
 unwinding a proposed combination — not about breaking up a standing monopolist. It is the best
@@ -317,6 +317,29 @@ not Meta's competitive position generally:
 ⚠ **Two versions exist:** a redacted opinion signed **18 Nov 2025** and a revised opinion signed
 **2 Dec 2025**. Quotations here are from the docket copy obtained. Note the distinction if a
 line is put on screen.
+
+## 21. "Divestitures that handed over a package of assets generally struggled." (aired; corrected after publication 2026-11-09)
+**CORRECTED (after publication).** Sales of selected assets did worse than sales of a whole business but still mostly
+succeeded: in Table 7, 56% success, 11% qualified success and 33% failure (18 orders), against 100% success for an
+ongoing business (14.3 orders). The study covered 89 merger orders from 2006 through 2012, of which 79 required
+divestitures.
+
+Found when we re-checked our episodes. Row 12 was written from a law-journal summary because the regulator's site
+refused our fetch; this time we read the report itself. What aired: "The competition regulator studied its own
+divestiture orders — eighty-nine of them, across six years"; "Divestitures that handed over a package of assets
+generally struggled"; "Carving a piece out of a machine and hoping it runs on its own mostly doesn't"; and in the
+host's reframe, "Carve a component out of a stack and it generally doesn't." Row 12's own wording, "more likely to
+struggle", was right; the script hardened it. FTC, *The FTC's Merger Remedies 2006-2012: A Report of the Bureaus of
+Competition and Economics*, January 2017: *"This study encompassed all 89 orders issued by the Commission from 2006
+through 2012 in order to remedy the anticompetitive effects of a proposed or consummated merger"*; *"Under these 79
+orders, the Commission approved 121 buyers"*; *"all of the divestitures involving an ongoing business succeeded.
+Divestitures of limited packages of assets in horizontal, non-consummated mergers fared less well, but still achieved
+a success rate of approximately 70%"*; and p. 22, *"the majority of selected asset divestitures succeeded. Even with
+an upfront buyer, however, they succeeded at a lower rate than divestitures of ongoing businesses."* The success
+results come from the 50 orders studied case by case. The contrast the episode drew stands; "generally struggled"
+does not. Read from a copy of the FTC's PDF, since ftc.gov again refused automated access. Accessed 2026-11-08.
+- https://www.ftc.gov/reports/ftcs-merger-remedies-2006-2012-report-bureaus-competition-economics
+- https://appliedantitrust.com/13_merger_review/2_remedies_ftc/ftc_merger_remedies_study%201_2017.pdf
 
 ---
 

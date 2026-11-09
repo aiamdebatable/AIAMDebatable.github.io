@@ -4,6 +4,8 @@ _Verbatim spoken track, in broadcast order. Speakers: **Lucas** (host), **Walt**
 lead), **Cole** (the doubts), **Erin** (Team Green · WORTH IT), **Raj** (Team Gold ·
 NOT AT THIS PRICE), **Lena** (the judge), and the **Narrator** who reads the cold open._
 
+> **Correction (2026-11-09).** One line below, in Team Green's case, says "Even at the high end, most of that collapse is not trade." That is wrong at the high end the episode itself gave. Autor, Dorn and Hanson's main estimate for 2000 to 2007 puts trade's share of the manufacturing job decline at 55%, more than half. Most of the decline is not trade only on the lower estimates: 44% over the full 1990 to 2007 period, 21% in the same authors' more cautious version, and 16% at the low end. The transcript keeps what was said on air.
+
 ## Cold open
 **Narrator:** Ask the internet whether free trade was worth it, and you'll get a boarded-up factory town on one side and an economics textbook on the other.
 **Narrator:** Ask the research, and the question everyone's shouting about has already been answered — just not the one they think.

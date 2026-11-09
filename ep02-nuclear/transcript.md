@@ -4,6 +4,10 @@ _Verbatim spoken track, in broadcast order._
 
 > **Correction (2026-11-08).** One line below says "New Western nuclear? Around eight on average." "Western" was wrong. About eight years is the worldwide figure: the IAEA puts the median at about eight and a half years from first concrete to grid connection, for reactors connected in 2021–2024. Western builds have run longer: Finland's Olkiluoto took about seventeen. The transcript keeps what was said on air.
 
+> **Correction (2026-11-09).** One line below says nuclear power causes "about zero point zero seven" deaths per terawatt hour, "including Chernobyl and Fukushima", and the chart credits Our World in Data. Our World in Data's figure that counts both accidents is about 0.03. The 0.07 is an older estimate from a 2007 study of European power plants, published before Fukushima happened. Either way, nuclear sits far below coal (about 25) and gas (about 3). The transcript keeps what was said on air.
+
+> **Correction (2026-11-09).** One line below says "Google and Meta have signed for reactors that don't exist yet. Up to six point six gigawatts by twenty thirty-five." The 6.6 gigawatts is Meta's total alone, from its January 2026 deals, and Meta describes it as new and existing power: more than 2.1 gigawatts of it is bought from two nuclear plants already running in Ohio, plus upgrades at existing plants. The new reactors in those deals add up to about 4 gigawatts. The transcript keeps what was said on air.
+
 ## Cold open  
 
 

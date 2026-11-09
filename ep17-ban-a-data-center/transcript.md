@@ -2,6 +2,8 @@
 
 Verbatim spoken track, one heading per beat in the order it plays. The host's close is his recorded voice; everything else is synthesised from the script below. The intro is not placed in this format; the close carries the disclosure.
 
+> **Note (2026-11-09).** One line below gives the words of Virginia's biggest utility as "capacity and demand are not the same thing." That line was a close paraphrase. Its letter to the grid operator says the gap between 47 gigawatts of contracts and 16.6 gigawatts of forecast demand "highlights the difference between capacity and demand." The meaning is the same. The transcript keeps what was said on air.
+
 ## Cold open
 **Narrator:** Ask your county's Facebook page about the data center, and you'll get ban it on one side, and you're leaving money on the table on the other.
 **Narrator:** Ask the record. Seven in ten Americans say not near me. Over five hundred towns and counties have written a pause or a ban. Two governors chose a freeze this summer; one chose rules, with a veto for the town. And in Ohio, a court just ordered a city to let its own voters decide.

@@ -84,7 +84,9 @@ dominates at the bottom of the local stock.
 
 ## 11. "Real annual rental filtering runs about 2.5% per year."
 **CONFIRMED.** Rosenthal, *AER* 2014, 104(2):687–706, verbatim: "real annual filtering rates are faster
-for rental housing (2.5 percent) than owner-occupied (0.5 percent)."
+for rental housing (2.5 percent) than owner-occupied (0.5 percent)." The aired "twenty to forty year clock" is the
+episode's own reading of this rate: at 2.5% a year, the income of a unit's occupants falls by about 40% in 20 years and
+by about 64% in 40. Noted 2026-11-09.
 - https://www.aeaweb.org/articles?id=10.1257/aer.104.2.687
 
 ## 12. "Displacement risk fell near new construction, yet nearby parcels became more likely to gentrify."
@@ -96,7 +98,7 @@ open question, **not cited as a settled number on air.**
 
 ## 13. "Auckland's 2016 upzoning cut rents 22–28% below synthetic control."
 **CORRECTED to ~28%, with the dispute characterised honestly.** Greenaway-McGrevy & So, *Economic
-Inquiry* 2026: ~28% below synthetic control at six years, over 2017–2024, donor pool of 51 NZ
+Inquiry* 2026: ~28% below synthetic control at six years [wrong, corrected after publication 2026-11-09: the published paper says 23% lower at eight years; ~28% and the 14–35% range come from working-paper drafts; see row 25], over 2017–2024, donor pool of 51 NZ
 commuting zones. Estimates range **14–35% by dwelling type**, so the headline is segment-dependent.
 The prominent critique (Murray & Helm) is an **unreviewed Substack post attacking a different paper**,
 and a peer-reviewed rebuttal in *Land Use Policy* (2025) found the critiques had little merit.
@@ -143,7 +145,12 @@ verbatim: "Sixty-three percent of all comments were in opposition" (22.8% neutra
 planning board minutes across **97 eastern Massachusetts municipalities, 2015–2017**, matched to the
 state voter file. **The homeowner half is not supported:** the authors state that homeownership "we
 cannot assess using the voter file," and the overrepresentation claim rests on a single-town case
-study. The two facts are stated separately on air and never welded into a causal claim.
+study. The two facts are stated separately on air and never welded into a causal claim. Re-read at the primary
+2026-11-08: the 63% counts comments, not people (one person on one project at one meeting is one comment; 3,123 people
+made 1.3 comments each on average, and repeat speakers were more likely to oppose), and only those who spoke are counted.
+The paper does not report the share of people opposed. Team Green's "sixty-three percent of the people who turn up to
+hearings turn up to object" is a debater's paraphrase in the spirit of the authors' own "the overwhelming majority of
+attendees spoke out in opposition"; the desk's line, "Sixty-three percent of all comments", is the exact one.
 - https://maxwellpalmer.com/docs/articles/Einstein_Glick_Palmer_Participation.pdf
 
 ## 21. "US homeowner equity stands at $34.9 trillion (Fed Z.1, Q1 2026)."
@@ -168,6 +175,22 @@ reporting of Mayor's Office of Housing data. Direction is sound; **no precise fi
 figures are **UNRESOLVED**: sole source is an industry blog. Neither is used on air.
 
 ---
+
+## 25. "Rents ran about twenty-eight percent below a synthetic control after six years. Though the estimate ranges from fourteen to thirty-five percent by dwelling type" (aired; corrected after publication 2026-11-09)
+**CORRECTED (after publication).** The published paper puts Auckland rents 23% below the no-reform comparison eight years after the 2016 upzoning, under its preferred estimate. The aired ~28% and the 14–35% range came from working-paper drafts, not from the published paper that row 13 cites.
+
+Found when we re-checked our episodes. Greenaway-McGrevy and So, *Economic Inquiry* 64(4), published online 11 July
+2026, abstract: "Eight years after the reform, the synthetic control under our preferred empirical specification implies
+that rents decreased by 23% due to the reform." The study's first working paper (May 2023) gave ranges by size:
+three-bedroom rents "between 22 and 35% less than those of the synthetic control", two-bedroom "between 14 and 22% less",
+six years on. Its March 2024 revision, using a quality-adjusted rent index, says rents "would be approximately 28% higher
+under the counterfactual", which the paper itself converts to a 21.6% decrease. So the aired 28% is not the main estimate
+of any version: it reads "28% higher without the reform" as "28% lower with it", or picks one robustness check from the
+2023 draft. The same figure aired in the host's reframe and in Team Green's opening, and the on-screen chart showed
+"14–35% below". Rents fell against the comparison in every version; the size was overstated. Accessed 2026-11-08.
+- https://onlinelibrary.wiley.com/doi/10.1111/ecin.70075
+- https://ideas.repec.org/p/cyc/wpaper/016.html
+- https://auckland.ac.nz/assets/business/our-research/docs/economic-policy-centre/EPC-WP-016.pdf
 
 ## Corrections applied to source
 

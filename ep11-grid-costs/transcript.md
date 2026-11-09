@@ -4,6 +4,8 @@ _Verbatim spoken track, in broadcast order. Speakers: **Lucas** (host), **Erin**
 lead), **Walt** (the doubts), **Lena** (Team Green · SEND THEM THE BILL), **Cole** (Team Gold ·
 NO RULE, NO HOOKUP), **Raj** (the judge), and the **Narrator** who reads the cold open._
 
+> **Correction (2026-11-09).** One line below says Tennessee carved out the hard case "in its own words": the utility may share those costs with everyone if the upgrade goes beyond what the data center needs. Those aren't the law's words, and its exception is narrower. Tennessee's law says a utility may pass "a portion" of the cost on to its other customers only when all four conditions hold: the upgrade goes beyond what the data center needs, it can serve other customers too, the cost comes from repairing, maintaining or replacing equipment someone else originally paid for, and the split follows the utility's own policies. Otherwise the utility may not pay or absorb the cost of serving a data center. The earlier line that Tennessee wrote "would not be incurred but for" into law is right. The transcript keeps what was said on air.
+
 ## Cold open
 **Narrator:** Ask the internet who should pay for the power lines the AI boom needs, and you'll get a moratorium on one side and a jobs number on the other.
 **Narrator:** Ask the regulators, and three of them answered this summer, in three different ways. Virginia sent the bill. Kentucky wrote a contract. New York hit pause.

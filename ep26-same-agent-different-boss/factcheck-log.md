@@ -18,6 +18,8 @@ Verdicts use the four-word vocabulary. The engine's "unsupported" items are reco
 Three vendors took consumer-born agents to business within four weeks: xAI (Grok Bot for Enterprise,
 2026-09-03), Meta (Muse 2026-09-08; Meta Enterprise Platform 2026-09-28; Muse for Small Business
 2026-09-29), Microsoft (Copilot Autopilot, 2026-09-25). **CONFIRMED** on each company's own post.
+Amended after publication 2026-11-09: the fourth company the episode names, OpenAI (dots, 2026-09-29), is
+dated in section 4.
 - https://x.ai/news/grok-bot-for-enterprise
 - https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/
 - https://about.fb.com/news/2026/09/launching-meta-enterprise-platform/
@@ -31,6 +33,25 @@ Three vendors took consumer-born agents to business within four weeks: xAI (Grok
 
 Product facts this episode shares with ep25 (Autopilot's own identity; Grok Bot acting as the signed-in
 member) were checked in ep25's hand pass A and are logged there.
+
+## 4. "Four of the biggest AI companies started selling their personal agents to employers" (aired; re-checked after publication 2026-11-09)
+**CONFIRMED.** Found when we re-checked our episodes: section 2 dated three of the four companies. The
+fourth, OpenAI, launched dots on 2026-09-29. OpenAI's launch post says "Dots are rolling out today in
+ChatGPT to Pro and Business Premium users in eligible markets. Enterprise users (including Edu and
+Healthcare) can try the beta when their workspace admin enables it", and "Your first dot is included in
+your Pro or Business Premium plan at no extra cost." Business Premium is a plan companies buy, so all four
+launches to employers fall within 2026-09-03 to 2026-09-29. The preview the episode mentions ("A company
+version with its own identity is only a preview so far") is a separate product: "specialist dots" with
+"its own identity, credentials, and access", starting as "focused enterprise pilots". It does not qualify
+the launch to Business Premium.
+How available each launch was differed. xAI's Grok Bot for Enterprise was "free for the next two weeks".
+Microsoft said Autopilot "is expanding to private preview at the end of the month". Meta's Enterprise
+Platform post gives no terms, and Muse for Small Business is the consumer app with business connectors.
+"Started selling" describes four business launches. It does not mean four products on general sale.
+https://openai.com/index/introducing-dots/ (accessed 2026-11-08) ·
+https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/ ·
+https://x.ai/news/grok-bot-for-enterprise ·
+https://about.fb.com/news/2026/09/launching-meta-enterprise-platform/
 
 ## Corrections applied to source
 - Microsoft consumer Copilot "trains by default" → no longer true of the new app (2026-08-18): prompts,

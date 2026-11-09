@@ -5,6 +5,12 @@ lead), **Cole** (the ringmaster), **Lena** (Team Green · MANAGE THEM LIKE A GAM
 **Raj** (Team Gold · MANAGE THE CONFLICT, NOT THE NUMBER), **Walt** (the judge), and the **Narrator**
 who reads the cold open._
 
+> **Correction (2026-11-09).** One line below says the federal recovery floor for this population was two hundred wolves, and that Michigan passed it in the year two thousand. Michigan's count did pass two hundred that winter, at 216. But two hundred is the floor Michigan's own plan uses. The federal recovery plan asked for at least one hundred wolves across Wisconsin and Michigan together, for five years, and the two states have counted more than that every winter since 1993–94. The transcript keeps what was said on air.
+
+> **Correction (2026-11-09).** One line below says Wisconsin pays for missing calves and Michigan doesn't. Michigan pays for missing animals too, on conditions: since its 2012 law, if the investigator can't rule out wolves and the farm has had a verified wolf attack before, the owner can be paid. The $213,712 Michigan has paid since 1998 includes those payments, according to the Fish and Wildlife Service. Wisconsin's program is larger and has paid for more than a thousand missing calves since 1985. The transcript keeps what was said on air.
+
+> **Correction (2026-11-09).** Several lines below say Minnesota's three wolf seasons, 2012 to 2014, moved neither the population nor the losses, and one says "twenty-two hundred before, twenty-two hundred after." The 2,200 was counted the winter after the first season. The last count before any hunting, in the winter of 2007–08, was about 2,900; the two counts' margins of error overlap, so a fall isn't proven either. What Minnesota's wildlife agency found is no significant change across the three winters after hunting began. On the losses, our research had no source: it never checked whether attacks on livestock changed during the seasons, and the tallies we have found since disagree with each other. The transcript keeps what was said on air.
+
 ## Cold open
 **Narrator:** Ask the internet who should manage the wolves in Michigan's Upper Peninsula, and you'll get shoot them on one side and leave them alone on the other.
 **Narrator:** Ask the state, and it says at least seven ninety-two wolves. Ask its cameras, and it's anywhere from five hundred to twelve hundred, depending on the month. Ask the farms: about thirteen verified kills a year. Ask the record: no wolf has ever attacked a person here.

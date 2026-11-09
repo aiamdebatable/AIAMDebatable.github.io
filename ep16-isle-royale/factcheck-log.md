@@ -110,7 +110,9 @@ touching, teasing, frightening or intentional disturbing of wildlife." Superinte
 updated 25 Jun 2026: violations up to $5,000 (individuals) and six months (18 U.S.C. §3571, §3559).
 Ranger Liz Valencia to Bridge Michigan, Aug 2025: "a citation and possibly fine." Seven search passes
 found no citation at Isle Royale; the script says "found none … a search, not a records check" and
-never "none issued."
+never "none issued." Amended after publication 2026-11-09: the research segment kept that caveat, but the debate, the
+judge and the host's close did not ("not one visitor has been cited", "no citation, ever", "Not one camper has ever
+been cited"). Re-checked: still no citation found (see row 35).
 - https://www.law.cornell.edu/cfr/text/36/2.2
 - https://www.nps.gov/isro/learn/management/superintendents-compendium.htm
 - https://bridgemi.com/outdoors-life/isle-royale-kills-wolf-reliant-on-human-food-sources/
@@ -286,6 +288,29 @@ Status Assessment (Nov 2025): "down to just two individuals (a father-daughter p
 2018." The episode itself aired the two (row 6). The site now says 2 to 50. Accessed 2026-11-08.
 - https://npshistory.com/publications/isro/wolves-feis-2018.pdf
 
+## 34. "On bears, with a thousand times the visitors" / "a park with a thousand times our visitors" (aired; corrected after publication 2026-11-09)
+**CORRECTED (after publication).** Yosemite has about 140 times Isle Royale's visitors, not a thousand.
+
+Found when we re-checked our episodes: the ratio had no row. Isle Royale: 29,091 recreation visits in 2025 (row 13).
+Yosemite: the park's visitation page gives monthly averages "from 2010 through 2024" that sum to about 4.05 million
+visits a year; 4.05 million / 29,091 is about 139 (about 147 on reported 2025 figures). The point made on air, that
+the bear success came in a far busier park, stands; the multiple was wrong. Not on the website. Accessed 2026-11-08.
+- https://www.nps.gov/yose/planyourvisit/visitation.htm
+- https://www.nps.gov/orgs/1207/03-13-26-2025-visitation-statsitics.htm
+
+## 35. "Not one camper has ever been cited for leaving food out." (aired in the debate, the verdict and the close; re-checked after publication 2026-11-09)
+**UNRESOLVED.** Still no citation found at Isle Royale, but no public record would show one; it was a search, not a records check.
+
+Found when we re-checked our episodes. Row 11's search found no citation and the research segment said so with its
+caveat; the debate ("not one visitor has been cited"), the judge ("no citation, ever") and the host's close ("Not one
+camper has ever been cited for leaving food out") said it without the caveat. Re-checked: the park's release of
+14 July 2026 closing Duncan Narrows mentions no citation ("An investigation is ongoing"), and a news search of 2025–26
+coverage found warnings that rule-breakers "could" be ticketed or fined and no report of anyone cited. The park does
+not publish its citations; a records request to the park would settle it. The website says "no visitor citation that
+our search could find". Accessed 2026-11-08.
+- https://www.nps.gov/isro/learn/news/isle-royale-closes-duncan-narrows-campground-until-end-of-july.htm
+- https://www.nps.gov/isro/learn/management/superintendents-compendium.htm
+
 ## Corrections applied to source
 - The bench (topic #87) had the lethal removal and the container rule as 2026 events → the script says "last summer" / "mid-August twenty twenty-five" and "spring twenty twenty-five" → no render had shipped.
 - The pitch's "visitors are feeding the wolves" → spoken as community testimony ("campers … describe"), never as a documented case → per Lucas's ruling 2026-09-13.
@@ -296,7 +321,7 @@ Status Assessment (Nov 2025): "down to just two individuals (a father-daughter p
 
 ## Open questions this episode could not settle
 - Under what authority, and with what ESA take permit, was an endangered wolf killed inside designated wilderness on 15 Aug 2025?
-- Has any Isle Royale visitor ever been cited for feeding or food-storage noncompliance? (web null, not a records check)
+- Has any Isle Royale visitor ever been cited for feeding or food-storage noncompliance? (web null, not a records check; re-checked 2026-11-09, still none found, see row 35)
 - Is the 2026 moose/wolf state in-cycle or a design failure? No scientist rules on the record.
 - Why has the Wilderness Stewardship Plan sat unsigned since August 2024?
 - The Grand Portage Band's current position on the removal and the closures.

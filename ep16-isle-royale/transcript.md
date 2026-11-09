@@ -6,6 +6,10 @@ MANAGE THE VISITOR), **Andre** (the judge), and the **Narrator** who reads the c
 
 > **Correction (2026-11-08).** One line below says the research could not find whether the park held a permit to kill an endangered wolf, and that this stays open. A permit was not required for this kind of removal. Federal rules let designated Park Service staff remove an endangered animal that is a real threat to people's safety without a permit, as long as catching it and moving it is not reasonably possible, and the killing has to be reported to the Fish and Wildlife Service within five days. The park said the wolf was a growing public safety risk; it did not say which rule it used. The transcript keeps what was said on air.
 
+> **Correction (2026-11-09).** Two lines below say Yosemite, the park whose bear program worked, has a thousand times Isle Royale's visitors. It has about a hundred and forty times as many: around four million visits a year against Isle Royale's 29,091 in 2025. The transcript keeps what was said on air.
+
+> **Note (2026-11-09).** Several lines below, including the close, say no camper has ever been cited at Isle Royale. That comes from a search of what the park and the press have published, which found no citation, not from the park's own records. The research segment says so; the later lines don't. We checked again in November 2026 and still found none. The transcript keeps what was said on air.
+
 ## Cold open
 **Narrator:** Ask the internet what to do about the wolves on Isle Royale, and you'll get shut the island to people on one side, and shoot the problem wolves on the other.
 **Narrator:** Ask the Park Service, and it put nineteen wolves on that island itself, seven years ago, on purpose. Ask the count: thirty-seven wolves now, about five hundred moose, not one calf seen this winter. Ask the campgrounds: a wolf shot last summer for living on human food, and since the end of August, no tents at four of them.

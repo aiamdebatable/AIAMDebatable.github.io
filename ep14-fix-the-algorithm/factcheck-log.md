@@ -319,6 +319,31 @@ engine were found. No credit-band figure is stated on air.
 
 ---
 
+## 38. "What they do say is that the clinician works for the vendor that's paid per denial." (aired; checked after publication 2026-11-09)
+**CONFIRMED, as the documents put it.** CMS's guide calls the reviewing clinicians the vendor's own; whether they are employees or contractors is not public.
+
+Found when we re-checked our episodes: this line had no row of its own. Participant Guide (v3.0 in the released
+records, Bates 7002CMS00057; same words in v4.0, 1 May 2026): "the WISeR Participant must coordinate with its WISeR
+Clinician(s) or WISeR Clinical Reviewer(s), as applicable, to conduct a medical review of the request and confirm that
+it does not meet Medicare coverage criteria." The request for applications requires "Dedicated clinicians with relevant
+expertise and experience for the selected items and services to conduct medical reviews" and asks each applicant to
+"Describe your company/organization's arrangement or staffing structure to access dedicated clinicians". So the
+clinician is the vendor's to supply, on staff or under contract; "works for the vendor" means that, not a particular
+employment form. The definition of "WISeR Clinician" is in the Participation Agreement, which is still not public, so
+the form of the arrangement stays open (see the open questions below). The payment half is row 5. Accessed 2026-11-08.
+- https://www.cms.gov/priorities/innovation/files/wiser-participant-guide.pdf
+- https://www.cms.gov/priorities/innovation/files/wiser-model-rfa.pdf
+
+## 39. "the reviewer at Cigna signed sixty thousand a month" (aired twice, in the debate; checked after publication 2026-11-09)
+**CONFIRMED as reporting; not a court finding.** ProPublica reported that one Cigna medical director denied roughly 60,000 claims in a single month.
+
+Found when we re-checked our episodes: row 29 carries the 300,000-in-two-months figure across Cigna's medical
+directors, and the debate's "sixty thousand a month" is a different, single-reviewer figure from the same reporting.
+ProPublica and The Capitol Forum (25 March 2023): "His claim was just one of roughly 60,000 that Dopke denied in a single
+month last year", and "Dopke … rejected 121,000 claims in the first two months of 2022". The same caveat as row 29
+applies: reporting from internal documents, alleged in the lawsuit, not found by a court. Accessed 2026-11-08.
+- https://www.propublica.org/article/cigna-pxdx-medical-health-insurance-rejection-claims
+
 ## Corrections applied to source
 - Scout brief: "the record's own numbers — ~0.2% of denials appealed, ~90% of appeals won" (Lokken) →
   replaced in the brief by OIG's 1% / 75% (2014–16) and 18% / 95% (June 2024), with the complaint's
@@ -351,6 +376,7 @@ engine were found. No credit-band figure is stated on air.
 - What is the independent (external) overturn rate for automated health denials nationally?
 - What share of applications land in DU/LPA's approve / refer / decline categories?
 - Is WISeR's reviewing clinician employed by or paid through the vendor — the Participation Agreement
-  would say and is not in the release.
+  would say and is not in the release. (Partly answered after publication, 2026-11-09: CMS's guide calls them the
+  vendor's own clinicians; employee or contractor is still not public. See row 38.)
 - Has Humana answered the PSI's 2026-07-14 letter?
 - Where is the MiDAS 93% figure's primary?

@@ -409,7 +409,7 @@ _Federal (F4, U10, U37, U45, U95, U106)_
 | D-A16 | U21 inputs: 20% of tasks exposed, 23% profitable, 4.6% of tasks, 27% labour-cost saving, 14.4% overall. The 23% is Svanberg et al.'s *computer-vision* estimate, carried over to all exposed tasks. | CONFIRMED. Quote: "0.23× 0.200 = 4.6% of all tasks" | [Daron Acemoglu — 'The Simple Macroeconomics of AI', May 2024](https://economics.mit.edu/sites/default/files/2024-05/The%20Simple%20Macroeconomics%20of%20AI.pdf) |
 | D-A17 | Below 0.53% with hard tasks; GDP +0.93-1.16% over 10 years, or 1.4-1.56% with an investment boom. | CONFIRMED. Quote: "by 0.93%− 1.16% over the next 10 years" (and: "are predicted to be less than 0 .53%") | [Daron Acemoglu — 'The Simple Macroeconomics of AI', May 2024](https://economics.mit.edu/sites/default/files/2024-05/The%20Simple%20Macroeconomics%20of%20AI.pdf) |
 | D-A18 | AI widens the capital-labor income gap. | CONFIRMED. Quote: "AI is predicted to widen the gap between capital and" (continues: "labor income") | [Daron Acemoglu — 'The Simple Macroeconomics of AI', May 2024](https://economics.mit.edu/sites/default/files/2024-05/The%20Simple%20Macroeconomics%20of%20AI.pdf) |
-| D-A19 | Contested[2] files Acemoglu as "SLOW", meaning the jobs side is fine. His June 2026 view is a small net negative for labour. | CORRECTED. Quote: "He expects AI to have only a small net negative impact on labor over the next five years" (Goldman *Top of Mind* 149, 2026-06-25; he warns losses "could be larger over the longer term") | [Goldman Sachs Research — Top of Mind, Issue 149, 'An AI Job Apocalypse?', dated 2026-06-25 in the PDF](https://www.goldmansachs.com/pdfs/insights/goldman-sachs-research/an-ai-job-apocalypse/report.pdf) |
+| D-A19 | Contested[2] files Acemoglu as "SLOW", meaning the jobs side is fine. His June 2026 view is a small net negative for labour. | CORRECTED. Quote: "He expects AI to have only a small net negative impact on labor over the next five years" (Goldman *Top of Mind* 149, 2026-06-25; he warns losses "could be larger over the longer term"; his own words in the same issue's interview: "So, I expect only a small net negative impact on labor over the next five years or so"; added 2026-11-09, no change to what aired) | [Goldman Sachs Research — Top of Mind, Issue 149, 'An AI Job Apocalypse?', dated 2026-06-25 in the PDF](https://www.goldmansachs.com/pdfs/insights/goldman-sachs-research/an-ai-job-apocalypse/report.pdf) |
 
 **History: telephone operators, ATMs, new work, 1966**
 
@@ -714,7 +714,7 @@ by the 2026-10-26 peg hunt.
   argued from primaries (D-A1, D-A9–A13, D-A19). Goldman's October note is client research and stays
   unread; only what Fortune quotes from it is used, attributed to Fortune (D-A3, D-A4).
 - **Acemoglu was moved, not dropped.** The engine filed him with the "slow, nothing much happens" side;
-  his own words put him at "small net negative for labor" (D-A19). The brief uses him that way.
+  his own words put him at "only a small net negative impact on labor over the next five years or so" (D-A19). The brief uses him that way.
 - **The label runs both ways, and both directions are in.** Company claims that credit AI (Barclays,
   Klarna, Benioff) and that deny it (Jassy, TCS, Salesforce's spokesperson) are all management
   statements, marked as stated views; neither direction is measured (B-A10, B-A11, B-B33, B-B41).

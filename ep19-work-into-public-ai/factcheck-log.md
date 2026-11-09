@@ -34,7 +34,7 @@ Anthropic safety-flag retention 5 yrs regardless of toggle · Google reviewer re
 | OpenAI's Terms never opened | **Closed.** |
 | OpenAI's outage post-mortem never opened | **Closed.** |
 | Altman absent | **Closed** (two sentences via ABC). |
-| Exact wording/date of each OpenAI statement | **Mostly closed**: 09-08 (spokesperson, ABC), 09-10 (on the post), 09-13 (Nature). The 09-09 "impossible … last two months" line rests on Wikipedia ref [33] — ○. |
+| Exact wording/date of each OpenAI statement | **Mostly closed**: 09-08 (spokesperson, ABC), 09-10 (on the post), 09-13 (Nature). The 09-09 "impossible … last two months" line rests on Wikipedia ref [33] — ○. Re-checked 2026-11-09: that reference is The New York Times (Kenneth Chang, 10 Sep 2026), which was not opened (paywall); OpenAI's own 09-10 update says the same thing. |
 | Forced vs unforced | **Closed** from the post: forced NS, unforced Euler. |
 | No cross-user regurgitation case; absence unsearched | **Accepted as a finding.** Brief says "no documented case was found," never "never happened." |
 | Data-to-deployment latency that makes "July 3" meaningful | **Open.** Carried to the script as an open question. |

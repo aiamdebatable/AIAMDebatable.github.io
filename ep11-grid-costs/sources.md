@@ -86,7 +86,9 @@ improvements that go beyond what the data center needs, under its contribution-i
 policies; IPP authorisation.
 ⚠ The **≥ 50 MW threshold** is secondary (the fiscal documents do not state it) — **not spoken and not
 shown.** ⚠ The enacted chapter text itself was not opened; the fiscal memorandum on the amended bill
-is the closest primary record read.
+is the closest primary record read. Re-checked after publication (2026-11-09) against the enacted text, Public
+Chapter 961: <https://publications.tnsosfiles.com/acts/114/pub/pc0961.pdf>. The but-for definition matches; the
+carve-out has four conditions that must all hold; the 50 MW threshold is in the law.
 
 ## The convergence — the other jurisdictions
 

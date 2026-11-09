@@ -156,7 +156,7 @@ essay with a unilateral commitment that week (claim B7 below).
 | Narayanan & Kapoor: "AI as Normal Technology" (misalignment is the most speculative risk; they do not deny risk) | CONFIRMED. (U8) | https://www.normaltech.ai/p/ai-as-normal-technology |
 | Gebru & Torres, "The TESCREAL bundle" | APPROXIMATE. (U9) | https://firstmonday.org/ojs/index.php/fm/article/view/13636 |
 | DAIR / Stochastic Parrots authors: the alarm is "fearmongering and AI hype" that distracts from present harms | CONFIRMED. (new; the engine had no primary for the present-harms camp) | https://www.dair-institute.org/blog/letter-statement-March2023/ |
-| LeCun | CORRECTED. (U34, scout brief) | https://x.com/ylecun/status/2099248236074545576 |
+| LeCun | CORRECTED. (U34, scout brief) Amended after publication 2026-11-09: the line that aired, "the worst marketing campaign you can possibly imagine", is his, from a Fortune interview; see section 4, row 13. | https://x.com/ylecun/status/2099248236074545576 · https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/ |
 | Burry: the slowdown talk is "self-serving" | CONFIRMED. (scout brief) | https://x.com/michaeljburry/status/2099353025009561826 |
 | Dinaburg (Trail of Bits): the incidents so far are "security incidents" | CORRECTED. (scout brief) | https://www.scientificamerican.com/article/ai-jacob-coxon-quit-extinction-fears-security-experts-see-familiar-fight/ |
 | Melanie Mitchell | CORRECTED. (U97: "no primary Mitchell text") | https://x.com/MelMitchell1/status/2098078745794073003 |
@@ -204,6 +204,34 @@ essay with a unilateral commitment that week (claim B7 below).
 | Burry's 2026 positions (C34) | UNRESOLVED. Fool only; there is no 13F after Q3 2025 |  |
 | U34: LeCun's 2023 "preposterously ridiculous" (MIT TR) | UNRESOLVED. not re-fetched; superseded by the 2026 primaries in C5 |  |
 
+
+## 4. The quoted lines as aired, matched to their sources (after publication, 2026-11-09)
+
+Found when we re-checked our episodes: the rows above give a verdict for these lines but not always the words
+or the link. Each was matched against the copy of the source saved during research (2026-10-04, before
+air); Fortune was also re-read live on 2026-11-08. Speakers are named here; on air they are described by role.
+
+| # | aired | verdict | source words | source |
+|---|---|---|---|---|
+| 1 | An Anthropic researcher "wrote: this is not a marketing stunt" | **CONFIRMED** | "This is not a marketing stunt." (Jacob Coxon, 8 Sep 2026 PT) | https://x.com/i/status/2097476203863224394 |
+| 2 | Anthropic's alignment science lead puts it "above ten percent, within the next decade"; then "the risk from present models is low" | **CONFIRMED** | "I personally think it is >10% within the next decade" / "I think the risk from present models is low" (Evan Hubinger) | https://x.com/EvanHub/status/2097497037956891126 · https://x.com/EvanHub/status/2097528891846074828 |
+| 3 | Another Anthropic lead: "the more senior the employee, the more concerned they are" | **CONFIRMED** | "In general, the more senior the employee, the more concerned they are." (Samuel Marks, personal capacity) | https://x.com/saprmarks/status/2097570226804011302 |
+| 4 | The equity he gave up was "probably most of his family's net worth" | **CONFIRMED** | "it probably would have been about 85% of my family's net worth at least" (Daniel Kokotajlo, 2024) | https://www.greaterwrong.com/posts/kovCotfpTFWFXaxwi/simeon_c-s-shortform/comment/G97BaFw83cvegttbv |
+| 5 | OpenAI's chief executive "said nothing was ever clawed back" | **CONFIRMED** | "although we never clawed anything back" | https://x.com/sama/status/1791936857594581428 |
+| 6 | A held-back model "didn't quite meet the bar on safety" | **CONFIRMED** | "OpenAI said it won't release its latest model, dubbed GPT-6.1 Astra, because it "didn't quite meet the bar" for safety." (CNN, 28 Sep 2026, with the on-record words of OpenAI's head of safety systems) | https://www.cnn.com/2026/09/28/business/openai-chatgpt-safety-concerns |
+| 7 | OpenAI: "we pause training or hold back models when we need to slow down" | **CONFIRMED** | the same words, in a spokesperson's statement to the press, 3 Oct 2026 | https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/ |
+| 8 | Anthropic's blackmail study: "we have not seen evidence of agentic misalignment in real deployments" | **CONFIRMED** | "We have not seen evidence of agentic misalignment in real deployments." | https://www.anthropic.com/research/agentic-misalignment |
+| 9 | Hugging Face: the attack was "driven, end to end, by an autonomous AI system"; it "matched the agentic attacker the industry had been forecasting" | **CONFIRMED** | "it was driven, end to end, by an autonomous AI agent system" / "This matches the "agentic attacker" scenario the industry has been forecasting." | https://huggingface.co/blog/security-incident-july-2026 |
+| 10 | A leading AI researcher: no loss of control; "the blame lies with the humans who built unsafe tests" | **CONFIRMED** | "none of the reported incidents actually involved loss of control at any time" / "the blame lies with the humans who failed at engineering safe testing conditions" (Melanie Mitchell) | https://aiguide.substack.com/p/misleading-metaphors-and-real-risks |
+| 11 | "A government institute says the research reads human traits into machines" | **CONFIRMED** | "characterised by an overattribution of human traits to other agents" (authors at the UK AI Security Institute) | https://arxiv.org/abs/2507.03409 |
+| 12 | An investor: "stock listings need hype and puffery, and dangerous AI is hype" | **CONFIRMED** | "IPOs need hype & puffery; "we are so awesome it could become dangerous" is hype & puffery" (Michael Burry) | https://x.com/michaeljburry/status/2099353025009561826 |
+| 13 | A leading skeptic: "the worst marketing campaign you can possibly imagine"; his charge is regulatory capture | **CONFIRMED** | "It's also bad for the AI industry, and "the worst marketing campaign you can possibly imagine."" / "this is regulatory capture that would have a terrible effect if it's followed by acts of Congress." (Yann LeCun, interview, 1 Oct 2026) | https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/ |
+| 14 | Current and former lab staff, 2024: "strong financial incentives to avoid effective oversight" | **CONFIRMED** | "AI companies have strong financial incentives to avoid effective oversight" | https://righttowarn.ai/ |
+| 15 | Two computer scientists: "probabilities carry no authority by themselves"; "a feeling dressed up as a number" | **CONFIRMED** | "probabilities carry no authority by themselves" / section heading "Subjective probabilities are feelings dressed up as numbers" (Narayanan and Kapoor) | https://www.normaltech.ai/p/ai-existential-risk-probabilities |
+| 16 | An AI educator: the incentive to stoke fears "remains the same"; it "appears to be" a campaign; "rational to worry" when insiders are worried | **CONFIRMED** | "the incentive to stoke fears — for regulatory capture, to garner attention, or to make one's technology seem more powerful — remains the same as before" / "what appears to be a well orchestrated PR campaign" / "it's rational to worry when people who are directly involved express concerns" (Andrew Ng) | https://x.com/AndrewYNg/status/2102140576498065758 |
+
+"Fearmongering" did not air. It is the word of the 2023 statement by the listed authors of "Stochastic
+Parrots" (row "DAIR / Stochastic Parrots authors" above), not LeCun's.
 
 ---
 

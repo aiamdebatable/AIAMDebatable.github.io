@@ -20,7 +20,8 @@ companies **fell** — though the number of top inventions did not.
 ⚠ **FTC — *Merger Remedies 2006–2012: A Report of the Bureaus of Competition and Economics***
 (issued February 2017). **89 merger orders · 79 divestitures · 121 buyers.** Divestitures of ongoing
 businesses generally succeeded; buyers of limited asset packages more often struggled.
-⛔ **ftc.gov returned HTTP 403 to automated fetching — the report itself was NOT read.** Figures come
+✅ **Read at the primary after publication, 2026-11-09**, from a copy of the FTC's PDF (ftc.gov still refuses automated fetching): <https://appliedantitrust.com/13_merger_review/2_remedies_ftc/ftc_merger_remedies_study%201_2017.pdf>. Report cover dated January 2017. Figures confirmed; selected-asset divestitures mostly succeeded (Table 7: 56% success, 11% qualified, 33% failure), see the fact-check log, 21.
+Originally (before air) the report was not read: ftc.gov returned HTTP 403 to automated fetching. Figures came
 from a law-journal analysis naming the report and its numbers precisely:
 Skadden, *A Moment of Repose: The FTC's Merger Remedy Study*, New York Law Journal vol. 257 no. 48
 (14 Mar 2017) — PDF extracted.

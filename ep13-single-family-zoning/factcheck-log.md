@@ -170,7 +170,14 @@ year" and nothing about later years.
 ## 19. "Charlotte: 8,537 duplex, triplex and quad units since the 2023 UDO."
 **CONFIRMED as applications.** WFAE, 13 August 2026, reporting the Charlotte Ledger's analysis:
 8,537 "submitted or approved" since 1 June 2023; "hundreds" a year built before versus "thousands"
-after, the latter the analyst's own estimate. The episode says "submitted or approved", never "built".
+after, the latter the analyst's own estimate. Amended after publication 2026-11-09: the desk and the hosts say
+"submitted or approved", but the debaters' closing lines go further ("Charlotte wrote its own rules and built", "Charlotte
+did", "Charlotte held it and built"). Their only support is the analyst's estimate in the same article: "I would guess
+we've probably seen thousands of duplexes, triplexes and quads built since the UDO went into effect in 2023", against
+"hundreds built" before. No count of finished homes was published; the 8,537 counts submissions and approvals, not homes
+built. The desk's "against a few hundred a year before" sets those applications beside homes built before the change; the
+analyst's own like-for-like guess (hundreds built before, thousands after) points the same way. Found when we re-checked
+our episodes; re-read 2026-11-08.
 - https://www.wfae.org/business/2026-08-13/udo-three-years-later-how-many-duplexes-triplexes-and-quads-have-been-built
 
 ## 20. "Houston built nearly 80,000 homes on small lots after its minimum-lot reform."
@@ -206,6 +213,12 @@ national measurement. Not aired.
 **UNRESOLVED.** Scout-level; not independently verified in this pass. Not aired.
 
 ---
+
+## 25. "The Terner Center called activity statewide limited or non-existent."
+**CONFIRMED.** Terner Center, 18 January 2023: "We found that SB 9 activity is limited or non-existent in these
+thirteen cities (Table 1)", a sample of jurisdictions across the state, including its largest cities; its summary: "the
+impact of SB 9 has been limited so far." Re-read 2026-11-09.
+- https://ternercenter.berkeley.edu/research-and-policy/sb-9-turns-one-applications/
 
 ## Corrections applied to source
 

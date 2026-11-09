@@ -26,6 +26,8 @@ Tech and Tariffs "Category One" verbatim · X's 200,000 headline (via Tom's Hard
 | **Bitcoin Policy Institute, 18 May** (fetch) | ✅ Read. Names CGTN, China Daily, Global Times, RT; Singham's network (NYT Aug 2023; Delhi Police chargesheet May 2024); Wyss; Oak; House Ways and Means inquiries (Feb 2026). Asserts Beijing subsidises "up to half" of domestic data-center energy costs — unsourced in the article. Funding not stated. |
 | **Burgum, 11 May** (search) | ✅ Breitbart, 11 May 2026, "Harnessing American Power": "It's not organic and local … foreign source dark money". Cowboy State Daily, 5 May: the Cheyenne LEADS CEO raised "foreign dark money" c. late April, citing AEI; the petition organiser called it "ridiculous". |
 | **Gallup publish date** | ✅ Published 13 May 2026; fielded 2–18 Mar. |
+| **Linvill's words** (re-checked 2026-11-09) | **CONFIRMED** as reported: "No real humans saw these posts about data centers," Linvill said (The Next Web, 1 Sep 2026, reporting his Business Insider interview). Aired without the last three words. https://thenextweb.com/news/x-chinese-bots-data-centre-backlash-no-engagement |
+| **Nimmo's words** (re-checked 2026-11-09) | **CONFIRMED** as reported: "We didn't see any signs that they succeeded," said on a call with reporters (NPR, 10 Jun 2026); aired as "on the radio" and without "any". https://www.npr.org/2026/06/10/nx-s1-5844328/us-china-data-centers-foreign-influence |
 | **Meta H2 2026 report** | ❌ Not opened (10 MB page; fetch overflows). Finder-read: no China network on US energy/data centers. Stays ○. |
 | **The five 10 Sep Science letters** | ❌ Not located (Constant Contact redirect chain). The release only. |
 
@@ -39,7 +41,7 @@ Tech and Tariffs "Category One" verbatim · X's 200,000 headline (via Tom's Hard
 | No independent shop (Graphika, DFRLab, MTAC) checked | Not pulled. Brief says "no independent corroboration in the record", not "none exists". |
 | DOJ FARA registrations for the four NGOs never queried | Not pulled. Open question. |
 | Chinese state media coverage never checked | Not pulled. Open question. |
-| AEI's "12 organizations" supported for six in the text | Brief says "six organisations are named in the text". |
+| AEI's "12 organizations" supported for six in the text | Brief says "six organisations are named in the text". **CONFIRMED** after publication 2026-11-09 as the report's own count: its summary says "12 organizations actively opposing U.S. data center development have collectively received more than $39 million from foreign donors", and its text names six (350.org, Americans for Financial Reform, Indivisible, GAIA, Oil Change International, Sierra Club). The episode aired "a dozen groups" as the report's figure, followed by what the report does not show. Found when we re-checked our episodes. https://americanenergyinstitute.com/docs/aei_data-center_report_v2.pdf, accessed 2026-11-08. |
 | The June letter's BPI report never opened | **Closed** (fetched; summarised in §2). |
 | Facebook spillover never searched | **Confirmed unsearched.** Brief says "an unsearched negative"; GOLD may not say "there were none". |
 | Strategic logic (why a slower US buildout helps China) never sourced | **Confirmed absent.** BPI asserts a subsidy figure without a source. GREEN may not fill it. |

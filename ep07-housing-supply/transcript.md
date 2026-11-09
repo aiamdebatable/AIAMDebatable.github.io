@@ -4,6 +4,8 @@ _Verbatim spoken track, in broadcast order. Speakers: **Lucas** (host), **Ryan**
 lead), **Lena** (the doubts), **Nia** (Team Green · Just Build), **Walt** (Team Gold · Build For
 Whom), **Mara** (the judge), and the **Narrator** who reads the cold open._
 
+> **Correction (2026-11-09).** Three lines below say that after Auckland's 2016 upzoning, rents ended up about twenty-eight percent below a synthetic control (a modelled Auckland without the reform), with a range of fourteen to thirty-five percent by dwelling type. Those numbers came from early drafts of the study. The published paper puts rents 23% lower, eight years after the reform, under its preferred estimate. Rents still fell against the comparison; the size was overstated. The transcript keeps what was said on air.
+
 ## Cold open
 **Narrator:** Ask the internet whether building more housing lowers rents, and you'll get luxury-condo villains on one side and supply-and-demand lectures on the other.
 **Narrator:** Ask the research, and rents do come down. The fight is over who's still living there when they do.

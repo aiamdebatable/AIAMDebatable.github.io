@@ -284,11 +284,27 @@ and robot exposure is only weakly correlated with China exposure. ⚠ The 2017 N
 (0.18–0.34pp; 0.25–0.5%); cite the *JPE* figures. **The only claim in this cluster needing no
 correction at all.**
 
+## 33. "Even at the high end, most of that collapse is not trade." (aired; corrected after publication 2026-11-09)
+**CORRECTED (after publication).** At the high end the episode gave, trade explains most of the decline: 55% for
+2000–2007 in Autor, Dorn & Hanson's main specification (row 1). Most of it is not trade only on the lower estimates.
+
+Found when we re-checked our episodes. Team Green's third point said "even the largest careful estimate of trade's
+share of the manufacturing decline leaves most of it unexplained … Even at the high end, most of that collapse is not
+trade", after the research segment had given the range as "Sixteen percent at the low end. Fifty-five at the high
+end." Autor, Dorn & Hanson, "The China Syndrome", *AER* 103(6), pp. 2139–40: *"rising exposure to Chinese import
+competition explains 33 percent of the US manufacturing employment decline between 1990 and 2000, 55 percent of the
+decline between 2000 and 2007, and 44 percent of the decline for the full 1990 through 2007 period."* The paper adds
+that this benchmark may overstate trade's role and *"more conservatively"* gives 16, 26 and 21 percent. The sentence
+is true of the 44% full-period figure, the cautious figures and Caliendo, Dvorkin & Parro's 16%, but not of the high
+end it named. Accessed 2026-11-08.
+- https://www.aeaweb.org/articles?id=10.1257/aer.103.6.2121
+- https://economics.mit.edu/sites/default/files/publications/the%20china%20syndrome%202013.pdf
+
 ---
 
 ## Corrections applied to source
 
-- ADH's "one quarter" → 21% over the full period, per the paper's own body.
+- ADH's "one quarter" → 44% over the full period, the paper's main specification (careful estimates run from 16% to 55%; 21% is a further supply-shock-only adjustment). Amended 2026-11-09: this line read "21% … per the paper's own body", the reading row 1 retracted.
 - "2.0–2.4 million" → presented as two distinct estimates at different levels of aggregation, not a range.
 - "533k, 1991–2011" → cut as misdated; the 1991–2011 import effect is −644k.
 - The ADH-vs-Feenstra "contradiction" → dissolved: Feenstra replicates ~2.0M in losses and adds ~2.64M

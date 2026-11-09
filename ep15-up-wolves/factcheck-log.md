@@ -111,7 +111,9 @@ hunting hounds." Script trap: 320 is a 24-year total (~13 a year); 94 is a 26-ye
 spent on compensation." The plan's compensation section describes the livestock program (100% fair
 market value, verification required) and records no dog compensation. Bundle warning: the plan's
 through-2021 figures split the money across the state fund, Defenders of Wildlife (ended 2010) and
-missing-livestock claims; use the SSA's single cumulative figure.
+missing-livestock claims; use the SSA's single cumulative figure. Amended after publication 2026-11-09: the same SSA
+says the $213,712 "includes payments for missing animals"; the aired "Wisconsin pays for missing calves and Michigan
+doesn't" was wrong about Michigan (see row 34).
 - https://ecos.fws.gov/docs/recovery_plan/20251103_SSA%20for%20the%20Gray%20Wolf%20in%20the%20Eastern%20United%20States_final_508.pdf
 
 ## 11. "Michigan's wolves are federally endangered, Minnesota's threatened; today no lethal depredation control is authorized in Michigan. In its permitted windows, 2003–2022, Michigan removed 92 wolves for depredation, between 1 and 18 a year."
@@ -177,7 +179,9 @@ trap: 218 exceeded both the 119 state share and the 200 combined quota; say whic
 wolf population at 2,221 wolves"; "Given the substantial overlap with the 2012 and 2013 confidence
 intervals, we conclude there has been no statistically significant change in the size of the statewide
 mid-winter wolf population over the past 3 years." The per-season kill totals (413 / 238 / 272) are
-from the DNR's season reports, finder-read only.
+from the DNR's season reports, finder-read only. Amended after publication 2026-11-09: the three surveys compared were
+all taken after hunting began; the aired "twenty-two hundred before" was the first post-season count, and the last
+pre-hunt count was about 2,900 (see row 36).
 - https://files.dnr.state.mn.us/wildlife/wolves/2015/survey_wolf.pdf
 
 ## 17. "The Michigan-specific study of lethal removal found its local benefit statistically insignificant and offset by increased recurrence nearby."
@@ -290,7 +294,9 @@ a single wolf may kill as many as 37–50 deer per year (Pimlott 1967, Huntzinge
 report (2023): "the number of wolves found in the three snowfall zones range from 3.6 wolves per 100
 mi2 to 8.3 wolves per 100 mi2" against "1,891 deer per 100 mi2, 1,062 deer per 100 mi2 and 984 deer
 per 100 mi2". The 10–20% is a derived range (6 wolves × 15–50 deer over 984–1,891 deer) and is spoken
-as arithmetic, never as a study result.
+as arithmetic, never as a study result. Amended after publication 2026-11-09: those inputs span about 5% to 30%
+(90 deer of 1,891 to 300 of 984); the aired "ten to twenty percent" is the middle of that span (200 of about 1,450 is
+about 14%), not its full width. Found when we re-checked our episodes; the line on air stands as rough arithmetic.
 - https://www.michigan.gov/dnr/-/media/Project/Websites/dnr/Documents/WLD/Wolf/mi_wolf_mgt_plan.pdf
 - https://content.govdelivery.com/attachments/MIDNR/2023/12/20/file_attachments/2725189/Factors%20Limiting%20Deer%20Abundance%20in%20the%20Upper%20Peninsula%20Report.pdf
 
@@ -308,6 +314,67 @@ number of wolf images they collect must mean there are more wolves in the Upper 
 DNR's estimated 631." Forum threads (Michigan Sportsman) are paywalled to automated readers and were
 not quoted. On air only as what people report.
 - https://bridgemi.com/michigan-environment-watch/michigan-hunters-say-wolves-lowering-deer-numbers-experts-say-no/
+
+## 33. "The federal recovery floor for this population was two hundred wolves. Michigan passed it in the year two thousand." (aired; corrected after publication 2026-11-09)
+**CORRECTED (after publication).** Michigan's count first passed 200 in the winter of 1999–2000 (216), but 200 is Michigan's own floor; the federal criterion for this population was 100 wolves across Wisconsin and Michigan together.
+
+Found when we re-checked our episodes: the line had no row of its own. FWS Species Status Assessment (Nov 2025), Table 7,
+Michigan winter counts reported early 1997–2001: 113, 139, 169, 216, 249. Recovery criteria (pp. 30–31): a second
+population "within 100 mi (160 km) of a self-sustaining gray wolf population (e.g., the Minnesota population), it should
+be maintained at a minimum of 100 individuals … for at least 5 years"; the 200 figure applies only "if the second
+population is located more than 100 mi (160 km) from the Minnesota population". And: "the population in Michigan and
+Wisconsin combined … has exceeded 100 individuals every year since year-end 1993." Michigan's plan adopts 200 for itself
+("consistent with the Federal Revised Recovery Plan's definition of a viable, isolated gray wolf population"; see row 8).
+The error understated the case it was making. The website's summary now says 200 is the floor Michigan's own plan uses.
+Accessed 2026-11-08.
+- https://ecos.fws.gov/docs/recovery_plan/20251103_SSA%20for%20the%20Gray%20Wolf%20in%20the%20Eastern%20United%20States_final_508.pdf
+
+## 34. "Wisconsin pays for missing calves and Michigan doesn't." (aired; corrected after publication 2026-11-09)
+**CORRECTED (after publication).** Michigan also pays for missing animals, on conditions, since its 2012 law; Wisconsin's half is right.
+
+Found when we re-checked our episodes. FWS Species Status Assessment (Nov 2025), Michigan: "If the investigator cannot
+rule out wolves as the cause for the missing animals and the farm has had "verified" wolf depredation in the past, the
+owner is eligible to receive indemnification payment … From 1998 to 2024, a total of $213,712 was spent on compensation
+to Michigan farmers for livestock losses caused by wolves, which includes payments for missing animals and late payment
+penalties which both began after 2012." Wisconsin: "From 1985-2020, Wisconsin DNR provided compensation for 1,250
+missing calves along with verified losses of 684 verified calves". Row 10's own warning had flagged missing-livestock
+claims in Michigan's figures; the line on air did not follow it. Not on the website. Accessed 2026-11-08.
+- https://ecos.fws.gov/docs/recovery_plan/20251103_SSA%20for%20the%20Gray%20Wolf%20in%20the%20Eastern%20United%20States_final_508.pdf
+
+## 35. "Six tribes sued." (aired; checked after publication 2026-11-09)
+**CONFIRMED as reporting.** Six Ojibwe bands sued Wisconsin in federal court in September 2021 over the fall season's quota.
+
+Found when we re-checked our episodes: the line had no row of its own. MPR News / AP, 21 Sep 2021: "6 tribes sue
+Wisconsin to try to stop November wolf hunt"; Wisconsin Public Radio: "6 Wisconsin tribes sue state to stop fall wolf
+hunt". The bands are Bad River, Lac Courte Oreilles, Lac du Flambeau, Red Cliff, St. Croix and Sokaogon (Mole Lake),
+on 1837 and 1842 treaty grounds. The fall season was then enjoined by a state court in a separate case (row 15),
+as said on air. Reporting; the complaint itself was not opened. Accessed 2026-11-08.
+- https://www.mprnews.org/story/2021/09/21/6-tribes-sue-wisconsin-to-try-to-stop-november-wolf-hunt
+- https://wpr.org/6-wisconsin-tribes-sue-state-stop-fall-wolf-hunt
+
+## 36. "Twenty-two hundred before, twenty-two hundred after." (aired; corrected after publication 2026-11-09)
+**CORRECTED (after publication).** The 2,200 was the first count after Minnesota's first season; the last count before any hunting (winter 2007–08) was about 2,900, with overlapping margins of error.
+
+Found when we re-checked our episodes. Minnesota DNR, wolf survey 2014-15: "In the first two winters post-harvest, wolf
+population point estimates have varied from approximately 2,200 to 2,400"; "no statistically significant change … over
+the past 3 years." Earlier surveys ran in "2003, 2007, 2012". FWS Species Status Assessment (Nov 2025), Appendix 2:
+2007/2008 estimate 2,921 (interval 2,192–3,525); 2012/2013 2,211 (1,652–2,641); 2014/2015 2,221. So the agency's
+finding compares the three winters after hunting began; it is not a before-and-after. A fall from 2007–08 is not shown
+either, since the intervals overlap. Row 16's finding stands for what it says. The website now says the count "showed
+no significant change across the three seasons". Accessed 2026-11-08.
+- https://files.dnr.state.mn.us/wildlife/wolves/2015/survey_wolf.pdf
+- https://ecos.fws.gov/docs/recovery_plan/20251103_SSA%20for%20the%20Gray%20Wolf%20in%20the%20Eastern%20United%20States_final_508.pdf
+
+## 37. "Minnesota moved neither the population nor the losses." (aired in the debate and by the judge; checked after publication 2026-11-09)
+**UNRESOLVED.** Nothing in the research backed the losses half: no source on livestock losses during Minnesota's seasons was read before air.
+
+Found when we re-checked our episodes. The brief carried "nor the claims curve" with no row behind it. Since then we
+found only secondary tallies of verified wolf complaints in Minnesota, which disagree with each other (one, from the
+International Wolf Center using USDA Wildlife Services data, gives 2010 130, 2011 109, 2012 86, 2013 60, 2014 69,
+2015 115; another gives 2012 122, 2013 70, 2014 86). Neither tests whether the seasons changed anything. The
+population half is row 36. The website no longer says the seasons moved neither the count nor the losses. Accessed
+2026-11-08.
+- https://wolf.org/?p=11314
 
 ---
 

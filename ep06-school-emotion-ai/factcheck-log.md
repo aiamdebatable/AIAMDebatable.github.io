@@ -11,7 +11,7 @@ Rhue racial-bias study; the UK ICO warning; deployment reporting) and produced a
 - **CORRECTED:** none — the draft used only confirmed claims.
 - **APPROXIMATE (flagged, used carefully):** the Barrett effect sizes (r≈.32, configs ~15–25%) are
   summarized from meta-analyses *within* the review — the episode does not cite those specific numbers,
-  only the review's headline conclusion ("you cannot reliably infer emotion from a facial expression"),
+  only the review's headline conclusion (in its words, "It is not possible to confidently infer happiness from just a smile, anger from a scowl, or sadness from a frown", PMC author manuscript; quote added 2026-11-09, no change to what aired),
   which is the robust claim. The market figure ($2.7B→$9B) is a vendor/analyst projection and is framed
   as "roughly" / "projected."
 
@@ -32,6 +32,7 @@ Rhue racial-bias study; the UK ICO warning; deployment reporting) and produced a
 | Accessibility research: emotion-recognition tools built with/for autistic learners exist | CONFIRMED | Springer (Soft Computing) |
 | Students self-policed expression under classroom face-scanning (Hangzhou) | CONFIRMED | Globe & Mail |
 | Barrett meta-analytic effect sizes (r≈.32; ~15–25%) | APPROXIMATE — **not cited on air** | Barrett et al. (within-review meta-analyses) |
+| "The big expert review, the regulators calling it pseudoscience" (host, the reframe; checked after publication 2026-11-09) | APPROXIMATE — the regulator's substance, not its word. The UK ICO's statement (26 Oct 2022) says the emotion AI market is "immature", that the tools "may not work yet, or indeed ever", and that only deployments "backed by science" are sustainable; the word "pseudoscience" does not appear in it, and no regulator was found using it. Found when we re-checked our episodes. | ICO, 26 Oct 2022 (archived copy) |
 
 ## Provisional / "moves fast" caveats (stated in the episode)
 - The close explicitly warns: "Europe's ban is on the books, but enforcement is young and untested, and

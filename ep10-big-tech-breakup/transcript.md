@@ -4,6 +4,8 @@ _Verbatim spoken track, in broadcast order. Speakers: **Lucas** (host), **Kate**
 lead), **Ryan** (the doubts), **Andre** (Team Green · A BET NOBODY CAN PRICE), **Mara** (Team Gold ·
 STRUCTURE IS THE CURE), **Nia** (the judge), and the **Narrator** who reads the cold open._
 
+> **Correction (2026-11-09).** Three lines below overstate how badly partial sales did in the competition regulator's study. The research segment says sales of "a package of assets generally struggled" and that carving out a piece "mostly doesn't" work, and the host's reframe says it "generally doesn't". The Federal Trade Commission's own report, *The FTC's Merger Remedies 2006–2012* (January 2017), found that every sale of a whole working business it examined succeeded. Sales of a selected package of assets did less well but still mostly worked: about two in three kept or restored competition, fully or partly, and about one in three failed. The study also covered 89 merger orders issued from 2006 through 2012, seven years, and 79 of them required a sale; the line below calls them divestiture orders across six years. The difference between the two kinds of sale stands, and the study is still about unwinding mergers, not breaking up a standing company. The transcript keeps what was said on air.
+
 ## Cold open
 **Narrator:** Ask the internet whether the tech giants should be broken up, and you'll get a trust-buster on one side and an economist on the other.
 **Narrator:** Ask the courts, and they've now answered several times. So far the answer is no — but not for the reason either side tells you.

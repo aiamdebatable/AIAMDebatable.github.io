@@ -38,7 +38,9 @@ when such a vote may be contrary to the voter's political views". Its other reas
 manipulation in both directions; misinformation; trading bans that miss people). It made no finding that
 manipulation had happened — it recorded commenters who cited examples and others who disputed them. The
 line "not equipped or well-suited" to police elections is the commenters', relayed by the order (the 2026
-proposal paraphrases it as the Commission's own). The episode says "several worries", not "four findings".
+proposal paraphrases it as the Commission's own). The episode says "several worries", not "four findings". The order's own election-integrity words (p. 20): the
+contracts "could potentially be used in ways that would have an adverse effect on the integrity of elections, or the
+perception of integrity of elections". (Added 2026-11-09, no change to what aired.)
 - https://www.cftc.gov/sites/default/files/filings/documents/2023/orgkexkalshiordersig230922.pdf
 
 ## 3. A federal judge ruled the CFTC had no legal hook, and did not decide the public interest

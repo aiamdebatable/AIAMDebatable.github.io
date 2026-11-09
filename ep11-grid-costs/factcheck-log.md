@@ -317,3 +317,32 @@ writes standards" and does not put a duration on the executive order.
 - Oklahoma "full cost of service" — absent; the panel says the statute's own terms.
 - "Overrode" — absent; the panel says "REDUCED, not overrode".
 - Rider T-1 component split — absent; only the total is shown.
+
+### ⛔ CORRECTION 2026-11-09, after publication: "Carved it out in its own words. The utility may share those costs with everyone if the upgrade goes beyond what the data center needs."
+
+Found when we re-checked our episodes. GAP 1 above read Tennessee's law from the Fiscal Review Committee's memorandum on
+the amended bill; the enacted text was not opened before air. Re-checked at the primary, Public Chapter 961 (House Bill
+1847, substituted for Senate Bill 2128; passed 22 April 2026, approved 7 May 2026),
+https://publications.tnsosfiles.com/acts/114/pub/pc0961.pdf, accessed 2026-11-08. Section 7-70-102(a): "a municipality
+or electric utility shall not pay, or otherwise absorb, the cost of electrical infrastructure incurred to serve a data
+center." Section 7-70-102(b): "An electric utility may assign or allocate a portion of the electric utility's costs
+associated with the cost of electrical infrastructure to general utility system improvements if:" (1) "The associated
+improvements include improvements beyond those necessary to deliver electric service to the data center;" (2) they "may
+be used to deliver electric service outside the data center while continuing to provide the same electric service to the
+electric utility's existing customers;" (3) "The costs are incurred in connection with the repair, maintenance, or
+replacement of infrastructure for which a person other than the electric utility originally incurred the cost of
+electrical infrastructure; and" (4) the assignment follows "the electric utility's contribution-in-aid-of-construction
+policies, or the electric utility's other policies or practices". GAP 1's summary listed all four conditions; the aired
+line gave one of them and called it the law's own words. The law's wording is different, and because all four
+conditions must hold, the exception is narrower than the line made it sound. The published video carries the line;
+corrected here, in the transcript note and on the website.
+
+The same text confirms two other points. The but-for definition is the law's own wording, section 7-70-101(1): costs
+"that would not be incurred but for the actual or expected increase in electric demand resulting from a newly
+constructed or expanded data center". And the 50 MW threshold flagged above as secondary is in the law, section
+7-70-101(2)(A)(ii): a data center "Is projected to have a peak electric demand of fifty megawatts (50 MW) or more during
+the first three (3) years of operation". The threshold was not spoken.
+
+**Verdict on "Carved it out in its own words. The utility may share those costs with everyone if the upgrade goes beyond what the data center needs.":** **CORRECTED (after publication).** Not the law's words, and narrower than aired: a utility may assign only "a portion" of the cost to general system improvements, and only when all four conditions hold, including that the cost comes from repairing, maintaining or replacing infrastructure someone else originally paid for. https://publications.tnsosfiles.com/acts/114/pub/pc0961.pdf
+
+**Verdict on "Tennessee wrote those exact words into law.":** **CONFIRMED.** Section 7-70-101(1) of Public Chapter 961 uses "would not be incurred but for". https://publications.tnsosfiles.com/acts/114/pub/pc0961.pdf
