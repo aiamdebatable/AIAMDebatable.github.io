@@ -14,18 +14,21 @@
   if (F && q) {
     const hay = F.map((e) => [e, `${e.t} ${e.q} ${e.k} ${e.c} file ${e.n}`.toLowerCase()]);
     const pic = (e) => (e.th ? `<img src="${esc(e.th)}" alt="">` : `<span class="tile"></span>`);
-    // the claim index is the live site's (~900 KB): fetched once, on the first keystroke, never on page load
-    let claims = null, loading = false;
+    // the claims are loaded on the first keystroke, never on page load, IN PIECES (CLAIMPARTS, PKG-408): one file per
+    // episode, injected newest first, and the results redrawn as each arrives, so a search never waits for the whole
+    // set (one file of every claim reached 622 KB gz at ep54). A file that fails to load still counts as finished.
+    // SITE-NEXT: each claim carries its verdict in words and the id of its row in the log
+    const rank = new Map(F.map((e, i) => [e.s, i]));   // F is newest posted first: the order results keep
+    let claims = null, pending = 0, redraw = 0;
+    const ready = () => claims !== null && pending === 0;
     const loadClaims = () => {
-      if (claims || loading) return; loading = true;
-      // SITE-NEXT: the claim index carries each claim's verdict in words and the id of its row in the log
-      const s = document.createElement("script"); s.src = "assets/claims.js";
-      s.onload = () => {
-        const live = new Set(F.map((e) => e.s));
-        claims = (window.__CLAIMS__ || []).filter((c) => live.has(c.s)).map((c) => ({ ...c, l: String(c.c).toLowerCase() }));
-        render();
-      };
-      document.head.appendChild(s);
+      if (claims) return; claims = []; pending = F.length;
+      window.__CLAIMS_ADD__ = (part) => { for (const c of part || []) if (rank.has(c.s)) claims.push({ ...c, l: String(c.c).toLowerCase() }); };
+      const done = () => { pending--; if (!redraw) redraw = setTimeout(() => { redraw = 0; render(); }, 60); };
+      for (const e of F) {
+        const s = document.createElement("script"); s.src = `assets/claims/${e.s}.js`;
+        s.onload = s.onerror = done; document.head.appendChild(s);
+      }
     };
     const render = () => {
       const words = q.value.toLowerCase().split(/\s+/).filter(Boolean);
@@ -33,12 +36,13 @@
       const found = hay.filter(([, h]) => words.every((w) => h.includes(w))).slice(0, 4).map(([e]) => e);
       // claims from an episode that also matched come first, so a search lands on that episode's numbers
       const near = new Set(found.map((e) => e.s));
-      const cl = claims && words.join("").length >= 3 ? claims.filter((c) => words.every((w) => c.l.includes(w))).sort((a, b) => near.has(b.s) - near.has(a.s)).slice(0, 5) : [];
+      const cl = claims && words.join("").length >= 3 ? claims.filter((c) => words.every((w) => c.l.includes(w)))
+        .sort((a, b) => near.has(b.s) - near.has(a.s) || rank.get(a.s) - rank.get(b.s)).slice(0, 5) : [];
       const eps = found.map((e) => `<li><a href="${e.s}/">${pic(e)}<span><b>${esc(e.q || e.t)}</b><small>File ${e.n} · ${esc(e.c)} · ${esc(e.d)}</small></span></a></li>`);
       const cls = cl.map((c) => `<li class="claim"><a href="${LOG}/${c.s}/factcheck-log.html${c.r ? "#" + c.r : ""}"><span>${c.v ? `<em class="vchip">${esc(c.v)}</em>` : ""}<b>${esc(c.c.length > 160 ? c.c.slice(0, 158) + "…" : c.c)}</b><small>File ${c.n} · ${c.r ? "opens its row in the fact-check log" : "in the fact-check log"}</small></span></a></li>`);
-      say(eps.length || cls.length ? `${eps.length} episode${eps.length === 1 ? "" : "s"}, ${cls.length} claim${cls.length === 1 ? "" : "s"}` : claims ? "No matches" : "");
+      say(eps.length || cls.length ? `${eps.length} episode${eps.length === 1 ? "" : "s"}, ${cls.length} claim${cls.length === 1 ? "" : "s"}` : ready() ? "No matches" : "");
       hits.innerHTML = eps.length || cls.length ? [...eps, ...cls].join("")
-        : `<li class="none">${claims ? "Nothing on that yet. Try another word, or browse every question below." : "Searching the claims…"}</li>`;
+        : `<li class="none">${ready() ? "Nothing on that yet. Try another word, or browse every question below." : "Searching the claims…"}</li>`;
     };
     q.addEventListener("input", () => { loadClaims(); render(); });
     q.addEventListener("keydown", (ev) => { if (ev.key === "Enter") { const a = hits.querySelector("a"); if (a) location.href = a.href; } });
